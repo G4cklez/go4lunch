@@ -1,3 +1,15 @@
-<resources>
-    <string name="app_name">My Application</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Go4Lunch</string>
+
+    <!-- AUTH ACTIVITY -->
+    <string name="title_text">Find a nice restaurant and invite your co-workers for lunch!</string>
+    <string name="sign_in_with_fb">Sign in with Facebook</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="connection_error">Connection refused</string>
+
+
+
+
+
+
 </resources>
