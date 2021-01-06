@@ -6,10 +6,10 @@
     <string name="sign_in_with_fb">Sign in with Facebook</string>
     <string name="sign_in_with_google">Sign in with Google</string>
     <string name="connection_error">Connection refused</string>
-
-
-
-
+    <string name="success">Connection success</string>
+    <string name="search_restaurant">Search Restaurant</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
 
 
 </resources>

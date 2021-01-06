@@ -41,7 +41,6 @@ public class AppViewModel extends ViewModel
     private MutableLiveData<Observable<Restaurant>> restaurantDetailPlacesMutableLiveData = new MutableLiveData<>();
     private MutableLiveData<Observable<List<Restaurant>>> restaurantsListPlacesAutocompleteMutableLiveData = new MutableLiveData<>();
 
-    /////////////////////// USER FIREBASE ///////////////////////
 
     public MutableLiveData<User> getUserCurrentMutableLiveData(String uid)
     {
@@ -185,7 +184,6 @@ public class AppViewModel extends ViewModel
         this.restaurantRepository.updateRestaurantUserList(placeId, userList);
     }
 
-    /////////////////////// RESTAURANT PLACES ///////////////////////
 
     public MutableLiveData<Observable<List<Restaurant>>> getRestaurantsListPlacesMutableLiveData(double lat, double lng, int radius, String key)
     {

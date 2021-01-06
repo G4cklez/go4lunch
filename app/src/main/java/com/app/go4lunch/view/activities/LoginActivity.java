@@ -24,14 +24,9 @@ import java.util.List;
 import java.util.Objects;
 
 
-/**
- * Created by Charlotte Judon - 02/18
- * Activity for user authentication
- */
 public class LoginActivity extends AppCompatActivity {
 
-    //FOR DATA
-    private final static int FIREBASE_UI = 100;
+    private final int REQUEST_CODE = 100;
     private Boolean userExists = false;
     private AppViewModel appViewModel;
     private List<User> usersList;
@@ -43,38 +38,27 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this,R.layout.activity_login);
         binding.progressBar.setVisibility(View.INVISIBLE);
-        this.showProgressBar();
-        this.configViewModel();
+        showProgressBar();
+        initViewModel();
         setOnClickListener();
     }
 
     private void setOnClickListener() {
-        binding.btnGoogle.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startSignInWithGoogle();
-            }
-        });
-        binding.btnFacebook.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startSignInWithFacebook();
-            }
-        });
+        binding.btnGoogle.setOnClickListener(v -> signInWithGoogle());
+        binding.btnFacebook.setOnClickListener(v -> signInWithFacebook());
     }
 
-    ///////////////////////////////////VIEW MODEL///////////////////////////////////
 
-    private void configViewModel()
+    private void initViewModel()
     {
         ViewModelFactory viewModelFactory = Injection.viewModelFactoryGo4Lunch();
         appViewModel = ViewModelProviders.of(this, viewModelFactory).get(AppViewModel.class);
-        this.getUsersList();
+        getUsersList();
     }
 
     private void getUsersList()
     {
-        this.appViewModel.getUserListMutableLiveData().observe(this, userList ->
+        appViewModel.getUserListMutableLiveData().observe(this, userList ->
         {
             usersList = userList;
             createOrSignin();
@@ -83,12 +67,7 @@ public class LoginActivity extends AppCompatActivity {
 
 
 
-    ///////////////////////////////////SIGN IN///////////////////////////////////
-
-    /**
-     * Sign in With Google
-     */
-    private void startSignInWithGoogle()
+    private void signInWithGoogle()
     {
         startActivityForResult(
                 AuthUI.getInstance()
@@ -96,13 +75,13 @@ public class LoginActivity extends AppCompatActivity {
                         .setAvailableProviders(Collections.singletonList(
                                         new AuthUI.IdpConfig.GoogleBuilder().build()))
                         .setIsSmartLockEnabled(false, true)
-                        .build(),FIREBASE_UI);
+                        .build(), REQUEST_CODE);
     }
 
     /**
      * Sign in With Facebook
      */
-    private void startSignInWithFacebook()
+    private void signInWithFacebook()
     {
         startActivityForResult(
                 AuthUI.getInstance()
@@ -110,7 +89,7 @@ public class LoginActivity extends AppCompatActivity {
                         .setAvailableProviders(Collections.singletonList(
                                         new AuthUI.IdpConfig.FacebookBuilder().build()))
                         .setIsSmartLockEnabled(false, true)
-                        .build(),FIREBASE_UI);
+                        .build(), REQUEST_CODE);
     }
 
 
@@ -140,18 +119,12 @@ public class LoginActivity extends AppCompatActivity {
                         break;
                     }
                 }
-                if (userExists)
-                {
-                    lunchMainActivity();
-                }
-                else
-                {
+                if (!userExists) {
                     String email = FirebaseAuth.getInstance().getCurrentUser().getEmail();
                     String name = FirebaseAuth.getInstance().getCurrentUser().getDisplayName();
                     String urlPicture = Objects.requireNonNull(FirebaseAuth.getInstance().getCurrentUser().getPhotoUrl()).toString();
 
                     appViewModel.createUser(uid, email, name, urlPicture);
-                    this.lunchMainActivity();
                 }
             }else {
                 String email = FirebaseAuth.getInstance().getCurrentUser().getEmail();
@@ -159,8 +132,8 @@ public class LoginActivity extends AppCompatActivity {
                 String urlPicture = Objects.requireNonNull(FirebaseAuth.getInstance().getCurrentUser().getPhotoUrl()).toString();
 
                 appViewModel.createUser(uid, email, name, urlPicture);
-                this.lunchMainActivity();
             }
+            lunchMainActivity();
         }
         else
         {
@@ -174,29 +147,23 @@ public class LoginActivity extends AppCompatActivity {
 //        startActivity(intent);
     }
 
-    /**
-     * Use it for the Response of SignIn
-     */
-    private void responseSignIn(int requestCode, int resultCode, Intent data)
-    {
-        if (requestCode == FIREBASE_UI)
-        {
-            if (resultCode == RESULT_OK)
-            {
-                Toast.makeText(getApplicationContext(), getResources().getString(R.string.response_sign_in_success),Toast.LENGTH_SHORT ).show();
-                getUsersList();
-            }
-            else
-            {
-                Toast.makeText(getApplicationContext(), getResources().getString(R.string.response_sign_in_error),Toast.LENGTH_SHORT ).show();
-            }
-        }
-    }
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        this.responseSignIn(requestCode, resultCode, data);
+        if (requestCode == REQUEST_CODE)
+        {
+            if (resultCode == RESULT_OK)
+            {
+                Toast.makeText(getApplicationContext(), getResources().getString(R.string.success),Toast.LENGTH_SHORT ).show();
+                getUsersList();
+            }
+            else
+            {
+                Toast.makeText(getApplicationContext(), getResources().getString(R.string.connection_error),Toast.LENGTH_SHORT ).show();
+            }
+        }
     }
 
     /**
