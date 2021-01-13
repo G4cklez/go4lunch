@@ -5,6 +5,7 @@ import android.location.Location;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
+import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -14,7 +15,16 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.app.go4lunch.R;
+import com.app.go4lunch.databinding.FragmentRestaurantListBinding;
+import com.app.go4lunch.helpers.UtilsListRestaurant;
 import com.app.go4lunch.model.Restaurant;
+import com.app.go4lunch.model.RestaurantResponse;
+import com.app.go4lunch.view.activities.HomeActivity;
+import com.app.go4lunch.view.adapter.ListRestaurantsAdapter;
+import com.app.go4lunch.view.adapter.OnClickListenerItemList;
+import com.app.go4lunch.viewModel.AppViewModel;
+import com.app.go4lunch.viewModel.factory.ViewModelFactory;
+import com.app.go4lunch.viewModel.injection.Injection;
 import com.bumptech.glide.Glide;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.libraries.places.api.Places;
@@ -38,27 +48,27 @@ import io.reactivex.observers.DisposableObserver;
  * Use the {@link RestaurantListFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class RestaurantListFragment extends Fragment {
+public class RestaurantListFragment extends Fragment implements OnClickListenerItemList {
 
     //FOR DATA
     private List<Restaurant> restaurantListFromPlaces;
     private ListRestaurantsAdapter adapter;
     private Location currentLocation;
-    private ViewModelGo4Lunch viewModelGo4Lunch;
+    private AppViewModel appViewModel;
     private Disposable disposable;
     private int radius;
     private List<Restaurant> restaurantListAutocomplete = new ArrayList<>();
     private List<String> placeIdList = new ArrayList<>();
-
-    public ListRestaurantsFragment() {
+    FragmentRestaurantListBinding binding;
+    public RestaurantListFragment() {
     }
 
-    private ListRestaurantsFragment(Location location) {
+    private RestaurantListFragment(Location location) {
         this.currentLocation = location;
     }
 
-    public static ListRestaurantsFragment newInstance(Location location) {
-        return new ListRestaurantsFragment(location);
+    public static RestaurantListFragment newInstance(Location location) {
+        return new RestaurantListFragment(location);
     }
 
     @Override
@@ -70,19 +80,18 @@ public class RestaurantListFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_list_restaurants, container, false);
-        ButterKnife.bind(this, v);
-        this.progressBarLayout.setVisibility(View.VISIBLE);
-        this.floatingActionButtonSort.setVisibility(View.INVISIBLE);
-        this.floatingActionButtonRefresh.setVisibility(View.INVISIBLE);
+        binding = DataBindingUtil.inflate(inflater,R.layout.fragment_restaurant_list, container, false);
+        binding.progressBar.setVisibility(View.VISIBLE);
+        binding.fragmentListRestaurantsMenuFab.setVisibility(View.INVISIBLE);
+        binding.fragmentListRestaurantsRefreshFab.setVisibility(View.INVISIBLE);
         this.configRecyclerView();
-        return v;
+        return binding.getRoot();
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        if (viewModelGo4Lunch == null)
+        if (appViewModel == null)
         {
             this.configViewModel();
         }
@@ -91,14 +100,14 @@ public class RestaurantListFragment extends Fragment {
     ////////////////////////////////////////// VIEW MODEL ///////////////////////////////////////////
 
     private void configViewModel() {
-        ViewModelFactoryGo4Lunch viewModelFactoryGo4Lunch = Injection.viewModelFactoryGo4Lunch();
-        viewModelGo4Lunch = ViewModelProviders.of(this, viewModelFactoryGo4Lunch).get(ViewModelGo4Lunch.class);
+        ViewModelFactory viewModelFactoryGo4Lunch = Injection.viewModelFactoryGo4Lunch();
+        appViewModel = ViewModelProviders.of(this, viewModelFactoryGo4Lunch).get(AppViewModel.class);
         this.getRestaurantListFromPlaces();
     }
 
     private void getRestaurantListFromPlaces() {
         String key = getResources().getString(R.string.google_maps_key);
-        this.viewModelGo4Lunch.getRestaurantsListPlacesMutableLiveData(currentLocation.getLatitude(), currentLocation.getLongitude(), radius, key)
+        this.appViewModel.getRestaurantsListPlacesMutableLiveData(currentLocation.getLatitude(), currentLocation.getLongitude(), radius, key)
                 .observe(this, listObservable -> disposable = listObservable
                         .subscribeWith(new DisposableObserver<List<Restaurant>>() {
                             @Override
@@ -116,7 +125,7 @@ public class RestaurantListFragment extends Fragment {
     }
 
     private void getRestaurantListFromFirebase() {
-        this.viewModelGo4Lunch.getRestaurantsListFirebaseMutableLiveData().observe(this, restaurantList -> {
+        this.appViewModel.getRestaurantsListMutableLiveData().observe(this, restaurantList -> {
 
             int size = restaurantList.size();
             for (int i = 0; i < size; i++) {
@@ -129,49 +138,41 @@ public class RestaurantListFragment extends Fragment {
                 }
             }
             adapter.updateList(restaurantListFromPlaces);
-            this.progressBarLayout.setVisibility(View.INVISIBLE);
-            this.floatingActionButtonSort.setVisibility(View.VISIBLE);
+            binding.progressBar.setVisibility(View.INVISIBLE);
+            binding.fragmentListRestaurantsMenuFab.setVisibility(View.VISIBLE);
         });
     }
 
-    ////////////////////////////////////////// ON CLICK  ///////////////////////////////////////////
 
-    @OnClick(R.id.fragment_list_restaurants_near_me_fab)
-    void triProximity() {
-        UtilsListRestaurant.sortProximity(restaurantListFromPlaces);
-        this.adapter.notifyDataSetChanged();
+    void setOnClickListeners() {
+        binding.fragmentListRestaurantsNearMeFab.setOnClickListener(v->{
+            UtilsListRestaurant.sortProximity(restaurantListFromPlaces);
+            this.adapter.notifyDataSetChanged();
+        });
+        binding.fragmentListRestaurantsRatingFab.setOnClickListener(v->{
+            UtilsListRestaurant.sortRatingReverse(restaurantListFromPlaces);
+            this.adapter.notifyDataSetChanged();
+        });
+        binding.fragmentListRestaurantsNameFab.setOnClickListener(v->{
+            UtilsListRestaurant.sortName(restaurantListFromPlaces);
+            this.adapter.notifyDataSetChanged();
+        });
+        binding.fragmentListRestaurantsRefreshFab.setOnClickListener(v->{
+            this.appViewModel = null;
+            this.onResume();
+            binding.fragmentListRestaurantsRefreshFab.setVisibility(View.INVISIBLE);
+        });
+
     }
 
-    @OnClick(R.id.fragment_list_restaurants_rating_fab)
-    void triRate() {
-        UtilsListRestaurant.sortRatingReverse(restaurantListFromPlaces);
-        this.adapter.notifyDataSetChanged();
-    }
-
-
-    @OnClick(R.id.fragment_list_restaurants_name_fab)
-    void triName() {
-        UtilsListRestaurant.sortName(restaurantListFromPlaces);
-        this.adapter.notifyDataSetChanged();
-    }
-
-    @OnClick (R.id.fragment_list_restaurants_refresh_fab)
-    void refresh()
-    {
-        this.viewModelGo4Lunch = null;
-        this.onResume();
-        this.floatingActionButtonRefresh.setVisibility(View.INVISIBLE);
-    }
-
-    ////////////////////////////////////////// CONFIGURE ///////////////////////////////////////////
 
     /**
      * Configure the RecyclerView
      */
     private void configRecyclerView() {
         this.adapter = new ListRestaurantsAdapter(Glide.with(this), this, getActivity());
-        this.recyclerView.setAdapter(adapter);
-        this.recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+        binding.fragmentListRestaurantsRecyclerView.setAdapter(adapter);
+        binding.fragmentListRestaurantsRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
     }
 
     /**
@@ -197,12 +198,12 @@ public class RestaurantListFragment extends Fragment {
     public void onStop()
     {
         super.onStop();
-        this.viewModelGo4Lunch = null;
+        this.appViewModel = null;
     }
 
     @Override
     public void onClickListener(int position) {
-        Intent intent = new Intent(getContext(), DetailsActivity.class);
+        Intent intent = new Intent(getContext(), HomeActivity.class);
         intent.putExtra("placeId", restaurantListFromPlaces.get(position).getPlaceId());
         startActivity(intent);
     }
@@ -218,7 +219,7 @@ public class RestaurantListFragment extends Fragment {
             String placeId = place.getId();
             LatLng latLng = place.getLatLng();
             String name = place.getName();
-            RestaurantPOJO.Location location= new RestaurantPOJO.Location();
+            RestaurantResponse.Location location= new RestaurantResponse.Location();
             location.setLat(Objects.requireNonNull(latLng).latitude);
             location.setLng(latLng.longitude);
             String illustration = Objects.requireNonNull(place.getPhotoMetadatas()).get(0).getAttributions();
@@ -231,8 +232,8 @@ public class RestaurantListFragment extends Fragment {
             restaurantListFromPlaces.add(restaurantAutocomplete);
             UtilsListRestaurant.updateDistanceToCurrentLocation(currentLocation, restaurantListFromPlaces);
             this.getRestaurantListFromFirebase();
-            this.floatingActionButtonSort.setVisibility(View.INVISIBLE);
-            this.floatingActionButtonRefresh.setVisibility(View.VISIBLE);
+            binding.fragmentListRestaurantsMenuFab.setVisibility(View.INVISIBLE);
+            binding.fragmentListRestaurantsRefreshFab.setVisibility(View.VISIBLE);
         }
 
         super.onActivityResult(requestCode, resultCode, data);
@@ -296,7 +297,7 @@ public class RestaurantListFragment extends Fragment {
         for (int i = 0; i < placeIdList.size(); i ++)
         {
             String placeId = placeIdList.get(i);
-            this.viewModelGo4Lunch.getRestaurantDetailPlacesMutableLiveData(placeId, key)
+            this.appViewModel.getRestaurantDetailPlacesMutableLiveData(placeId, key)
                     .observe(this, restaurantObservable -> {
                         disposable = restaurantObservable.subscribeWith(new DisposableObserver<Restaurant>() {
                             @Override

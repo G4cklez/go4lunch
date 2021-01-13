@@ -23,6 +23,8 @@
     <string name="open_drawer">open drawer</string>
     <string name="close_drawer">close drawer</string>
     <string name="current_location">Current Location</string>
+    <string name="open_now">Open Now</string>
+    <string name="close_now">Close now</string>
 
 
 </resources>

@@ -28,6 +28,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/app/go4lunch/helpers/UtilsListRestaurant.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/app/go4lunch/model/Restaurant.java">
           <value>
             <set />
@@ -54,6 +59,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/app/go4lunch/view/activities/fragments/MapFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/app/go4lunch/view/activities/fragments/RestaurantListFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/app/go4lunch/view/adapter/ListRestaurantsAdapter.java">
           <value>
             <set />
           </value>
@@ -148,6 +163,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/item_list_restaurants.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/navigation_header.xml">
           <value>
             <set />
@@ -219,6 +239,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../go4lunch/app/src/main/res/layout/activity_login.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../go4lunch/app/src/main/res/layout/item_list_restaurants.xml">
           <value>
             <set />
           </value>

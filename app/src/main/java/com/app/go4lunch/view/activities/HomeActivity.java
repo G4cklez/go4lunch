@@ -28,6 +28,7 @@ import android.widget.Toast;
 import com.app.go4lunch.R;
 import com.app.go4lunch.databinding.ActivityHomeBinding;
 import com.app.go4lunch.helpers.LocationActivity;
+import com.app.go4lunch.helpers.UtilsCalcul;
 import com.app.go4lunch.model.User;
 import com.app.go4lunch.view.activities.fragments.FriendsListFragment;
 import com.app.go4lunch.view.activities.fragments.MapFragment;
@@ -55,7 +56,7 @@ import java.util.List;
 public class HomeActivity extends LocationActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private MapFragment mapFragment;
-    private RestaurantListFragment listRestaurantsFragment;
+    private RestaurantListFragment RestaurantListFragment;
     private FriendsListFragment listWorkmatesFragment;
 
     private Location currentLocation;
@@ -80,10 +81,10 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
         binding.searchBar.setOnEditorActionListener((v, actionId, event) -> {
             if (actionId == EditorInfo.IME_ACTION_DONE)
             {
-                if (currentFragment == listRestaurantsFragment)
+                if (currentFragment == RestaurantListFragment)
                 {
                     String input =  binding.searchBar.getText().toString();
-                    listRestaurantsFragment.autocompleteSearch(input);
+                    RestaurantListFragment.autocompleteSearch(input);
                 }
                 return true;
             }
@@ -162,7 +163,7 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
                     binding.searchBar.setText("");
                     return true;
                 case R.id.action_listview :
-                    displayFragment(displayListRestaurantsFragment());
+                    displayFragment(displayRestaurantListFragment());
                     binding.toolBar.getMenu().findItem(R.id.toolbar_menu_search).setVisible(true);
                     binding.searchBar.setVisibility(View.VISIBLE);
                     binding.searchBar.setText("");
@@ -215,15 +216,15 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
     }
 
     /**
-     * Display the ListRestaurantsFragment {@link ListRestaurantsFragment}
+     * Display the RestaurantListFragment {@link RestaurantListFragment}
      */
-    private ListRestaurantsFragment displayListRestaurantsFragment()
+    private RestaurantListFragment displayRestaurantListFragment()
     {
-        if (this.listRestaurantsFragment == null)
+        if (this.RestaurantListFragment == null)
         {
-            this.listRestaurantsFragment = ListRestaurantsFragment.newInstance(currentLocation);
+            this.RestaurantListFragment = RestaurantListFragment.newInstance(currentLocation);
         }
-        return this.listRestaurantsFragment;
+        return this.RestaurantListFragment;
     }
 
     /**
