@@ -143,8 +143,8 @@ public class LoginActivity extends AppCompatActivity {
 
     private void lunchMainActivity()
     {
-//        Intent intent = new Intent(this, MainActivity.class);
-//        startActivity(intent);
+        Intent intent = new Intent(this, HomeActivity.class);
+        startActivity(intent);
     }
 
 

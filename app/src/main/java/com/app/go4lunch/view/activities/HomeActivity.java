@@ -169,9 +169,9 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
                     binding.searchBar.setText("");
                     return true;
                 case R.id.action_workmates :
-                    displayFragment(displayListWorkmatesFragment());
-                    binding.toolBar.getMenu().findItem(R.id.toolbar_menu_search).setVisible(false);
-                    binding.searchBar.setVisibility(View.INVISIBLE);
+//                    displayFragment(displayListWorkmatesFragment());
+//                    binding.toolBar.getMenu().findItem(R.id.toolbar_menu_search).setVisible(false);
+//                    binding.searchBar.setVisibility(View.INVISIBLE);
                     return true;
                 default:
                     return false;
@@ -227,17 +227,17 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
         return this.RestaurantListFragment;
     }
 
-    /**
-     * Display the ListWorkmatesFragment {@link ListWorkmatesFragment}
-     */
-    private ListWorkmatesFragment displayListWorkmatesFragment()
-    {
-        if (this.listWorkmatesFragment == null)
-        {
-            this.listWorkmatesFragment = ListWorkmatesFragment.newInstance();
-        }
-        return listWorkmatesFragment;
-    }
+//    /**
+//     * Display the ListWorkmatesFragment {@link ListWorkmatesFragment}
+//     */
+//    private ListWorkmatesFragment displayListWorkmatesFragment()
+//    {
+//        if (this.listWorkmatesFragment == null)
+//        {
+//            this.listWorkmatesFragment = ListWorkmatesFragment.newInstance();
+//        }
+//        return listWorkmatesFragment;
+//    }
 
 
     /**
@@ -277,13 +277,9 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
     {
         if (user.isChooseRestaurant())
         {
-            Intent intent = new Intent(this, DetailsActivity.class);
+            Intent intent = new Intent(this, RestaurantDetailActivity.class);
             intent.putExtra("placeId", user.getRestaurantChoose().getPlaceId());
             startActivity(intent);
-        }
-        else
-        {
-            Toast.makeText(getApplicationContext(), getResources().getString(R.string.main_activity_no_choose_restaurant), Toast.LENGTH_LONG).show();
         }
     }
 
