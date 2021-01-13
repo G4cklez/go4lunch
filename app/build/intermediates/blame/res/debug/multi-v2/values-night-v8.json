@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "/home/love/.gradle/caches/transforms-2/files-2.1/d07a001f982a67685fa557a85ae3aa49/material-1.1.0/res/values-night-v8/values-night-v8.xml",

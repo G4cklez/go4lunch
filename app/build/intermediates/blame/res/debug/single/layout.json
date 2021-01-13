@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/navigation_header.xml",
+        "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/res/layout/navigation_header.xml"
+    },
+    {
+        "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_home.xml",
+        "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login.xml",
+        "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/res/layout/activity_login.xml"
+    }
+]

@@ -3,8 +3,6 @@ package com.app.go4lunch.view.activities;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
 import androidx.core.view.GravityCompat;
@@ -13,15 +11,9 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
 
-import android.Manifest;
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.content.pm.PackageManager;
 import android.location.Location;
-import android.location.LocationManager;
 import android.os.Bundle;
-import android.provider.Settings;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.Menu;
@@ -47,9 +39,7 @@ import com.bumptech.glide.Glide;
 import com.firebase.ui.auth.AuthUI;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationListener;
-import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.tasks.Task;
 import com.google.android.libraries.places.api.model.Place;
 import com.google.android.libraries.places.api.model.RectangularBounds;
 import com.google.android.libraries.places.api.model.TypeFilter;
@@ -61,7 +51,6 @@ import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Objects;
 
 public class HomeActivity extends LocationActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -69,12 +58,10 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
     private RestaurantListFragment listRestaurantsFragment;
     private FriendsListFragment listWorkmatesFragment;
 
-    private FusedLocationProviderClient fusedLocationProviderClient;
     private Location currentLocation;
     private AppViewModel appViewModel;
     private User user;
 
-    private static final int LOCATION_REQUEST_CODE = 101;
     private static final int AUTOCOMPLETE_REQUEST_CODE = 15;
 
     Fragment currentFragment;
@@ -83,25 +70,20 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this,R.layout.activity_home);
-        this.fetchLocation();
-        this.configureBottomView();
-        this.configureToolbar();
-        this.configureDrawerLayout();
-        this.configureNavigationView();
-        this.getSharedPreferences();
+        setSupportActionBar(binding.toolBar);
+        fetchLocation();
+        initBottomNav();
+        initDrawerLayout();
+        initNavView();
 
-        binding.toolbar.searchBar .setVisibility(View.VISIBLE);
-        binding.toolbar.searchBar.setOnEditorActionListener((v, actionId, event) -> {
+        binding.searchBar.setVisibility(View.VISIBLE);
+        binding.searchBar.setOnEditorActionListener((v, actionId, event) -> {
             if (actionId == EditorInfo.IME_ACTION_DONE)
             {
                 if (currentFragment == listRestaurantsFragment)
                 {
-                    String input =  binding.toolbar.searchBar.getText().toString();
+                    String input =  binding.searchBar.getText().toString();
                     listRestaurantsFragment.autocompleteSearch(input);
-                }
-                else if (currentFragment == mapFragment)
-                {
-                    mapFragment.displayToast();
                 }
                 return true;
             }
@@ -111,7 +93,7 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
             }
         });
 
-        binding.toolbar.searchBar.addTextChangedListener(new TextWatcher() {
+        binding.searchBar.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
 
@@ -149,34 +131,18 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
         String uidUser = FirebaseAuth.getInstance().getUid();
         this.appViewModel.getUserCurrentMutableLiveData(uidUser).observe(this, user -> {
             updateNavigationHeader(user);
-            user = user;
+            this.user = user;
         });
     }
 
-    ///////////////////////////////////CONFIGURE METHODS///////////////////////////////////
 
-    /**
-     * Configure the Toolbar {@link Toolbar}
-     */
-    private void configureToolbar()
-    {
-        setSupportActionBar(binding.toolBar);
-    }
 
-    /**
-     * Configure the DrawerLayout {@link DrawerLayout}
-     */
-    private void configureDrawerLayout()
-    {
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, binding.navigationDrawer,  binding.toolBar,R.string.open_drawer,R.string.close_drawer);
+    private void initDrawerLayout() {
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, binding.navigationDrawer, binding.toolBar, R.string.open_drawer, R.string.close_drawer);
         binding.navigationDrawer.addDrawerListener(toggle);
         toggle.syncState();
     }
-
-    /**
-     * Configure the NavigationView {@link NavigationView}
-     */
-    private void configureNavigationView()
+    private void initNavView()
     {
         binding.navigationDrawerNavView.setNavigationItemSelectedListener(this);
     }
@@ -184,7 +150,7 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
     /**
      * Configure the BottomView {@link BottomNavigationView}
      */
-    private void configureBottomView()
+    private void initBottomNav()
     {
         binding.bottomNavigation.setOnNavigationItemSelectedListener(item -> {
             switch (item.getItemId())
@@ -239,13 +205,13 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
     }
 
 
-    private MapViewFragment displayMapViewFragment()
+    private MapFragment displayMapViewFragment()
     {
-        if (this.mapViewFragment == null)
+        if (this.mapFragment == null)
         {
-            this.mapViewFragment = MapViewFragment.newInstance(currentLocation);
+            this.mapFragment = MapFragment.newInstance(currentLocation);
         }
-        return this.mapViewFragment;
+        return this.mapFragment;
     }
 
     /**
@@ -292,13 +258,6 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
                 .build(getApplicationContext());
         startActivityForResult(intent, AUTOCOMPLETE_REQUEST_CODE);
     }
-
-    /**
-     * Fetch the current location {@link ActivityCompat} {@link Location}
-     * If getLastLocation is available, use it
-     * Else use GPS
-     * We can display 1st fragment when we have the location
-     */
     private void fetchLocation() {
         requestLocation(new LocationListener() {
             @Override
@@ -390,7 +349,7 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
         if (item.getItemId() == R.id.toolbar_menu_search)
         {
             //----------------- V3 WITH WIDGET TODO
-            int radius = mapViewFragment.getRadius()/100;
+            int radius = mapFragment.getRadius()/100;
             configureAutocompleteSearchToolbar(radius);
         }
         return super.onOptionsItemSelected(item);

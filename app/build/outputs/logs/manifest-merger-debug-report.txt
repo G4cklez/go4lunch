@@ -1,9 +1,11 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:2:1-49:12
-INJECTED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:2:1-49:12
-INJECTED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:2:1-49:12
-INJECTED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:2:1-49:12
+ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-37:12
+MERGED from [androidx.databinding:databinding-adapters:3.6.3] /home/love/.gradle/caches/transforms-2/files-2.1/98fd7cff2669c31d835b0e504cbeb2bb/databinding-adapters-3.6.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:3.6.3] /home/love/.gradle/caches/transforms-2/files-2.1/b76d6f1e4a4692122fb9286506d44152/databinding-runtime-3.6.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.multidex:multidex:2.0.1] /home/love/.gradle/caches/transforms-2/files-2.1/6c2196b2450316d98cbbd55598ebb424/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:2:1-109:12
 MERGED from [com.google.android.material:material:1.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/d07a001f982a67685fa557a85ae3aa49/material-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -17,9 +19,7 @@ MERGED from [androidx.appcompat:appcompat:1.1.0] /home/love/.gradle/caches/trans
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/love/.gradle/caches/transforms-2/files-2.1/cbf496a116ef53761257e21ee9923485/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
 MERGED from [com.firebaseui:firebase-ui-firestore:5.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/8ecddd5f2348b622ea417b09b7b47280/jetified-firebase-ui-firestore-5.0.0/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/e2e0df88b23d3e4790e6c4c354e18d7f/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.jakewharton:butterknife:10.2.1] /home/love/.gradle/caches/transforms-2/files-2.1/c1f0d11c45866bf7c44ae39cce0efee3/butterknife-10.2.1/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-analytics:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/66cb523535bcfe9b3934e1a890096736/firebase-analytics-17.4.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/love/.gradle/caches/transforms-2/files-2.1/54ea2db68d266c7c84b9e889bf3dbaf8/crashlytics-2.10.1/AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/96c1d07da8068eb507905927f20a9e0f/play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
 MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/38eac41abf07b610d24eea227d5337ce/play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.github.bumptech.glide:okhttp3-integration:4.10.0] /home/love/.gradle/caches/transforms-2/files-2.1/994cad8816bba7169556b89b1336ccc0/okhttp3-integration-4.10.0/AndroidManifest.xml:2:1-16:12
@@ -29,6 +29,7 @@ MERGED from [io.grpc:grpc-android:1.16.1] /home/love/.gradle/caches/transforms-2
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /home/love/.gradle/caches/transforms-2/files-2.1/4992a6c632dbcec089d1234cd7090127/rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
 MERGED from [androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:17:1-132:12
 MERGED from [com.github.clans:fab:1.6.2] /home/love/.gradle/caches/transforms-2/files-2.1/c541324d1633840ed73d22b94dabe72b/fab-1.6.2/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.databinding:viewbinding:3.6.3] /home/love/.gradle/caches/transforms-2/files-2.1/e5cb636c255a954beca9e02b51f46dec/jetified-viewbinding-3.6.3/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/ff7bad44424e099d66334e7f88ea3462/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/427fe64709b7d26e2d9e8ff14643995f/firebase-auth-19.2.0/AndroidManifest.xml:17:1-42:12
 MERGED from [com.google.android.gms:play-services-auth:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/f9580efae997cc6bb68107d1920b839e/play-services-auth-17.0.0/AndroidManifest.xml:17:1-39:12
@@ -65,7 +66,6 @@ MERGED from [com.facebook.android:facebook-applinks:5.15.3] /home/love/.gradle/c
 MERGED from [com.facebook.android:facebook-messenger:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/d84d31115e9cb4774e5178762be4f215/facebook-messenger-5.15.3/AndroidManifest.xml:21:1-31:12
 MERGED from [com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/cf5a4a444bc937bed999d1a1f7477246/jetified-facebook-core-5.15.3/AndroidManifest.xml:21:1-53:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/25ed58dd9d16acf6ddda3b242ef20de7/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.jakewharton:butterknife-runtime:10.2.1] /home/love/.gradle/caches/transforms-2/files-2.1/c8be68bdb6f57f13b65a11b38d41b472/butterknife-runtime-10.2.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/2f974e57973837f2c3f11fc986434091/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/31bc1439eabad4d2b943d4ca72dca4c9/transition-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/9d440d20755345730e5d88f924041392/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -79,9 +79,13 @@ MERGED from [androidx.customview:customview:1.0.0] /home/love/.gradle/caches/tra
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/e4f380ea39cd058a79d0637fb13007b5/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/e9b21446d2b03d3e14bbc361db6ee416/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/15517e77085b1d1e612e25c541bd20b2/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [com.firebaseui:firebase-ui-common:5.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/03b92dd462d7f55c81034a98d8f7645d/jetified-firebase-ui-common-5.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/855cc5f8abfb505f7e295d2e5cd3025a/lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/9c83745d8e546224961e10199b86135e/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/4b67449185947a4594404a2700f6999d/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/c4573025cebaa50771627da262a1a1a3/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/1842bcc041f8fcf961110eeafabdf159/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.firebaseui:firebase-ui-common:5.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/03b92dd462d7f55c81034a98d8f7645d/jetified-firebase-ui-common-5.0.0/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/dad1b47b900f09d1b589cf385b24688c/transport-backend-cct-2.1.0/AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.android.datatransport:transport-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/7e0676fc2f83fa52ecddbc3f5cb14c49/transport-runtime-2.1.0/AndroidManifest.xml:15:1-41:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /home/love/.gradle/caches/transforms-2/files-2.1/e08dfaed847bf5e5c68284053580a324/gifdecoder-4.11.0/AndroidManifest.xml:2:1-11:12
@@ -89,56 +93,46 @@ MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/love/.gradle/cach
 MERGED from [androidx.room:room-runtime:2.2.3] /home/love/.gradle/caches/transforms-2/files-2.1/8098cd7f1df593c1b9aecb047559babf/room-runtime-2.2.3/AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/4b26ac7be97045653267a0120a849ea0/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.sqlite:sqlite:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/dbe906e9a1deb866886746cfb01cad8b/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/4b67449185947a4594404a2700f6999d/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/7c2569995676d8cb1a1af5acd63e7a36/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/842f9564e301eb0899fe52908bc11bee/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/3c5fccdbcd88b78af8eb8116a083fda2/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/bda23e271141eb7583ef49a43e72b3aa/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:16.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/0c099ba51db50d959b9eb7b38166f423/firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
-MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/855cc5f8abfb505f7e295d2e5cd3025a/lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/9c83745d8e546224961e10199b86135e/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/077a106caaa6bf7ecf338306f397ab0a/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/2aff6450fc0a9c5d73d713cab4e6e2e2/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a9c361456d0b4f87b150af381acc79ca/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a7b14d777b09293f441c5e737c3e971f/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/3769cc10ce4dd607cb9a6bed9cf56d58/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /home/love/.gradle/caches/transforms-2/files-2.1/1c667940d199843c4af66f21c90bdc67/crashlytics-core-2.7.0/AndroidManifest.xml:45:1-56:12
-MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/love/.gradle/caches/transforms-2/files-2.1/197d6b8d7da223c3bf3af201b51c38bc/beta-1.2.10/AndroidManifest.xml:2:1-13:12
-MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/love/.gradle/caches/transforms-2/files-2.1/10ee263586821f1f18e8c0d73de37ed4/answers-1.4.7/AndroidManifest.xml:2:1-13:12
-MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/love/.gradle/caches/transforms-2/files-2.1/03968655596537809b739cefb5066c8a/fabric-1.4.8/AndroidManifest.xml:22:1-33:12
 MERGED from [com.android.volley:volley:1.1.1] /home/love/.gradle/caches/transforms-2/files-2.1/a18417c9fedbd2bf5d7e025d2ee1b950/jetified-volley-1.1.1/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.datatransport:transport-api:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/c4b0ee2bf836bcf013f30823b7f48f8b/transport-api-2.1.0/AndroidManifest.xml:15:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/love/.gradle/caches/transforms-2/files-2.1/5c83ecf99d8db3e23aa6446b73bf07e7/firebase-database-collection-16.0.1/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /home/love/.gradle/caches/transforms-2/files-2.1/a90e0a29c0b70dd223a215a63ed0a385/protolite-well-known-types-16.0.1/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.installreferrer:installreferrer:1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a0b04b3ed317c38ff1984c44895ea27c/jetified-installreferrer-1.0/AndroidManifest.xml:2:1-13:12
-INJECTED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:2:1-49:12
-INJECTED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:2:1-49:12
-INJECTED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-37:12
 	package
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:4:5-31
-		INJECTED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml
-		INJECTED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:3:5-31
+		INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:2:1-49:12
-		INJECTED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml
+		INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-37:12
+		INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:2:1-49:12
-		INJECTED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml
+		INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-37:12
+		INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:3:5-63
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:6:5-66
+ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:5:5-67
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:13:5-67
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:13:5-67
 MERGED from [com.google.android.libraries.places:places:2.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/f6db03ff7722a1c1a2546df6d97e2f39/places-2.2.0/AndroidManifest.xml:11:5-67
 MERGED from [com.google.android.libraries.places:places:2.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/f6db03ff7722a1c1a2546df6d97e2f39/places-2.2.0/AndroidManifest.xml:11:5-67
 MERGED from [com.firebaseui:firebase-ui-firestore:5.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/8ecddd5f2348b622ea417b09b7b47280/jetified-firebase-ui-firestore-5.0.0/AndroidManifest.xml:11:5-67
 MERGED from [com.firebaseui:firebase-ui-firestore:5.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/8ecddd5f2348b622ea417b09b7b47280/jetified-firebase-ui-firestore-5.0.0/AndroidManifest.xml:11:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/love/.gradle/caches/transforms-2/files-2.1/54ea2db68d266c7c84b9e889bf3dbaf8/crashlytics-2.10.1/AndroidManifest.xml:16:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/love/.gradle/caches/transforms-2/files-2.1/54ea2db68d266c7c84b9e889bf3dbaf8/crashlytics-2.10.1/AndroidManifest.xml:16:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/96c1d07da8068eb507905927f20a9e0f/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/96c1d07da8068eb507905927f20a9e0f/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-firestore:19.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/91bae4b4b2f36b66ef9688ef480eff19/jetified-firebase-firestore-19.0.0/AndroidManifest.xml:14:5-67
@@ -157,28 +151,20 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.0] /h
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/367994f2c79b00a4d7dbcbfebd67adb3/play-services-measurement-sdk-api-17.4.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/dad1b47b900f09d1b589cf385b24688c/transport-backend-cct-2.1.0/AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/dad1b47b900f09d1b589cf385b24688c/transport-backend-cct-2.1.0/AndroidManifest.xml:26:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /home/love/.gradle/caches/transforms-2/files-2.1/1c667940d199843c4af66f21c90bdc67/crashlytics-core-2.7.0/AndroidManifest.xml:52:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /home/love/.gradle/caches/transforms-2/files-2.1/1c667940d199843c4af66f21c90bdc67/crashlytics-core-2.7.0/AndroidManifest.xml:52:5-67
-MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/love/.gradle/caches/transforms-2/files-2.1/197d6b8d7da223c3bf3af201b51c38bc/beta-1.2.10/AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/love/.gradle/caches/transforms-2/files-2.1/197d6b8d7da223c3bf3af201b51c38bc/beta-1.2.10/AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/love/.gradle/caches/transforms-2/files-2.1/10ee263586821f1f18e8c0d73de37ed4/answers-1.4.7/AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/love/.gradle/caches/transforms-2/files-2.1/10ee263586821f1f18e8c0d73de37ed4/answers-1.4.7/AndroidManifest.xml:9:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/love/.gradle/caches/transforms-2/files-2.1/03968655596537809b739cefb5066c8a/fabric-1.4.8/AndroidManifest.xml:29:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/love/.gradle/caches/transforms-2/files-2.1/03968655596537809b739cefb5066c8a/fabric-1.4.8/AndroidManifest.xml:29:5-67
 	android:name
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:7:5-78
+ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:6:5-79
 MERGED from [com.google.android.libraries.places:places:2.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/f6db03ff7722a1c1a2546df6d97e2f39/places-2.2.0/AndroidManifest.xml:9:5-79
 MERGED from [com.google.android.libraries.places:places:2.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/f6db03ff7722a1c1a2546df6d97e2f39/places-2.2.0/AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:7:22-76
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:6:22-76
 uses-permission#android.permission.CALL_PHONE
-ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:8:5-68
+ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:7:5-69
 	android:name
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:8:22-66
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:7:22-66
 application
-ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:10:5-47:19
+ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:9:5-35:19
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:15:5-107:19
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:15:5-107:19
 MERGED from [com.google.android.material:material:1.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/d07a001f982a67685fa557a85ae3aa49/material-1.1.0/AndroidManifest.xml:22:5-20
@@ -197,8 +183,6 @@ MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/love/.gradl
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/love/.gradle/caches/transforms-2/files-2.1/cbf496a116ef53761257e21ee9923485/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-analytics:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/66cb523535bcfe9b3934e1a890096736/firebase-analytics-17.4.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/66cb523535bcfe9b3934e1a890096736/firebase-analytics-17.4.0/AndroidManifest.xml:7:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/love/.gradle/caches/transforms-2/files-2.1/54ea2db68d266c7c84b9e889bf3dbaf8/crashlytics-2.10.1/AndroidManifest.xml:18:5-24:19
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/love/.gradle/caches/transforms-2/files-2.1/54ea2db68d266c7c84b9e889bf3dbaf8/crashlytics-2.10.1/AndroidManifest.xml:18:5-24:19
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/96c1d07da8068eb507905927f20a9e0f/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/96c1d07da8068eb507905927f20a9e0f/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/38eac41abf07b610d24eea227d5337ce/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
@@ -263,6 +247,10 @@ MERGED from [com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/cache
 MERGED from [com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/cf5a4a444bc937bed999d1a1f7477246/jetified-facebook-core-5.15.3/AndroidManifest.xml:28:5-51:19
 MERGED from [androidx.core:core:1.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/15517e77085b1d1e612e25c541bd20b2/core-1.1.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/15517e77085b1d1e612e25c541bd20b2/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/4b67449185947a4594404a2700f6999d/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/4b67449185947a4594404a2700f6999d/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/dad1b47b900f09d1b589cf385b24688c/transport-backend-cct-2.1.0/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/dad1b47b900f09d1b589cf385b24688c/transport-backend-cct-2.1.0/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.android.datatransport:transport-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/7e0676fc2f83fa52ecddbc3f5cb14c49/transport-runtime-2.1.0/AndroidManifest.xml:25:5-39:19
@@ -271,18 +259,6 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /home/love/.gradle/cac
 MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /home/love/.gradle/caches/transforms-2/files-2.1/e08dfaed847bf5e5c68284053580a324/gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
 MERGED from [androidx.room:room-runtime:2.2.3] /home/love/.gradle/caches/transforms-2/files-2.1/8098cd7f1df593c1b9aecb047559babf/room-runtime-2.2.3/AndroidManifest.xml:24:5-28:19
 MERGED from [androidx.room:room-runtime:2.2.3] /home/love/.gradle/caches/transforms-2/files-2.1/8098cd7f1df593c1b9aecb047559babf/room-runtime-2.2.3/AndroidManifest.xml:24:5-28:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/4b67449185947a4594404a2700f6999d/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/4b67449185947a4594404a2700f6999d/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /home/love/.gradle/caches/transforms-2/files-2.1/1c667940d199843c4af66f21c90bdc67/crashlytics-core-2.7.0/AndroidManifest.xml:54:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /home/love/.gradle/caches/transforms-2/files-2.1/1c667940d199843c4af66f21c90bdc67/crashlytics-core-2.7.0/AndroidManifest.xml:54:5-20
-MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/love/.gradle/caches/transforms-2/files-2.1/197d6b8d7da223c3bf3af201b51c38bc/beta-1.2.10/AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/love/.gradle/caches/transforms-2/files-2.1/197d6b8d7da223c3bf3af201b51c38bc/beta-1.2.10/AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/love/.gradle/caches/transforms-2/files-2.1/10ee263586821f1f18e8c0d73de37ed4/answers-1.4.7/AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/love/.gradle/caches/transforms-2/files-2.1/10ee263586821f1f18e8c0d73de37ed4/answers-1.4.7/AndroidManifest.xml:11:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/love/.gradle/caches/transforms-2/files-2.1/03968655596537809b739cefb5066c8a/fabric-1.4.8/AndroidManifest.xml:31:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/love/.gradle/caches/transforms-2/files-2.1/03968655596537809b739cefb5066c8a/fabric-1.4.8/AndroidManifest.xml:31:5-20
 MERGED from [com.android.volley:volley:1.1.1] /home/love/.gradle/caches/transforms-2/files-2.1/a18417c9fedbd2bf5d7e025d2ee1b950/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
 MERGED from [com.android.volley:volley:1.1.1] /home/love/.gradle/caches/transforms-2/files-2.1/a18417c9fedbd2bf5d7e025d2ee1b950/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
 MERGED from [com.android.installreferrer:installreferrer:1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a0b04b3ed317c38ff1984c44895ea27c/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
@@ -290,69 +266,63 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] /home/love/.gradle
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/15517e77085b1d1e612e25c541bd20b2/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:17:9-35
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:13:9-41
 	android:roundIcon
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:16:9-54
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:14:9-43
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:18:9-40
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:16:9-40
 	android:name
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:12:9-61
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:10:9-61
+activity#com.app.go4lunch.view.activities.HomeActivity
+ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:17:9-75
+	android:name
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:17:19-63
 meta-data#com.google.android.geo.API_KEY
-ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:21:9-23:54
+ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:19:9-21:55
 	android:value
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:23:13-52
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:21:13-52
 	android:name
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:22:13-58
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:20:13-58
 meta-data#com.google.android.gms.version
-ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:25:9-27:69
+ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:22:9-24:69
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:16:9-18:69
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:16:9-18:69
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/7d58468a3d19eccbea4c306e0ff02913/play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/7d58468a3d19eccbea4c306e0ff02913/play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:27:13-66
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:24:13-66
 	android:name
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:26:13-58
-activity#com.app.go4lunch.view.activities.DetailsActivity
-ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:29:9-33:20
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:23:13-58
+activity#com.app.go4lunch.view.activities.LoginActivity
+ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:26:9-34:20
 	android:screenOrientation
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:31:13-49
-	android:parentActivityName
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:32:13-71
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:28:13-49
 	android:name
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:30:13-60
-activity#com.app.go4lunch.view.activities.AuthActivity
-ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:35:9-41:20
-	android:screenOrientation
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:36:13-49
-	android:name
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:35:19-63
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:27:13-58
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:37:9-40:25
+ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:29:13-33:29
 action#android.intent.action.MAIN
-ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:38:13-65
+ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:38:21-62
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:39:13-73
+ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:32:17-77
 	android:name
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:39:23-70
-activity#com.app.go4lunch.view.activities.MainActivity
-ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:43:9-44:51
-	android:screenOrientation
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:44:13-49
-	android:name
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:43:19-63
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:32:27-74
 uses-sdk
-INJECTED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml
-INJECTED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml
+INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml
+INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:3.6.3] /home/love/.gradle/caches/transforms-2/files-2.1/98fd7cff2669c31d835b0e504cbeb2bb/databinding-adapters-3.6.3/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:3.6.3] /home/love/.gradle/caches/transforms-2/files-2.1/98fd7cff2669c31d835b0e504cbeb2bb/databinding-adapters-3.6.3/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.6.3] /home/love/.gradle/caches/transforms-2/files-2.1/b76d6f1e4a4692122fb9286506d44152/databinding-runtime-3.6.3/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.6.3] /home/love/.gradle/caches/transforms-2/files-2.1/b76d6f1e4a4692122fb9286506d44152/databinding-runtime-3.6.3/AndroidManifest.xml:22:5-44
 MERGED from [androidx.multidex:multidex:2.0.1] /home/love/.gradle/caches/transforms-2/files-2.1/6c2196b2450316d98cbbd55598ebb424/multidex-2.0.1/AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.1] /home/love/.gradle/caches/transforms-2/files-2.1/6c2196b2450316d98cbbd55598ebb424/multidex-2.0.1/AndroidManifest.xml:20:5-43
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:8:5-10:41
@@ -379,12 +349,8 @@ MERGED from [com.firebaseui:firebase-ui-firestore:5.0.0] /home/love/.gradle/cach
 MERGED from [com.firebaseui:firebase-ui-firestore:5.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/8ecddd5f2348b622ea417b09b7b47280/jetified-firebase-ui-firestore-5.0.0/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/e2e0df88b23d3e4790e6c4c354e18d7f/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/e2e0df88b23d3e4790e6c4c354e18d7f/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.jakewharton:butterknife:10.2.1] /home/love/.gradle/caches/transforms-2/files-2.1/c1f0d11c45866bf7c44ae39cce0efee3/butterknife-10.2.1/AndroidManifest.xml:5:5-44
-MERGED from [com.jakewharton:butterknife:10.2.1] /home/love/.gradle/caches/transforms-2/files-2.1/c1f0d11c45866bf7c44ae39cce0efee3/butterknife-10.2.1/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/66cb523535bcfe9b3934e1a890096736/firebase-analytics-17.4.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/66cb523535bcfe9b3934e1a890096736/firebase-analytics-17.4.0/AndroidManifest.xml:5:5-44
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/love/.gradle/caches/transforms-2/files-2.1/54ea2db68d266c7c84b9e889bf3dbaf8/crashlytics-2.10.1/AndroidManifest.xml:12:5-14:63
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/love/.gradle/caches/transforms-2/files-2.1/54ea2db68d266c7c84b9e889bf3dbaf8/crashlytics-2.10.1/AndroidManifest.xml:12:5-14:63
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/96c1d07da8068eb507905927f20a9e0f/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/96c1d07da8068eb507905927f20a9e0f/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/38eac41abf07b610d24eea227d5337ce/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
@@ -403,6 +369,8 @@ MERGED from [androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transfo
 MERGED from [androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:21:5-23:41
 MERGED from [com.github.clans:fab:1.6.2] /home/love/.gradle/caches/transforms-2/files-2.1/c541324d1633840ed73d22b94dabe72b/fab-1.6.2/AndroidManifest.xml:8:5-10:41
 MERGED from [com.github.clans:fab:1.6.2] /home/love/.gradle/caches/transforms-2/files-2.1/c541324d1633840ed73d22b94dabe72b/fab-1.6.2/AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.databinding:viewbinding:3.6.3] /home/love/.gradle/caches/transforms-2/files-2.1/e5cb636c255a954beca9e02b51f46dec/jetified-viewbinding-3.6.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:3.6.3] /home/love/.gradle/caches/transforms-2/files-2.1/e5cb636c255a954beca9e02b51f46dec/jetified-viewbinding-3.6.3/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/ff7bad44424e099d66334e7f88ea3462/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/ff7bad44424e099d66334e7f88ea3462/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/427fe64709b7d26e2d9e8ff14643995f/firebase-auth-19.2.0/AndroidManifest.xml:21:5-44
@@ -475,8 +443,6 @@ MERGED from [com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/cache
 MERGED from [com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/cf5a4a444bc937bed999d1a1f7477246/jetified-facebook-core-5.15.3/AndroidManifest.xml:24:5-26:41
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/25ed58dd9d16acf6ddda3b242ef20de7/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/25ed58dd9d16acf6ddda3b242ef20de7/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.jakewharton:butterknife-runtime:10.2.1] /home/love/.gradle/caches/transforms-2/files-2.1/c8be68bdb6f57f13b65a11b38d41b472/butterknife-runtime-10.2.1/AndroidManifest.xml:5:5-44
-MERGED from [com.jakewharton:butterknife-runtime:10.2.1] /home/love/.gradle/caches/transforms-2/files-2.1/c8be68bdb6f57f13b65a11b38d41b472/butterknife-runtime-10.2.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/2f974e57973837f2c3f11fc986434091/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/2f974e57973837f2c3f11fc986434091/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/31bc1439eabad4d2b943d4ca72dca4c9/transition-1.2.0/AndroidManifest.xml:20:5-22:41
@@ -503,12 +469,20 @@ MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/love/
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/e9b21446d2b03d3e14bbc361db6ee416/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/15517e77085b1d1e612e25c541bd20b2/core-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/15517e77085b1d1e612e25c541bd20b2/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.firebaseui:firebase-ui-common:5.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/03b92dd462d7f55c81034a98d8f7645d/jetified-firebase-ui-common-5.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-common:5.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/03b92dd462d7f55c81034a98d8f7645d/jetified-firebase-ui-common-5.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/855cc5f8abfb505f7e295d2e5cd3025a/lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/855cc5f8abfb505f7e295d2e5cd3025a/lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/9c83745d8e546224961e10199b86135e/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/9c83745d8e546224961e10199b86135e/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/4b67449185947a4594404a2700f6999d/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/4b67449185947a4594404a2700f6999d/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/c4573025cebaa50771627da262a1a1a3/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/c4573025cebaa50771627da262a1a1a3/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/1842bcc041f8fcf961110eeafabdf159/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/1842bcc041f8fcf961110eeafabdf159/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.firebaseui:firebase-ui-common:5.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/03b92dd462d7f55c81034a98d8f7645d/jetified-firebase-ui-common-5.0.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.firebaseui:firebase-ui-common:5.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/03b92dd462d7f55c81034a98d8f7645d/jetified-firebase-ui-common-5.0.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/dad1b47b900f09d1b589cf385b24688c/transport-backend-cct-2.1.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/dad1b47b900f09d1b589cf385b24688c/transport-backend-cct-2.1.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.datatransport:transport-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/7e0676fc2f83fa52ecddbc3f5cb14c49/transport-runtime-2.1.0/AndroidManifest.xml:18:5-20:41
@@ -523,8 +497,6 @@ MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/love/.gradle/caches/t
 MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/4b26ac7be97045653267a0120a849ea0/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/dbe906e9a1deb866886746cfb01cad8b/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/dbe906e9a1deb866886746cfb01cad8b/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/4b67449185947a4594404a2700f6999d/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/4b67449185947a4594404a2700f6999d/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/7c2569995676d8cb1a1af5acd63e7a36/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/7c2569995676d8cb1a1af5acd63e7a36/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/842f9564e301eb0899fe52908bc11bee/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
@@ -535,12 +507,6 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /home/love/.gradle/caches
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/bda23e271141eb7583ef49a43e72b3aa/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:16.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/0c099ba51db50d959b9eb7b38166f423/firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:16.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/0c099ba51db50d959b9eb7b38166f423/firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/855cc5f8abfb505f7e295d2e5cd3025a/lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/855cc5f8abfb505f7e295d2e5cd3025a/lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/9c83745d8e546224961e10199b86135e/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/9c83745d8e546224961e10199b86135e/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/077a106caaa6bf7ecf338306f397ab0a/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/077a106caaa6bf7ecf338306f397ab0a/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/2aff6450fc0a9c5d73d713cab4e6e2e2/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
@@ -551,14 +517,6 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/love/.gradle/caches/tr
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a7b14d777b09293f441c5e737c3e971f/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/3769cc10ce4dd607cb9a6bed9cf56d58/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/3769cc10ce4dd607cb9a6bed9cf56d58/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /home/love/.gradle/caches/transforms-2/files-2.1/1c667940d199843c4af66f21c90bdc67/crashlytics-core-2.7.0/AndroidManifest.xml:50:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /home/love/.gradle/caches/transforms-2/files-2.1/1c667940d199843c4af66f21c90bdc67/crashlytics-core-2.7.0/AndroidManifest.xml:50:5-43
-MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/love/.gradle/caches/transforms-2/files-2.1/197d6b8d7da223c3bf3af201b51c38bc/beta-1.2.10/AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/love/.gradle/caches/transforms-2/files-2.1/197d6b8d7da223c3bf3af201b51c38bc/beta-1.2.10/AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/love/.gradle/caches/transforms-2/files-2.1/10ee263586821f1f18e8c0d73de37ed4/answers-1.4.7/AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/love/.gradle/caches/transforms-2/files-2.1/10ee263586821f1f18e8c0d73de37ed4/answers-1.4.7/AndroidManifest.xml:7:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/love/.gradle/caches/transforms-2/files-2.1/03968655596537809b739cefb5066c8a/fabric-1.4.8/AndroidManifest.xml:27:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/love/.gradle/caches/transforms-2/files-2.1/03968655596537809b739cefb5066c8a/fabric-1.4.8/AndroidManifest.xml:27:5-43
 MERGED from [com.android.volley:volley:1.1.1] /home/love/.gradle/caches/transforms-2/files-2.1/a18417c9fedbd2bf5d7e025d2ee1b950/jetified-volley-1.1.1/AndroidManifest.xml:7:5-43
 MERGED from [com.android.volley:volley:1.1.1] /home/love/.gradle/caches/transforms-2/files-2.1/a18417c9fedbd2bf5d7e025d2ee1b950/jetified-volley-1.1.1/AndroidManifest.xml:7:5-43
 MERGED from [com.google.android.datatransport:transport-api:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/c4b0ee2bf836bcf013f30823b7f48f8b/transport-api-2.1.0/AndroidManifest.xml:18:5-20:41
@@ -569,18 +527,16 @@ MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /home/love/.
 MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /home/love/.gradle/caches/transforms-2/files-2.1/a90e0a29c0b70dd223a215a63ed0a385/protolite-well-known-types-16.0.1/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.installreferrer:installreferrer:1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a0b04b3ed317c38ff1984c44895ea27c/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.installreferrer:installreferrer:1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a0b04b3ed317c38ff1984c44895ea27c/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
-INJECTED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml
-INJECTED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/love/.gradle/caches/transforms-2/files-2.1/54ea2db68d266c7c84b9e889bf3dbaf8/crashlytics-2.10.1/AndroidManifest.xml:14:9-60
+INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml
+INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml
-		INJECTED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml
+		INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml
-		ADDED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml
-		INJECTED from /home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml
+		INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:12:5-79
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/96c1d07da8068eb507905927f20a9e0f/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
@@ -813,16 +769,6 @@ intent-filter#action:name:android.intent.action.VIEW+category:name:android.inten
 ADDED from [com.facebook.android:facebook-common:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/a30cfda32ac98ff1d095026e46107f87/jetified-facebook-common-5.15.3/AndroidManifest.xml:39:13-48:29
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.com.app.go4lunch+data:scheme:fbconnect
 ADDED from [com.facebook.android:facebook-common:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/a30cfda32ac98ff1d095026e46107f87/jetified-facebook-common-5.15.3/AndroidManifest.xml:39:13-48:29
-provider#com.crashlytics.android.CrashlyticsInitProvider
-ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/love/.gradle/caches/transforms-2/files-2.1/54ea2db68d266c7c84b9e889bf3dbaf8/crashlytics-2.10.1/AndroidManifest.xml:19:9-23:38
-	android:authorities
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/love/.gradle/caches/transforms-2/files-2.1/54ea2db68d266c7c84b9e889bf3dbaf8/crashlytics-2.10.1/AndroidManifest.xml:21:13-75
-	android:exported
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/love/.gradle/caches/transforms-2/files-2.1/54ea2db68d266c7c84b9e889bf3dbaf8/crashlytics-2.10.1/AndroidManifest.xml:22:13-37
-	android:initOrder
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/love/.gradle/caches/transforms-2/files-2.1/54ea2db68d266c7c84b9e889bf3dbaf8/crashlytics-2.10.1/AndroidManifest.xml:23:13-35
-	android:name
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /home/love/.gradle/caches/transforms-2/files-2.1/54ea2db68d266c7c84b9e889bf3dbaf8/crashlytics-2.10.1/AndroidManifest.xml:20:13-75
 uses-feature#0x00020000
 ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/96c1d07da8068eb507905927f20a9e0f/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
@@ -1229,6 +1175,16 @@ action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
 ADDED from [com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/cf5a4a444bc937bed999d1a1f7477246/jetified-facebook-core-5.15.3/AndroidManifest.xml:48:17-95
 	android:name
 		ADDED from [com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/cf5a4a444bc937bed999d1a1f7477246/jetified-facebook-core-5.15.3/AndroidManifest.xml:48:25-92
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
 service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
 ADDED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/dad1b47b900f09d1b589cf385b24688c/transport-backend-cct-2.1.0/AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.android.datatransport:transport-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/7e0676fc2f83fa52ecddbc3f5cb14c49/transport-runtime-2.1.0/AndroidManifest.xml:36:9-38:40
@@ -1263,13 +1219,3 @@ ADDED from [androidx.room:room-runtime:2.2.3] /home/love/.gradle/caches/transfor
 		ADDED from [androidx.room:room-runtime:2.2.3] /home/love/.gradle/caches/transforms-2/files-2.1/8098cd7f1df593c1b9aecb047559babf/room-runtime-2.2.3/AndroidManifest.xml:27:13-37
 	android:name
 		ADDED from [androidx.room:room-runtime:2.2.3] /home/love/.gradle/caches/transforms-2/files-2.1/8098cd7f1df593c1b9aecb047559babf/room-runtime-2.2.3/AndroidManifest.xml:26:13-74
-provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
-	android:authorities
-		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
-	android:multiprocess
-		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
-	android:exported
-		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
-	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79

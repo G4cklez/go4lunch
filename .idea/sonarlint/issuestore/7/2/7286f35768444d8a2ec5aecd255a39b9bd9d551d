@@ -1,0 +1,76 @@
+
+l
+java:S3008"VRename this field "RECEIVE_SMS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œšÎü
+R	java:S125ˆ"<This block of commented-out lines of code should be removed.(¦Üûü
+o
+java:S3008"YRename this field "WRITE_CONTACTS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í¦Åõ
+1
+java:S3626@"Remove this redundant jump.(ûÁÝ…
+n
+java:S3008"XRename this field "READ_CONTACTS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã‚ÈŸ
+l
+java:S3008"QRename this field "CAMERA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÛÁ•øÿÿÿÿ
+O
+java:S1444"4Make this "public static WRITE_CALENDAR" field final(ÏÌóÃÿÿÿÿÿ
+2
+java:S3626¨"Remove this redundant jump.(ûÁÝ…
+t
+java:S3008"YRename this field "WRITE_CALENDAR" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÌóÃÿÿÿÿÿ
+I
+java:S1444"3Make this "public static READ_CONTACTS" field final(Ã‚ÈŸ
+G
+java:S1444",Make this "public static CAMERA" field final(âÛÁ•øÿÿÿÿ
+p
+java:S1104"ZMake WRITE_CONTACTS a static final constant or non-public and provide accessors if needed.(í¦Åõ
+i
+java:S1104"SMake STORAGE a static final constant or non-public and provide accessors if needed.(®Š ù
+u
+java:S1104"ZMake WRITE_CALENDAR a static final constant or non-public and provide accessors if needed.(ÏÌóÃÿÿÿÿÿ
+i
+java:S3008 "SRename this field "ACCOUNTS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚæÁõ
+G
+java:S1444"1Make this "public static RECEIVE_SMS" field final(œšÎü
+o
+java:S1104"YMake READ_CONTACTS a static final constant or non-public and provide accessors if needed.(Ã‚ÈŸ
+I
+java:S1444".Make this "public static READ_SMS" field final(â¯ø¯úÿÿÿÿ
+>
+java:S1604y"(Make this anonymous inner class a lambda(áãÈÞ
+i
+java:S3008"SRename this field "LOCATION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°œ­¯
+D
+java:S1444".Make this "public static LOCATION" field final(°œ­¯
+h
+java:S3776T"RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.(ÙÜ©÷
+N
+java:S1444"3Make this "public static READ_CALENDAR" field final(ì£• þÿÿÿÿ
+m
+java:S1104"RMake CAMERA a static final constant or non-public and provide accessors if needed.(âÛÁ•øÿÿÿÿ
+m
+java:S1104"WMake RECEIVE_SMS a static final constant or non-public and provide accessors if needed.(œšÎü
+j
+java:S1104"TMake LOCATION a static final constant or non-public and provide accessors if needed.(°œ­¯
+n
+java:S3008"SRename this field "READ_SMS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â¯ø¯úÿÿÿÿ
+D
+java:S1444 ".Make this "public static ACCOUNTS" field final(ÚæÁõ
+o
+java:S1104"TMake READ_SMS a static final constant or non-public and provide accessors if needed.(â¯ø¯úÿÿÿÿ
+h
+java:S3008"RRename this field "STORAGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®Š ù
+=
+java:S1604…"(Make this anonymous inner class a lambda(…ƒM
+t
+java:S1104"YMake READ_CALENDAR a static final constant or non-public and provide accessors if needed.(ì£• þÿÿÿÿ
+C
+java:S1604~"(Make this anonymous inner class a lambda(ãøÞ‘ùÿÿÿÿ
+C
+java:S1444"-Make this "public static STORAGE" field final(®Š ù
+j
+java:S1104 "TMake ACCOUNTS a static final constant or non-public and provide accessors if needed.(ÚæÁõ
+1
+java:S3626N"Remove this redundant jump.(ûÁÝ…
+J
+java:S1444"4Make this "public static WRITE_CONTACTS" field final(í¦Åõ
+s
+java:S3008"XRename this field "READ_CALENDAR" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì£• þÿÿÿÿ

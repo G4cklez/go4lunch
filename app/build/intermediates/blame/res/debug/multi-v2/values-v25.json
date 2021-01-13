@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml",
+            "outputFile": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml",
             "map": [
                 {
                     "source": "/home/love/.gradle/caches/transforms-2/files-2.1/93dd9898da5209a7006e7f7bab97cf48/appcompat-1.1.0/res/values-v25/values-v25.xml",

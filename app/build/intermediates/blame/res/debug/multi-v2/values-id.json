@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-id/values-id.xml",
+            "outputFile": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-id/values-id.xml",
             "map": [
                 {
                     "source": "/home/love/.gradle/caches/transforms-2/files-2.1/a30cfda32ac98ff1d095026e46107f87/jetified-facebook-common-5.15.3/res/values-id/values-id.xml",

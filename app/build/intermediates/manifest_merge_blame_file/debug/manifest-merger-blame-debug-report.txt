@@ -6,19 +6,19 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="19"
-8-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml
+8-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml
+9-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:6:5-66
-11-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:6:22-64
+11-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-12-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:7:5-78
-12-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:7:22-76
+12-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:6:5-79
+12-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:6:22-76
 13    <uses-permission android:name="android.permission.CALL_PHONE" />
-13-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:8:5-68
-13-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:8:22-66
+13-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:7:5-69
+13-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:7:22-66
 14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 14-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:12:5-79
 14-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:12:22-76
@@ -50,698 +50,675 @@
 25-->[com.google.firebase:firebase-iid:20.1.5] /home/love/.gradle/caches/transforms-2/files-2.1/8715dba95e7873489a69981c322cff1e/firebase-iid-20.1.5/AndroidManifest.xml:26:22-79
 26
 27    <application
-27-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:10:5-47:19
+27-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:9:5-35:19
 28        android:name="androidx.multidex.MultiDexApplication"
-28-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:12:9-61
+28-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:10:9-61
 29        android:allowBackup="true"
-29-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:13:9-35
+29-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:11:9-35
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 30-->[androidx.core:core:1.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/15517e77085b1d1e612e25c541bd20b2/core-1.1.0/AndroidManifest.xml:24:18-86
 31        android:debuggable="true"
 32        android:icon="@mipmap/ic_launcher"
-32-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:14:9-43
+32-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:12:9-43
 33        android:label="@string/app_name"
-33-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:15:9-41
+33-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:13:9-41
 34        android:roundIcon="@mipmap/ic_launcher_round"
-34-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:16:9-54
+34-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:14:9-54
 35        android:supportsRtl="true"
-35-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:17:9-35
-36        android:testOnly="true"
-37        android:theme="@style/AppTheme" >
-37-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:18:9-40
-38        <meta-data
-38-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:21:9-23:54
-39            android:name="com.google.android.geo.API_KEY"
-39-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:22:13-58
-40            android:value="@string/google_maps_key" />
-40-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:23:13-52
-41        <meta-data
-41-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:25:9-27:69
-42            android:name="com.google.android.gms.version"
-42-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:26:13-58
-43            android:value="@integer/google_play_services_version" />
-43-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:27:13-66
-44
-45        <activity
-45-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:29:9-33:20
-46            android:name="com.app.go4lunch.view.activities.DetailsActivity"
-46-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:30:13-60
-47            android:parentActivityName="com.app.go4lunch.view.activities.MainActivity"
-47-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:32:13-71
+35-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:15:9-35
+36        android:theme="@style/AppTheme" >
+36-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:16:9-40
+37        <activity android:name="com.app.go4lunch.view.activities.HomeActivity" />
+37-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:17:9-75
+37-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:17:19-63
+38
+39        <meta-data
+39-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:19:9-21:55
+40            android:name="com.google.android.geo.API_KEY"
+40-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:20:13-58
+41            android:value="@string/google_maps_key" />
+41-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:21:13-52
+42        <meta-data
+42-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:22:9-24:69
+43            android:name="com.google.android.gms.version"
+43-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:23:13-58
+44            android:value="@integer/google_play_services_version" />
+44-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:24:13-66
+45
+46        <activity
+46-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:26:9-34:20
+47            android:name="com.app.go4lunch.view.activities.LoginActivity"
+47-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:27:13-58
 48            android:screenOrientation="portrait" >
-48-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:31:13-49
-49        </activity>
-50        <activity
-50-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:35:9-41:20
-51            android:name="com.app.go4lunch.view.activities.AuthActivity"
-51-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:35:19-63
-52            android:screenOrientation="portrait" >
-52-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:36:13-49
-53            <intent-filter>
-53-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:37:9-40:25
-54                <action android:name="android.intent.action.MAIN" />
-54-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:38:13-65
-54-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:38:21-62
+48-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:28:13-49
+49            <intent-filter>
+49-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:29:13-33:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:30:17-69
+50-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:30:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:32:17-77
+52-->/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:32:27-74
+53            </intent-filter>
+54        </activity>
 55
-56                <category android:name="android.intent.category.LAUNCHER" />
-56-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:39:13-73
-56-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:39:23-70
-57            </intent-filter>
-58        </activity>
-59        <activity
-59-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:43:9-44:51
-60            android:name="com.app.go4lunch.view.activities.MainActivity"
-60-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:43:19-63
-61            android:screenOrientation="portrait" />
-61-->/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/src/main/AndroidManifest.xml:44:13-49
-62
-63        <meta-data
-63-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:19:9-21:63
-64            android:name="com.facebook.sdk.ApplicationId"
-64-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:20:13-58
-65            android:value="@string/facebook_application_id" />
-65-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:21:13-60
-66
-67        <activity
-67-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:23:9-27:61
-68            android:name="com.firebase.ui.auth.KickoffActivity"
-68-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:24:13-64
-69            android:exported="false"
-69-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:25:13-37
-70            android:label=""
-70-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:26:13-29
-71            android:theme="@style/FirebaseUI.Transparent" />
-71-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:27:13-58
-72        <activity
-72-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:28:9-32:61
-73            android:name="com.firebase.ui.auth.ui.idp.SingleSignInActivity"
-73-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:29:13-76
-74            android:exported="false"
-74-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:30:13-37
-75            android:label=""
-75-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:31:13-29
-76            android:theme="@style/FirebaseUI.Transparent" />
-76-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:32:13-58
-77        <activity
-77-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:33:9-37:61
-78            android:name="com.firebase.ui.auth.ui.credentials.CredentialSaveActivity"
-78-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:34:13-86
-79            android:exported="false"
-79-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:35:13-37
-80            android:label=""
-80-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:36:13-29
-81            android:theme="@style/FirebaseUI.Transparent" />
-81-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:37:13-58
-82        <activity
-82-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:38:9-42:58
-83            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
-83-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:39:13-81
-84            android:exported="false"
-84-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:40:13-37
-85            android:label="@string/fui_title_recover_password_activity"
-85-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:41:13-72
-86            android:windowSoftInputMode="adjustResize" />
-86-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:42:13-55
-87        <activity
-87-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:43:9-47:58
-88            android:name="com.firebase.ui.auth.ui.email.EmailActivity"
-88-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:44:13-71
-89            android:exported="false"
-89-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:45:13-37
-90            android:label="@string/fui_sign_in_default"
-90-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:46:13-56
-91            android:windowSoftInputMode="adjustResize" />
-91-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:47:13-55
-92        <activity
-92-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:48:9-52:77
-93            android:name="com.firebase.ui.auth.ui.phone.PhoneActivity"
-93-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:49:13-71
-94            android:exported="false"
-94-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:50:13-37
-95            android:label="@string/fui_sign_in_with_phone_number"
-95-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:51:13-66
-96            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
-96-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:52:13-74
-97        <activity
-97-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:53:9-57:58
-98            android:name="com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt"
-98-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:54:13-76
-99            android:exported="false"
-99-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:55:13-37
-100            android:label="@string/fui_title_welcome_back_idp_prompt"
-100-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:56:13-70
-101            android:windowSoftInputMode="adjustResize" />
-101-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:57:13-55
-102        <activity
-102-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:58:9-62:58
-103            android:name="com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt"
-103-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:59:13-83
-104            android:exported="false"
-104-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:60:13-37
-105            android:label="@string/fui_title_welcome_back_password_prompt"
-105-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:61:13-75
-106            android:windowSoftInputMode="adjustResize" />
-106-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:62:13-55
-107        <activity
-107-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:63:9-67:58
-108            android:name="com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt"
-108-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:64:13-84
-109            android:exported="false"
-109-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:65:13-37
-110            android:label="@string/fui_title_welcome_back_password_prompt"
-110-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:66:13-75
-111            android:windowSoftInputMode="adjustResize" />
-111-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:67:13-55
-112        <activity
-112-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:68:9-73:58
-113            android:name="com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity"
-113-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:69:13-82
-114            android:exported="false"
-114-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:70:13-37
-115            android:label=""
-115-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:71:13-29
-116            android:theme="@style/FirebaseUI.Transparent"
-116-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:72:13-58
-117            android:windowSoftInputMode="adjustResize" />
-117-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:73:13-55
-118        <activity
-118-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:74:9-78:58
-119            android:name="com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity"
-119-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:75:13-88
-120            android:exported="false"
-120-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:76:13-37
-121            android:label="@string/fui_sign_in_default"
-121-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:77:13-56
-122            android:windowSoftInputMode="adjustResize" />
-122-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:78:13-55
-123        <activity
-123-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:79:9-82:65
-124            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
-124-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:80:13-80
-125            android:exported="false"
-125-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:81:13-37
-126            android:label="@string/fui_default_toolbar_title" />
-126-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:82:13-62
-127        <activity
-127-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:83:9-87:48
-128            android:name="com.facebook.FacebookActivity"
-128-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:84:13-57
-129            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-129-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:85:13-96
-130            android:label="@string/app_name"
-130-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:86:13-45
-131            android:theme="@style/com_facebook_activity_theme" />
-131-->[com.facebook.android:facebook-common:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/a30cfda32ac98ff1d095026e46107f87/jetified-facebook-common-5.15.3/AndroidManifest.xml:33:13-63
-132        <activity
-132-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:88:9-100:20
-133            android:name="com.facebook.CustomTabActivity"
-133-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:89:13-58
-134            android:exported="true" >
-134-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:90:13-36
-135            <intent-filter>
-135-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:92:13-99:29
-136                <action android:name="android.intent.action.VIEW" />
-136-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:93:17-69
-136-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:93:25-66
-137
-138                <category android:name="android.intent.category.DEFAULT" />
-138-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:95:17-76
-138-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:95:27-73
-139                <category android:name="android.intent.category.BROWSABLE" />
-139-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:96:17-78
-139-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:96:27-75
-140
-141                <data android:scheme="@string/facebook_login_protocol_scheme" />
-141-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:98:17-81
-141-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:98:23-78
-142            </intent-filter>
-143            <intent-filter>
-143-->[com.facebook.android:facebook-common:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/a30cfda32ac98ff1d095026e46107f87/jetified-facebook-common-5.15.3/AndroidManifest.xml:39:13-48:29
-144                <action android:name="android.intent.action.VIEW" />
-144-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:93:17-69
-144-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:93:25-66
-145
-146                <category android:name="android.intent.category.DEFAULT" />
-146-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:95:17-76
-146-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:95:27-73
-147                <category android:name="android.intent.category.BROWSABLE" />
-147-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:96:17-78
-147-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:96:27-75
-148
-149                <data
-149-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:98:17-81
-150                    android:host="cct.com.app.go4lunch"
-151                    android:scheme="fbconnect" />
-151-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:98:23-78
-152            </intent-filter>
-153        </activity>
-154
-155        <provider
-155-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:102:9-106:38
-156            android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
-156-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:103:13-79
-157            android:authorities="com.app.go4lunch.authuiinitprovider"
-157-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:104:13-70
-158            android:exported="false"
-158-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:105:13-37
-159            android:initOrder="90" />
-159-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:106:13-35
-160
-161        <activity
-161-->[com.google.android.libraries.places:places:2.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/f6db03ff7722a1c1a2546df6d97e2f39/places-2.2.0/AndroidManifest.xml:14:9-20:20
-162            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
-162-->[com.google.android.libraries.places:places:2.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/f6db03ff7722a1c1a2546df6d97e2f39/places-2.2.0/AndroidManifest.xml:15:13-91
-163            android:exported="false"
-163-->[com.google.android.libraries.places:places:2.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/f6db03ff7722a1c1a2546df6d97e2f39/places-2.2.0/AndroidManifest.xml:16:13-37
-164            android:label="@string/places_autocomplete_label"
-164-->[com.google.android.libraries.places:places:2.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/f6db03ff7722a1c1a2546df6d97e2f39/places-2.2.0/AndroidManifest.xml:17:13-62
-165            android:theme="@style/PlacesAutocompleteOverlay"
-165-->[com.google.android.libraries.places:places:2.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/f6db03ff7722a1c1a2546df6d97e2f39/places-2.2.0/AndroidManifest.xml:18:13-61
-166            android:windowSoftInputMode="adjustResize" >
-166-->[com.google.android.libraries.places:places:2.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/f6db03ff7722a1c1a2546df6d97e2f39/places-2.2.0/AndroidManifest.xml:19:13-55
-167        </activity>
-168        <activity android:name="com.facebook.CustomTabMainActivity" />
-168-->[com.facebook.android:facebook-common:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/a30cfda32ac98ff1d095026e46107f87/jetified-facebook-common-5.15.3/AndroidManifest.xml:34:9-71
-168-->[com.facebook.android:facebook-common:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/a30cfda32ac98ff1d095026e46107f87/jetified-facebook-common-5.15.3/AndroidManifest.xml:34:19-68
+56        <meta-data
+56-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:19:9-21:63
+57            android:name="com.facebook.sdk.ApplicationId"
+57-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:20:13-58
+58            android:value="@string/facebook_application_id" />
+58-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:21:13-60
+59
+60        <activity
+60-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:23:9-27:61
+61            android:name="com.firebase.ui.auth.KickoffActivity"
+61-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:24:13-64
+62            android:exported="false"
+62-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:25:13-37
+63            android:label=""
+63-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:26:13-29
+64            android:theme="@style/FirebaseUI.Transparent" />
+64-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:27:13-58
+65        <activity
+65-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:28:9-32:61
+66            android:name="com.firebase.ui.auth.ui.idp.SingleSignInActivity"
+66-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:29:13-76
+67            android:exported="false"
+67-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:30:13-37
+68            android:label=""
+68-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:31:13-29
+69            android:theme="@style/FirebaseUI.Transparent" />
+69-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:32:13-58
+70        <activity
+70-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:33:9-37:61
+71            android:name="com.firebase.ui.auth.ui.credentials.CredentialSaveActivity"
+71-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:34:13-86
+72            android:exported="false"
+72-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:35:13-37
+73            android:label=""
+73-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:36:13-29
+74            android:theme="@style/FirebaseUI.Transparent" />
+74-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:37:13-58
+75        <activity
+75-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:38:9-42:58
+76            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+76-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:39:13-81
+77            android:exported="false"
+77-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:40:13-37
+78            android:label="@string/fui_title_recover_password_activity"
+78-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:41:13-72
+79            android:windowSoftInputMode="adjustResize" />
+79-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:42:13-55
+80        <activity
+80-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:43:9-47:58
+81            android:name="com.firebase.ui.auth.ui.email.EmailActivity"
+81-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:44:13-71
+82            android:exported="false"
+82-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:45:13-37
+83            android:label="@string/fui_sign_in_default"
+83-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:46:13-56
+84            android:windowSoftInputMode="adjustResize" />
+84-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:47:13-55
+85        <activity
+85-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:48:9-52:77
+86            android:name="com.firebase.ui.auth.ui.phone.PhoneActivity"
+86-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:49:13-71
+87            android:exported="false"
+87-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:50:13-37
+88            android:label="@string/fui_sign_in_with_phone_number"
+88-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:51:13-66
+89            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
+89-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:52:13-74
+90        <activity
+90-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:53:9-57:58
+91            android:name="com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt"
+91-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:54:13-76
+92            android:exported="false"
+92-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:55:13-37
+93            android:label="@string/fui_title_welcome_back_idp_prompt"
+93-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:56:13-70
+94            android:windowSoftInputMode="adjustResize" />
+94-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:57:13-55
+95        <activity
+95-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:58:9-62:58
+96            android:name="com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt"
+96-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:59:13-83
+97            android:exported="false"
+97-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:60:13-37
+98            android:label="@string/fui_title_welcome_back_password_prompt"
+98-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:61:13-75
+99            android:windowSoftInputMode="adjustResize" />
+99-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:62:13-55
+100        <activity
+100-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:63:9-67:58
+101            android:name="com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt"
+101-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:64:13-84
+102            android:exported="false"
+102-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:65:13-37
+103            android:label="@string/fui_title_welcome_back_password_prompt"
+103-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:66:13-75
+104            android:windowSoftInputMode="adjustResize" />
+104-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:67:13-55
+105        <activity
+105-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:68:9-73:58
+106            android:name="com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity"
+106-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:69:13-82
+107            android:exported="false"
+107-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:70:13-37
+108            android:label=""
+108-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:71:13-29
+109            android:theme="@style/FirebaseUI.Transparent"
+109-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:72:13-58
+110            android:windowSoftInputMode="adjustResize" />
+110-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:73:13-55
+111        <activity
+111-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:74:9-78:58
+112            android:name="com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity"
+112-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:75:13-88
+113            android:exported="false"
+113-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:76:13-37
+114            android:label="@string/fui_sign_in_default"
+114-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:77:13-56
+115            android:windowSoftInputMode="adjustResize" />
+115-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:78:13-55
+116        <activity
+116-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:79:9-82:65
+117            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
+117-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:80:13-80
+118            android:exported="false"
+118-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:81:13-37
+119            android:label="@string/fui_default_toolbar_title" />
+119-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:82:13-62
+120        <activity
+120-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:83:9-87:48
+121            android:name="com.facebook.FacebookActivity"
+121-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:84:13-57
+122            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+122-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:85:13-96
+123            android:label="@string/app_name"
+123-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:86:13-45
+124            android:theme="@style/com_facebook_activity_theme" />
+124-->[com.facebook.android:facebook-common:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/a30cfda32ac98ff1d095026e46107f87/jetified-facebook-common-5.15.3/AndroidManifest.xml:33:13-63
+125        <activity
+125-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:88:9-100:20
+126            android:name="com.facebook.CustomTabActivity"
+126-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:89:13-58
+127            android:exported="true" >
+127-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:90:13-36
+128            <intent-filter>
+128-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:92:13-99:29
+129                <action android:name="android.intent.action.VIEW" />
+129-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:93:17-69
+129-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:93:25-66
+130
+131                <category android:name="android.intent.category.DEFAULT" />
+131-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:95:17-76
+131-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:95:27-73
+132                <category android:name="android.intent.category.BROWSABLE" />
+132-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:96:17-78
+132-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:96:27-75
+133
+134                <data android:scheme="@string/facebook_login_protocol_scheme" />
+134-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:98:17-81
+134-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:98:23-78
+135            </intent-filter>
+136            <intent-filter>
+136-->[com.facebook.android:facebook-common:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/a30cfda32ac98ff1d095026e46107f87/jetified-facebook-common-5.15.3/AndroidManifest.xml:39:13-48:29
+137                <action android:name="android.intent.action.VIEW" />
+137-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:93:17-69
+137-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:93:25-66
+138
+139                <category android:name="android.intent.category.DEFAULT" />
+139-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:95:17-76
+139-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:95:27-73
+140                <category android:name="android.intent.category.BROWSABLE" />
+140-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:96:17-78
+140-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:96:27-75
+141
+142                <data
+142-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:98:17-81
+143                    android:host="cct.com.app.go4lunch"
+144                    android:scheme="fbconnect" />
+144-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:98:23-78
+145            </intent-filter>
+146        </activity>
+147
+148        <provider
+148-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:102:9-106:38
+149            android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
+149-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:103:13-79
+150            android:authorities="com.app.go4lunch.authuiinitprovider"
+150-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:104:13-70
+151            android:exported="false"
+151-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:105:13-37
+152            android:initOrder="90" />
+152-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:106:13-35
+153
+154        <activity
+154-->[com.google.android.libraries.places:places:2.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/f6db03ff7722a1c1a2546df6d97e2f39/places-2.2.0/AndroidManifest.xml:14:9-20:20
+155            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+155-->[com.google.android.libraries.places:places:2.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/f6db03ff7722a1c1a2546df6d97e2f39/places-2.2.0/AndroidManifest.xml:15:13-91
+156            android:exported="false"
+156-->[com.google.android.libraries.places:places:2.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/f6db03ff7722a1c1a2546df6d97e2f39/places-2.2.0/AndroidManifest.xml:16:13-37
+157            android:label="@string/places_autocomplete_label"
+157-->[com.google.android.libraries.places:places:2.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/f6db03ff7722a1c1a2546df6d97e2f39/places-2.2.0/AndroidManifest.xml:17:13-62
+158            android:theme="@style/PlacesAutocompleteOverlay"
+158-->[com.google.android.libraries.places:places:2.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/f6db03ff7722a1c1a2546df6d97e2f39/places-2.2.0/AndroidManifest.xml:18:13-61
+159            android:windowSoftInputMode="adjustResize" >
+159-->[com.google.android.libraries.places:places:2.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/f6db03ff7722a1c1a2546df6d97e2f39/places-2.2.0/AndroidManifest.xml:19:13-55
+160        </activity>
+161        <activity android:name="com.facebook.CustomTabMainActivity" /> <!-- Needs to be explicitly declared on P+ -->
+161-->[com.facebook.android:facebook-common:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/a30cfda32ac98ff1d095026e46107f87/jetified-facebook-common-5.15.3/AndroidManifest.xml:34:9-71
+161-->[com.facebook.android:facebook-common:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/a30cfda32ac98ff1d095026e46107f87/jetified-facebook-common-5.15.3/AndroidManifest.xml:34:19-68
+162        <uses-library
+162-->[com.google.android.gms:play-services-maps:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/96c1d07da8068eb507905927f20a9e0f/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+163            android:name="org.apache.http.legacy"
+163-->[com.google.android.gms:play-services-maps:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/96c1d07da8068eb507905927f20a9e0f/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+164            android:required="false" />
+164-->[com.google.android.gms:play-services-maps:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/96c1d07da8068eb507905927f20a9e0f/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+165
+166        <meta-data
+166-->[com.github.bumptech.glide:okhttp3-integration:4.10.0] /home/love/.gradle/caches/transforms-2/files-2.1/994cad8816bba7169556b89b1336ccc0/okhttp3-integration-4.10.0/AndroidManifest.xml:11:9-13:43
+167            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+167-->[com.github.bumptech.glide:okhttp3-integration:4.10.0] /home/love/.gradle/caches/transforms-2/files-2.1/994cad8816bba7169556b89b1336ccc0/okhttp3-integration-4.10.0/AndroidManifest.xml:12:13-84
+168            android:value="GlideModule" />
+168-->[com.github.bumptech.glide:okhttp3-integration:4.10.0] /home/love/.gradle/caches/transforms-2/files-2.1/994cad8816bba7169556b89b1336ccc0/okhttp3-integration-4.10.0/AndroidManifest.xml:13:13-40
 169
-170        <provider
-170-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /home/love/.gradle/caches/transforms-2/files-2.1/54ea2db68d266c7c84b9e889bf3dbaf8/crashlytics-2.10.1/AndroidManifest.xml:19:9-23:38
-171            android:name="com.crashlytics.android.CrashlyticsInitProvider"
-171-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /home/love/.gradle/caches/transforms-2/files-2.1/54ea2db68d266c7c84b9e889bf3dbaf8/crashlytics-2.10.1/AndroidManifest.xml:20:13-75
-172            android:authorities="com.app.go4lunch.crashlyticsinitprovider"
-172-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /home/love/.gradle/caches/transforms-2/files-2.1/54ea2db68d266c7c84b9e889bf3dbaf8/crashlytics-2.10.1/AndroidManifest.xml:21:13-75
-173            android:exported="false"
-173-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /home/love/.gradle/caches/transforms-2/files-2.1/54ea2db68d266c7c84b9e889bf3dbaf8/crashlytics-2.10.1/AndroidManifest.xml:22:13-37
-174            android:initOrder="90" /> <!-- Needs to be explicitly declared on P+ -->
-174-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /home/love/.gradle/caches/transforms-2/files-2.1/54ea2db68d266c7c84b9e889bf3dbaf8/crashlytics-2.10.1/AndroidManifest.xml:23:13-35
-175        <uses-library
-175-->[com.google.android.gms:play-services-maps:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/96c1d07da8068eb507905927f20a9e0f/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
-176            android:name="org.apache.http.legacy"
-176-->[com.google.android.gms:play-services-maps:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/96c1d07da8068eb507905927f20a9e0f/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
-177            android:required="false" />
-177-->[com.google.android.gms:play-services-maps:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/96c1d07da8068eb507905927f20a9e0f/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
-178
-179        <meta-data
-179-->[com.github.bumptech.glide:okhttp3-integration:4.10.0] /home/love/.gradle/caches/transforms-2/files-2.1/994cad8816bba7169556b89b1336ccc0/okhttp3-integration-4.10.0/AndroidManifest.xml:11:9-13:43
-180            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
-180-->[com.github.bumptech.glide:okhttp3-integration:4.10.0] /home/love/.gradle/caches/transforms-2/files-2.1/994cad8816bba7169556b89b1336ccc0/okhttp3-integration-4.10.0/AndroidManifest.xml:12:13-84
-181            android:value="GlideModule" />
-181-->[com.github.bumptech.glide:okhttp3-integration:4.10.0] /home/love/.gradle/caches/transforms-2/files-2.1/994cad8816bba7169556b89b1336ccc0/okhttp3-integration-4.10.0/AndroidManifest.xml:13:13-40
-182
-183        <service
-183-->[com.google.firebase:firebase-firestore:19.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/91bae4b4b2f36b66ef9688ef480eff19/jetified-firebase-firestore-19.0.0/AndroidManifest.xml:17:9-21:19
-184            android:name="com.google.firebase.components.ComponentDiscoveryService"
-184-->[com.google.firebase:firebase-firestore:19.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/91bae4b4b2f36b66ef9688ef480eff19/jetified-firebase-firestore-19.0.0/AndroidManifest.xml:17:18-89
-185            android:directBootAware="true"
-185-->[com.google.firebase:firebase-common:19.3.0] /home/love/.gradle/caches/transforms-2/files-2.1/351552e3174b7c61fb303725d6bbe516/firebase-common-19.3.0/AndroidManifest.xml:34:13-43
-186            android:exported="false" >
-186-->[com.google.firebase:firebase-auth:19.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/427fe64709b7d26e2d9e8ff14643995f/firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
-187            <meta-data
-187-->[com.google.firebase:firebase-firestore:19.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/91bae4b4b2f36b66ef9688ef480eff19/jetified-firebase-firestore-19.0.0/AndroidManifest.xml:18:13-20:85
-188                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-188-->[com.google.firebase:firebase-firestore:19.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/91bae4b4b2f36b66ef9688ef480eff19/jetified-firebase-firestore-19.0.0/AndroidManifest.xml:19:17-111
-189                android:value="com.google.firebase.components.ComponentRegistrar" />
-189-->[com.google.firebase:firebase-firestore:19.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/91bae4b4b2f36b66ef9688ef480eff19/jetified-firebase-firestore-19.0.0/AndroidManifest.xml:20:17-82
-190            <meta-data
-190-->[com.google.firebase:firebase-auth:19.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/427fe64709b7d26e2d9e8ff14643995f/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
-191                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-191-->[com.google.firebase:firebase-auth:19.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/427fe64709b7d26e2d9e8ff14643995f/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
-192                android:value="com.google.firebase.components.ComponentRegistrar" />
-192-->[com.google.firebase:firebase-auth:19.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/427fe64709b7d26e2d9e8ff14643995f/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
-193            <meta-data
-193-->[com.google.android.gms:play-services-measurement-api:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/107556c2fcdc49027813296339ba9ed9/play-services-measurement-api-17.4.0/AndroidManifest.xml:30:13-32:85
-194                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-194-->[com.google.android.gms:play-services-measurement-api:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/107556c2fcdc49027813296339ba9ed9/play-services-measurement-api-17.4.0/AndroidManifest.xml:31:17-139
-195                android:value="com.google.firebase.components.ComponentRegistrar" />
-195-->[com.google.android.gms:play-services-measurement-api:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/107556c2fcdc49027813296339ba9ed9/play-services-measurement-api-17.4.0/AndroidManifest.xml:32:17-82
-196            <meta-data
-196-->[com.google.firebase:firebase-iid:20.1.5] /home/love/.gradle/caches/transforms-2/files-2.1/8715dba95e7873489a69981c322cff1e/firebase-iid-20.1.5/AndroidManifest.xml:32:13-34:85
-197                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-197-->[com.google.firebase:firebase-iid:20.1.5] /home/love/.gradle/caches/transforms-2/files-2.1/8715dba95e7873489a69981c322cff1e/firebase-iid-20.1.5/AndroidManifest.xml:33:17-96
-198                android:value="com.google.firebase.components.ComponentRegistrar" />
-198-->[com.google.firebase:firebase-iid:20.1.5] /home/love/.gradle/caches/transforms-2/files-2.1/8715dba95e7873489a69981c322cff1e/firebase-iid-20.1.5/AndroidManifest.xml:34:17-82
-199            <meta-data
-199-->[com.google.firebase:firebase-installations:16.2.1] /home/love/.gradle/caches/transforms-2/files-2.1/fe55c41fb551cede3357887ad01ddfe1/firebase-installations-16.2.1/AndroidManifest.xml:17:13-19:85
-200                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-200-->[com.google.firebase:firebase-installations:16.2.1] /home/love/.gradle/caches/transforms-2/files-2.1/fe55c41fb551cede3357887ad01ddfe1/firebase-installations-16.2.1/AndroidManifest.xml:18:17-127
-201                android:value="com.google.firebase.components.ComponentRegistrar" />
-201-->[com.google.firebase:firebase-installations:16.2.1] /home/love/.gradle/caches/transforms-2/files-2.1/fe55c41fb551cede3357887ad01ddfe1/firebase-installations-16.2.1/AndroidManifest.xml:19:17-82
-202        </service>
-203
-204        <provider
-204-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:31:9-37:35
-205            android:name="androidx.work.impl.WorkManagerInitializer"
-205-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:32:13-69
-206            android:authorities="com.app.go4lunch.workmanager-init"
-206-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:33:13-68
-207            android:directBootAware="false"
-207-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:34:13-44
-208            android:exported="false"
-208-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:35:13-37
-209            android:multiprocess="true" />
-209-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:36:13-40
-210
-211        <service
-211-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:39:9-44:35
-212            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-212-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:40:13-88
-213            android:directBootAware="false"
-213-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:41:13-44
-214            android:enabled="@bool/enable_system_alarm_service_default"
-214-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:42:13-72
-215            android:exported="false" />
-215-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:43:13-37
-216        <service
-216-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:45:9-51:35
-217            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-217-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:46:13-84
-218            android:directBootAware="false"
-218-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:47:13-44
-219            android:enabled="@bool/enable_system_job_service_default"
-219-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:48:13-70
-220            android:exported="true"
-220-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:49:13-36
-221            android:permission="android.permission.BIND_JOB_SERVICE" />
-221-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:50:13-69
-222        <service
-222-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:52:9-57:35
-223            android:name="androidx.work.impl.foreground.SystemForegroundService"
-223-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:53:13-81
-224            android:directBootAware="false"
-224-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:54:13-44
-225            android:enabled="@bool/enable_system_foreground_service_default"
-225-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:55:13-77
-226            android:exported="false" />
-226-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:56:13-37
-227
-228        <receiver
-228-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:59:9-64:35
-229            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-229-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:60:13-88
-230            android:directBootAware="false"
-230-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:61:13-44
-231            android:enabled="true"
-231-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:62:13-35
-232            android:exported="false" />
-232-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:63:13-37
-233        <receiver
-233-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:65:9-75:20
-234            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-234-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:66:13-106
-235            android:directBootAware="false"
-235-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:67:13-44
-236            android:enabled="false"
-236-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:68:13-36
-237            android:exported="false" >
-237-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:69:13-37
-238            <intent-filter>
-238-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:71:13-74:29
-239                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-239-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:72:17-87
-239-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:72:25-84
-240                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-240-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:73:17-90
-240-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:73:25-87
-241            </intent-filter>
-242        </receiver>
-243        <receiver
-243-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:76:9-86:20
-244            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-244-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:77:13-104
-245            android:directBootAware="false"
-245-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:78:13-44
-246            android:enabled="false"
-246-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:79:13-36
-247            android:exported="false" >
-247-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:80:13-37
-248            <intent-filter>
-248-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:82:13-85:29
-249                <action android:name="android.intent.action.BATTERY_OKAY" />
-249-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:83:17-77
-249-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:83:25-74
-250                <action android:name="android.intent.action.BATTERY_LOW" />
-250-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:84:17-76
-250-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:84:25-73
-251            </intent-filter>
-252        </receiver>
-253        <receiver
-253-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:87:9-97:20
-254            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-254-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:88:13-104
-255            android:directBootAware="false"
-255-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:89:13-44
-256            android:enabled="false"
-256-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:90:13-36
-257            android:exported="false" >
-257-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:91:13-37
-258            <intent-filter>
-258-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:93:13-96:29
-259                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-259-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:94:17-83
-259-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:94:25-80
-260                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-260-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:95:17-82
-260-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:95:25-79
-261            </intent-filter>
-262        </receiver>
-263        <receiver
-263-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:98:9-107:20
-264            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-264-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:99:13-103
-265            android:directBootAware="false"
-265-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:100:13-44
-266            android:enabled="false"
-266-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:101:13-36
-267            android:exported="false" >
-267-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:102:13-37
-268            <intent-filter>
-268-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:104:13-106:29
-269                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-269-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:105:17-79
-269-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:105:25-76
-270            </intent-filter>
-271        </receiver>
-272        <receiver
-272-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:108:9-119:20
-273            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-273-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:109:13-88
-274            android:directBootAware="false"
-274-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:110:13-44
-275            android:enabled="false"
-275-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:111:13-36
-276            android:exported="false" >
-276-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:112:13-37
-277            <intent-filter>
-277-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:114:13-118:29
-278                <action android:name="android.intent.action.BOOT_COMPLETED" />
-278-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:115:17-79
-278-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:115:25-76
-279                <action android:name="android.intent.action.TIME_SET" />
-279-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:116:17-73
-279-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:116:25-70
-280                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-280-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:117:17-81
-280-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:117:25-78
-281            </intent-filter>
-282        </receiver>
-283        <receiver
-283-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:120:9-129:20
-284            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-284-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:121:13-99
-285            android:directBootAware="false"
-285-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:122:13-44
-286            android:enabled="@bool/enable_system_alarm_service_default"
-286-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:123:13-72
-287            android:exported="false" >
-287-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:124:13-37
-288            <intent-filter>
-288-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:126:13-128:29
-289                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-289-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:127:17-98
-289-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:127:25-95
-290            </intent-filter>
-291        </receiver>
-292
-293        <activity
-293-->[com.google.firebase:firebase-auth:19.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/427fe64709b7d26e2d9e8ff14643995f/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
-294            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-294-->[com.google.firebase:firebase-auth:19.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/427fe64709b7d26e2d9e8ff14643995f/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
-295            android:excludeFromRecents="true"
-295-->[com.google.firebase:firebase-auth:19.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/427fe64709b7d26e2d9e8ff14643995f/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
-296            android:exported="true"
-296-->[com.google.firebase:firebase-auth:19.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/427fe64709b7d26e2d9e8ff14643995f/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
-297            android:launchMode="singleTask"
-297-->[com.google.firebase:firebase-auth:19.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/427fe64709b7d26e2d9e8ff14643995f/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
-298            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-298-->[com.google.firebase:firebase-auth:19.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/427fe64709b7d26e2d9e8ff14643995f/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
-299            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-299-->[com.google.firebase:firebase-auth:19.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/427fe64709b7d26e2d9e8ff14643995f/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
-300        <activity
-300-->[com.google.android.gms:play-services-auth:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/f9580efae997cc6bb68107d1920b839e/play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
-301            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-301-->[com.google.android.gms:play-services-auth:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/f9580efae997cc6bb68107d1920b839e/play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
-302            android:excludeFromRecents="true"
-302-->[com.google.android.gms:play-services-auth:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/f9580efae997cc6bb68107d1920b839e/play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
-303            android:exported="false"
-303-->[com.google.android.gms:play-services-auth:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/f9580efae997cc6bb68107d1920b839e/play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
-304            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-304-->[com.google.android.gms:play-services-auth:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/f9580efae997cc6bb68107d1920b839e/play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
-305        <!--
-306            Service handling Google Sign-In user revocation. For apps that do not integrate with
-307            Google Sign-In, this service will never be started.
-308        -->
-309        <service
-309-->[com.google.android.gms:play-services-auth:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/f9580efae997cc6bb68107d1920b839e/play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
-310            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-310-->[com.google.android.gms:play-services-auth:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/f9580efae997cc6bb68107d1920b839e/play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
-311            android:exported="true"
-311-->[com.google.android.gms:play-services-auth:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/f9580efae997cc6bb68107d1920b839e/play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
-312            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-312-->[com.google.android.gms:play-services-auth:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/f9580efae997cc6bb68107d1920b839e/play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
-313
-314        <receiver
-314-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:29:9-33:20
-315            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-315-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:30:13-85
-316            android:enabled="true"
-316-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:31:13-35
-317            android:exported="false" >
-317-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:32:13-37
-318        </receiver>
-319
-320        <service
-320-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:35:9-38:40
-321            android:name="com.google.android.gms.measurement.AppMeasurementService"
-321-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:36:13-84
-322            android:enabled="true"
-322-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:37:13-35
-323            android:exported="false" />
-323-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:38:13-37
-324        <service
-324-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:39:9-43:72
-325            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-325-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:40:13-87
-326            android:enabled="true"
-326-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:41:13-35
-327            android:exported="false"
-327-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:42:13-37
-328            android:permission="android.permission.BIND_JOB_SERVICE" />
-328-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:43:13-69
-329
-330        <receiver
-330-->[com.google.firebase:firebase-iid:20.1.5] /home/love/.gradle/caches/transforms-2/files-2.1/8715dba95e7873489a69981c322cff1e/firebase-iid-20.1.5/AndroidManifest.xml:37:9-44:20
-331            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-331-->[com.google.firebase:firebase-iid:20.1.5] /home/love/.gradle/caches/transforms-2/files-2.1/8715dba95e7873489a69981c322cff1e/firebase-iid-20.1.5/AndroidManifest.xml:38:13-78
-332            android:exported="true"
-332-->[com.google.firebase:firebase-iid:20.1.5] /home/love/.gradle/caches/transforms-2/files-2.1/8715dba95e7873489a69981c322cff1e/firebase-iid-20.1.5/AndroidManifest.xml:39:13-36
-333            android:permission="com.google.android.c2dm.permission.SEND" >
-333-->[com.google.firebase:firebase-iid:20.1.5] /home/love/.gradle/caches/transforms-2/files-2.1/8715dba95e7873489a69981c322cff1e/firebase-iid-20.1.5/AndroidManifest.xml:40:13-73
-334            <intent-filter>
-334-->[com.google.firebase:firebase-iid:20.1.5] /home/love/.gradle/caches/transforms-2/files-2.1/8715dba95e7873489a69981c322cff1e/firebase-iid-20.1.5/AndroidManifest.xml:41:13-43:29
-335                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-335-->[com.google.firebase:firebase-iid:20.1.5] /home/love/.gradle/caches/transforms-2/files-2.1/8715dba95e7873489a69981c322cff1e/firebase-iid-20.1.5/AndroidManifest.xml:42:17-81
-335-->[com.google.firebase:firebase-iid:20.1.5] /home/love/.gradle/caches/transforms-2/files-2.1/8715dba95e7873489a69981c322cff1e/firebase-iid-20.1.5/AndroidManifest.xml:42:25-78
-336            </intent-filter>
-337        </receiver>
-338
-339        <provider
-339-->[com.google.firebase:firebase-common:19.3.0] /home/love/.gradle/caches/transforms-2/files-2.1/351552e3174b7c61fb303725d6bbe516/firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
-340            android:name="com.google.firebase.provider.FirebaseInitProvider"
-340-->[com.google.firebase:firebase-common:19.3.0] /home/love/.gradle/caches/transforms-2/files-2.1/351552e3174b7c61fb303725d6bbe516/firebase-common-19.3.0/AndroidManifest.xml:27:13-77
-341            android:authorities="com.app.go4lunch.firebaseinitprovider"
-341-->[com.google.firebase:firebase-common:19.3.0] /home/love/.gradle/caches/transforms-2/files-2.1/351552e3174b7c61fb303725d6bbe516/firebase-common-19.3.0/AndroidManifest.xml:28:13-72
-342            android:exported="false"
-342-->[com.google.firebase:firebase-common:19.3.0] /home/love/.gradle/caches/transforms-2/files-2.1/351552e3174b7c61fb303725d6bbe516/firebase-common-19.3.0/AndroidManifest.xml:29:13-37
-343            android:initOrder="100" />
-343-->[com.google.firebase:firebase-common:19.3.0] /home/love/.gradle/caches/transforms-2/files-2.1/351552e3174b7c61fb303725d6bbe516/firebase-common-19.3.0/AndroidManifest.xml:30:13-36
-344
-345        <activity
-345-->[com.google.android.gms:play-services-base:17.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/e0a125e7c86b2c70e4372e5b2edc6784/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
-346            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-346-->[com.google.android.gms:play-services-base:17.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/e0a125e7c86b2c70e4372e5b2edc6784/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
-347            android:exported="false"
-347-->[com.google.android.gms:play-services-base:17.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/e0a125e7c86b2c70e4372e5b2edc6784/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
-348            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-348-->[com.google.android.gms:play-services-base:17.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/e0a125e7c86b2c70e4372e5b2edc6784/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
-349        <!--
-350         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
-351         with the application context. This config is merged in with the host app's manifest,
-352         but there can only be one provider with the same authority activated at any given
-353         point; so if the end user has two or more different apps that use Facebook SDK, only the
-354         first one will be able to use the provider. To work around this problem, we use the
-355         following placeholder in the authority to identify each host application as if it was
-356         a completely different provider.
-357        -->
+170        <service
+170-->[com.google.firebase:firebase-firestore:19.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/91bae4b4b2f36b66ef9688ef480eff19/jetified-firebase-firestore-19.0.0/AndroidManifest.xml:17:9-21:19
+171            android:name="com.google.firebase.components.ComponentDiscoveryService"
+171-->[com.google.firebase:firebase-firestore:19.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/91bae4b4b2f36b66ef9688ef480eff19/jetified-firebase-firestore-19.0.0/AndroidManifest.xml:17:18-89
+172            android:directBootAware="true"
+172-->[com.google.firebase:firebase-common:19.3.0] /home/love/.gradle/caches/transforms-2/files-2.1/351552e3174b7c61fb303725d6bbe516/firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+173            android:exported="false" >
+173-->[com.google.firebase:firebase-auth:19.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/427fe64709b7d26e2d9e8ff14643995f/firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
+174            <meta-data
+174-->[com.google.firebase:firebase-firestore:19.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/91bae4b4b2f36b66ef9688ef480eff19/jetified-firebase-firestore-19.0.0/AndroidManifest.xml:18:13-20:85
+175                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+175-->[com.google.firebase:firebase-firestore:19.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/91bae4b4b2f36b66ef9688ef480eff19/jetified-firebase-firestore-19.0.0/AndroidManifest.xml:19:17-111
+176                android:value="com.google.firebase.components.ComponentRegistrar" />
+176-->[com.google.firebase:firebase-firestore:19.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/91bae4b4b2f36b66ef9688ef480eff19/jetified-firebase-firestore-19.0.0/AndroidManifest.xml:20:17-82
+177            <meta-data
+177-->[com.google.firebase:firebase-auth:19.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/427fe64709b7d26e2d9e8ff14643995f/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+178                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+178-->[com.google.firebase:firebase-auth:19.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/427fe64709b7d26e2d9e8ff14643995f/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+179                android:value="com.google.firebase.components.ComponentRegistrar" />
+179-->[com.google.firebase:firebase-auth:19.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/427fe64709b7d26e2d9e8ff14643995f/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+180            <meta-data
+180-->[com.google.android.gms:play-services-measurement-api:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/107556c2fcdc49027813296339ba9ed9/play-services-measurement-api-17.4.0/AndroidManifest.xml:30:13-32:85
+181                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+181-->[com.google.android.gms:play-services-measurement-api:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/107556c2fcdc49027813296339ba9ed9/play-services-measurement-api-17.4.0/AndroidManifest.xml:31:17-139
+182                android:value="com.google.firebase.components.ComponentRegistrar" />
+182-->[com.google.android.gms:play-services-measurement-api:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/107556c2fcdc49027813296339ba9ed9/play-services-measurement-api-17.4.0/AndroidManifest.xml:32:17-82
+183            <meta-data
+183-->[com.google.firebase:firebase-iid:20.1.5] /home/love/.gradle/caches/transforms-2/files-2.1/8715dba95e7873489a69981c322cff1e/firebase-iid-20.1.5/AndroidManifest.xml:32:13-34:85
+184                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+184-->[com.google.firebase:firebase-iid:20.1.5] /home/love/.gradle/caches/transforms-2/files-2.1/8715dba95e7873489a69981c322cff1e/firebase-iid-20.1.5/AndroidManifest.xml:33:17-96
+185                android:value="com.google.firebase.components.ComponentRegistrar" />
+185-->[com.google.firebase:firebase-iid:20.1.5] /home/love/.gradle/caches/transforms-2/files-2.1/8715dba95e7873489a69981c322cff1e/firebase-iid-20.1.5/AndroidManifest.xml:34:17-82
+186            <meta-data
+186-->[com.google.firebase:firebase-installations:16.2.1] /home/love/.gradle/caches/transforms-2/files-2.1/fe55c41fb551cede3357887ad01ddfe1/firebase-installations-16.2.1/AndroidManifest.xml:17:13-19:85
+187                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+187-->[com.google.firebase:firebase-installations:16.2.1] /home/love/.gradle/caches/transforms-2/files-2.1/fe55c41fb551cede3357887ad01ddfe1/firebase-installations-16.2.1/AndroidManifest.xml:18:17-127
+188                android:value="com.google.firebase.components.ComponentRegistrar" />
+188-->[com.google.firebase:firebase-installations:16.2.1] /home/love/.gradle/caches/transforms-2/files-2.1/fe55c41fb551cede3357887ad01ddfe1/firebase-installations-16.2.1/AndroidManifest.xml:19:17-82
+189        </service>
+190
+191        <provider
+191-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:31:9-37:35
+192            android:name="androidx.work.impl.WorkManagerInitializer"
+192-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:32:13-69
+193            android:authorities="com.app.go4lunch.workmanager-init"
+193-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:33:13-68
+194            android:directBootAware="false"
+194-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:34:13-44
+195            android:exported="false"
+195-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:35:13-37
+196            android:multiprocess="true" />
+196-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:36:13-40
+197
+198        <service
+198-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:39:9-44:35
+199            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+199-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:40:13-88
+200            android:directBootAware="false"
+200-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:41:13-44
+201            android:enabled="@bool/enable_system_alarm_service_default"
+201-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:42:13-72
+202            android:exported="false" />
+202-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:43:13-37
+203        <service
+203-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:45:9-51:35
+204            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+204-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:46:13-84
+205            android:directBootAware="false"
+205-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:47:13-44
+206            android:enabled="@bool/enable_system_job_service_default"
+206-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:48:13-70
+207            android:exported="true"
+207-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:49:13-36
+208            android:permission="android.permission.BIND_JOB_SERVICE" />
+208-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:50:13-69
+209        <service
+209-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:52:9-57:35
+210            android:name="androidx.work.impl.foreground.SystemForegroundService"
+210-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:53:13-81
+211            android:directBootAware="false"
+211-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:54:13-44
+212            android:enabled="@bool/enable_system_foreground_service_default"
+212-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:55:13-77
+213            android:exported="false" />
+213-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:56:13-37
+214
+215        <receiver
+215-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:59:9-64:35
+216            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+216-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:60:13-88
+217            android:directBootAware="false"
+217-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:61:13-44
+218            android:enabled="true"
+218-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:62:13-35
+219            android:exported="false" />
+219-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:63:13-37
+220        <receiver
+220-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:65:9-75:20
+221            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+221-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:66:13-106
+222            android:directBootAware="false"
+222-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:67:13-44
+223            android:enabled="false"
+223-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:68:13-36
+224            android:exported="false" >
+224-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:69:13-37
+225            <intent-filter>
+225-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:71:13-74:29
+226                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+226-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:72:17-87
+226-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:72:25-84
+227                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+227-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:73:17-90
+227-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:73:25-87
+228            </intent-filter>
+229        </receiver>
+230        <receiver
+230-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:76:9-86:20
+231            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+231-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:77:13-104
+232            android:directBootAware="false"
+232-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:78:13-44
+233            android:enabled="false"
+233-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:79:13-36
+234            android:exported="false" >
+234-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:80:13-37
+235            <intent-filter>
+235-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:82:13-85:29
+236                <action android:name="android.intent.action.BATTERY_OKAY" />
+236-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:83:17-77
+236-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:83:25-74
+237                <action android:name="android.intent.action.BATTERY_LOW" />
+237-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:84:17-76
+237-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:84:25-73
+238            </intent-filter>
+239        </receiver>
+240        <receiver
+240-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:87:9-97:20
+241            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+241-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:88:13-104
+242            android:directBootAware="false"
+242-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:89:13-44
+243            android:enabled="false"
+243-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:90:13-36
+244            android:exported="false" >
+244-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:91:13-37
+245            <intent-filter>
+245-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:93:13-96:29
+246                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+246-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:94:17-83
+246-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:94:25-80
+247                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+247-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:95:17-82
+247-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:95:25-79
+248            </intent-filter>
+249        </receiver>
+250        <receiver
+250-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:98:9-107:20
+251            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+251-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:99:13-103
+252            android:directBootAware="false"
+252-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:100:13-44
+253            android:enabled="false"
+253-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:101:13-36
+254            android:exported="false" >
+254-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:102:13-37
+255            <intent-filter>
+255-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:104:13-106:29
+256                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+256-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:105:17-79
+256-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:105:25-76
+257            </intent-filter>
+258        </receiver>
+259        <receiver
+259-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:108:9-119:20
+260            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+260-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:109:13-88
+261            android:directBootAware="false"
+261-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:110:13-44
+262            android:enabled="false"
+262-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:111:13-36
+263            android:exported="false" >
+263-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:112:13-37
+264            <intent-filter>
+264-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:114:13-118:29
+265                <action android:name="android.intent.action.BOOT_COMPLETED" />
+265-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:115:17-79
+265-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:115:25-76
+266                <action android:name="android.intent.action.TIME_SET" />
+266-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:116:17-73
+266-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:116:25-70
+267                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+267-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:117:17-81
+267-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:117:25-78
+268            </intent-filter>
+269        </receiver>
+270        <receiver
+270-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:120:9-129:20
+271            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+271-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:121:13-99
+272            android:directBootAware="false"
+272-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:122:13-44
+273            android:enabled="@bool/enable_system_alarm_service_default"
+273-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:123:13-72
+274            android:exported="false" >
+274-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:124:13-37
+275            <intent-filter>
+275-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:126:13-128:29
+276                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+276-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:127:17-98
+276-->[androidx.work:work-runtime:2.3.4] /home/love/.gradle/caches/transforms-2/files-2.1/244f9d721e3a94aab0c7f94e3e4426ac/work-runtime-2.3.4/AndroidManifest.xml:127:25-95
+277            </intent-filter>
+278        </receiver>
+279
+280        <activity
+280-->[com.google.firebase:firebase-auth:19.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/427fe64709b7d26e2d9e8ff14643995f/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+281            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+281-->[com.google.firebase:firebase-auth:19.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/427fe64709b7d26e2d9e8ff14643995f/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+282            android:excludeFromRecents="true"
+282-->[com.google.firebase:firebase-auth:19.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/427fe64709b7d26e2d9e8ff14643995f/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+283            android:exported="true"
+283-->[com.google.firebase:firebase-auth:19.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/427fe64709b7d26e2d9e8ff14643995f/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+284            android:launchMode="singleTask"
+284-->[com.google.firebase:firebase-auth:19.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/427fe64709b7d26e2d9e8ff14643995f/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+285            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+285-->[com.google.firebase:firebase-auth:19.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/427fe64709b7d26e2d9e8ff14643995f/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+286            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+286-->[com.google.firebase:firebase-auth:19.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/427fe64709b7d26e2d9e8ff14643995f/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+287        <activity
+287-->[com.google.android.gms:play-services-auth:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/f9580efae997cc6bb68107d1920b839e/play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+288            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+288-->[com.google.android.gms:play-services-auth:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/f9580efae997cc6bb68107d1920b839e/play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+289            android:excludeFromRecents="true"
+289-->[com.google.android.gms:play-services-auth:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/f9580efae997cc6bb68107d1920b839e/play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+290            android:exported="false"
+290-->[com.google.android.gms:play-services-auth:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/f9580efae997cc6bb68107d1920b839e/play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+291            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+291-->[com.google.android.gms:play-services-auth:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/f9580efae997cc6bb68107d1920b839e/play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+292        <!--
+293            Service handling Google Sign-In user revocation. For apps that do not integrate with
+294            Google Sign-In, this service will never be started.
+295        -->
+296        <service
+296-->[com.google.android.gms:play-services-auth:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/f9580efae997cc6bb68107d1920b839e/play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+297            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+297-->[com.google.android.gms:play-services-auth:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/f9580efae997cc6bb68107d1920b839e/play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+298            android:exported="true"
+298-->[com.google.android.gms:play-services-auth:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/f9580efae997cc6bb68107d1920b839e/play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+299            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+299-->[com.google.android.gms:play-services-auth:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/f9580efae997cc6bb68107d1920b839e/play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+300
+301        <receiver
+301-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:29:9-33:20
+302            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+302-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:30:13-85
+303            android:enabled="true"
+303-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:31:13-35
+304            android:exported="false" >
+304-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:32:13-37
+305        </receiver>
+306
+307        <service
+307-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:35:9-38:40
+308            android:name="com.google.android.gms.measurement.AppMeasurementService"
+308-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:36:13-84
+309            android:enabled="true"
+309-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:37:13-35
+310            android:exported="false" />
+310-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:38:13-37
+311        <service
+311-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:39:9-43:72
+312            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+312-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:40:13-87
+313            android:enabled="true"
+313-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:41:13-35
+314            android:exported="false"
+314-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:42:13-37
+315            android:permission="android.permission.BIND_JOB_SERVICE" />
+315-->[com.google.android.gms:play-services-measurement:17.4.0] /home/love/.gradle/caches/transforms-2/files-2.1/1e1d700552f5158e71a472aff1e9ba8b/play-services-measurement-17.4.0/AndroidManifest.xml:43:13-69
+316
+317        <receiver
+317-->[com.google.firebase:firebase-iid:20.1.5] /home/love/.gradle/caches/transforms-2/files-2.1/8715dba95e7873489a69981c322cff1e/firebase-iid-20.1.5/AndroidManifest.xml:37:9-44:20
+318            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+318-->[com.google.firebase:firebase-iid:20.1.5] /home/love/.gradle/caches/transforms-2/files-2.1/8715dba95e7873489a69981c322cff1e/firebase-iid-20.1.5/AndroidManifest.xml:38:13-78
+319            android:exported="true"
+319-->[com.google.firebase:firebase-iid:20.1.5] /home/love/.gradle/caches/transforms-2/files-2.1/8715dba95e7873489a69981c322cff1e/firebase-iid-20.1.5/AndroidManifest.xml:39:13-36
+320            android:permission="com.google.android.c2dm.permission.SEND" >
+320-->[com.google.firebase:firebase-iid:20.1.5] /home/love/.gradle/caches/transforms-2/files-2.1/8715dba95e7873489a69981c322cff1e/firebase-iid-20.1.5/AndroidManifest.xml:40:13-73
+321            <intent-filter>
+321-->[com.google.firebase:firebase-iid:20.1.5] /home/love/.gradle/caches/transforms-2/files-2.1/8715dba95e7873489a69981c322cff1e/firebase-iid-20.1.5/AndroidManifest.xml:41:13-43:29
+322                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+322-->[com.google.firebase:firebase-iid:20.1.5] /home/love/.gradle/caches/transforms-2/files-2.1/8715dba95e7873489a69981c322cff1e/firebase-iid-20.1.5/AndroidManifest.xml:42:17-81
+322-->[com.google.firebase:firebase-iid:20.1.5] /home/love/.gradle/caches/transforms-2/files-2.1/8715dba95e7873489a69981c322cff1e/firebase-iid-20.1.5/AndroidManifest.xml:42:25-78
+323            </intent-filter>
+324        </receiver>
+325
+326        <provider
+326-->[com.google.firebase:firebase-common:19.3.0] /home/love/.gradle/caches/transforms-2/files-2.1/351552e3174b7c61fb303725d6bbe516/firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+327            android:name="com.google.firebase.provider.FirebaseInitProvider"
+327-->[com.google.firebase:firebase-common:19.3.0] /home/love/.gradle/caches/transforms-2/files-2.1/351552e3174b7c61fb303725d6bbe516/firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+328            android:authorities="com.app.go4lunch.firebaseinitprovider"
+328-->[com.google.firebase:firebase-common:19.3.0] /home/love/.gradle/caches/transforms-2/files-2.1/351552e3174b7c61fb303725d6bbe516/firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+329            android:exported="false"
+329-->[com.google.firebase:firebase-common:19.3.0] /home/love/.gradle/caches/transforms-2/files-2.1/351552e3174b7c61fb303725d6bbe516/firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+330            android:initOrder="100" />
+330-->[com.google.firebase:firebase-common:19.3.0] /home/love/.gradle/caches/transforms-2/files-2.1/351552e3174b7c61fb303725d6bbe516/firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+331
+332        <activity
+332-->[com.google.android.gms:play-services-base:17.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/e0a125e7c86b2c70e4372e5b2edc6784/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+333            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+333-->[com.google.android.gms:play-services-base:17.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/e0a125e7c86b2c70e4372e5b2edc6784/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+334            android:exported="false"
+334-->[com.google.android.gms:play-services-base:17.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/e0a125e7c86b2c70e4372e5b2edc6784/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+335            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+335-->[com.google.android.gms:play-services-base:17.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/e0a125e7c86b2c70e4372e5b2edc6784/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+336        <!--
+337         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+338         with the application context. This config is merged in with the host app's manifest,
+339         but there can only be one provider with the same authority activated at any given
+340         point; so if the end user has two or more different apps that use Facebook SDK, only the
+341         first one will be able to use the provider. To work around this problem, we use the
+342         following placeholder in the authority to identify each host application as if it was
+343         a completely different provider.
+344        -->
+345        <provider
+345-->[com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/cf5a4a444bc937bed999d1a1f7477246/jetified-facebook-core-5.15.3/AndroidManifest.xml:39:9-42:40
+346            android:name="com.facebook.internal.FacebookInitProvider"
+346-->[com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/cf5a4a444bc937bed999d1a1f7477246/jetified-facebook-core-5.15.3/AndroidManifest.xml:40:13-70
+347            android:authorities="com.app.go4lunch.FacebookInitProvider"
+347-->[com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/cf5a4a444bc937bed999d1a1f7477246/jetified-facebook-core-5.15.3/AndroidManifest.xml:41:13-72
+348            android:exported="false" />
+348-->[com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/cf5a4a444bc937bed999d1a1f7477246/jetified-facebook-core-5.15.3/AndroidManifest.xml:42:13-37
+349
+350        <receiver
+350-->[com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/cf5a4a444bc937bed999d1a1f7477246/jetified-facebook-core-5.15.3/AndroidManifest.xml:44:9-50:20
+351            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+351-->[com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/cf5a4a444bc937bed999d1a1f7477246/jetified-facebook-core-5.15.3/AndroidManifest.xml:45:13-86
+352            android:exported="false" >
+352-->[com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/cf5a4a444bc937bed999d1a1f7477246/jetified-facebook-core-5.15.3/AndroidManifest.xml:46:13-37
+353            <intent-filter>
+353-->[com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/cf5a4a444bc937bed999d1a1f7477246/jetified-facebook-core-5.15.3/AndroidManifest.xml:47:13-49:29
+354                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+354-->[com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/cf5a4a444bc937bed999d1a1f7477246/jetified-facebook-core-5.15.3/AndroidManifest.xml:48:17-95
+354-->[com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/cf5a4a444bc937bed999d1a1f7477246/jetified-facebook-core-5.15.3/AndroidManifest.xml:48:25-92
+355            </intent-filter>
+356        </receiver>
+357
 358        <provider
-358-->[com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/cf5a4a444bc937bed999d1a1f7477246/jetified-facebook-core-5.15.3/AndroidManifest.xml:39:9-42:40
-359            android:name="com.facebook.internal.FacebookInitProvider"
-359-->[com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/cf5a4a444bc937bed999d1a1f7477246/jetified-facebook-core-5.15.3/AndroidManifest.xml:40:13-70
-360            android:authorities="com.app.go4lunch.FacebookInitProvider"
-360-->[com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/cf5a4a444bc937bed999d1a1f7477246/jetified-facebook-core-5.15.3/AndroidManifest.xml:41:13-72
-361            android:exported="false" />
-361-->[com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/cf5a4a444bc937bed999d1a1f7477246/jetified-facebook-core-5.15.3/AndroidManifest.xml:42:13-37
-362
-363        <receiver
-363-->[com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/cf5a4a444bc937bed999d1a1f7477246/jetified-facebook-core-5.15.3/AndroidManifest.xml:44:9-50:20
-364            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
-364-->[com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/cf5a4a444bc937bed999d1a1f7477246/jetified-facebook-core-5.15.3/AndroidManifest.xml:45:13-86
-365            android:exported="false" >
-365-->[com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/cf5a4a444bc937bed999d1a1f7477246/jetified-facebook-core-5.15.3/AndroidManifest.xml:46:13-37
-366            <intent-filter>
-366-->[com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/cf5a4a444bc937bed999d1a1f7477246/jetified-facebook-core-5.15.3/AndroidManifest.xml:47:13-49:29
-367                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
-367-->[com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/cf5a4a444bc937bed999d1a1f7477246/jetified-facebook-core-5.15.3/AndroidManifest.xml:48:17-95
-367-->[com.facebook.android:facebook-core:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/cf5a4a444bc937bed999d1a1f7477246/jetified-facebook-core-5.15.3/AndroidManifest.xml:48:25-92
-368            </intent-filter>
-369        </receiver>
-370
+358-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+359            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+359-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+360            android:authorities="com.app.go4lunch.lifecycle-process"
+360-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+361            android:exported="false"
+361-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+362            android:multiprocess="true" />
+362-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+363
+364        <service
+364-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/dad1b47b900f09d1b589cf385b24688c/transport-backend-cct-2.1.0/AndroidManifest.xml:29:9-35:19
+365            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+365-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/dad1b47b900f09d1b589cf385b24688c/transport-backend-cct-2.1.0/AndroidManifest.xml:30:13-103
+366            android:exported="false" >
+366-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/dad1b47b900f09d1b589cf385b24688c/transport-backend-cct-2.1.0/AndroidManifest.xml:31:13-37
+367            <meta-data
+367-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/dad1b47b900f09d1b589cf385b24688c/transport-backend-cct-2.1.0/AndroidManifest.xml:32:13-34:39
+368                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+368-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/dad1b47b900f09d1b589cf385b24688c/transport-backend-cct-2.1.0/AndroidManifest.xml:33:17-94
+369                android:value="cct" />
+369-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/dad1b47b900f09d1b589cf385b24688c/transport-backend-cct-2.1.0/AndroidManifest.xml:34:17-36
+370        </service>
 371        <service
-371-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/dad1b47b900f09d1b589cf385b24688c/transport-backend-cct-2.1.0/AndroidManifest.xml:29:9-35:19
-372            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-372-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/dad1b47b900f09d1b589cf385b24688c/transport-backend-cct-2.1.0/AndroidManifest.xml:30:13-103
-373            android:exported="false" >
-373-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/dad1b47b900f09d1b589cf385b24688c/transport-backend-cct-2.1.0/AndroidManifest.xml:31:13-37
-374            <meta-data
-374-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/dad1b47b900f09d1b589cf385b24688c/transport-backend-cct-2.1.0/AndroidManifest.xml:32:13-34:39
-375                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-375-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/dad1b47b900f09d1b589cf385b24688c/transport-backend-cct-2.1.0/AndroidManifest.xml:33:17-94
-376                android:value="cct" />
-376-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/dad1b47b900f09d1b589cf385b24688c/transport-backend-cct-2.1.0/AndroidManifest.xml:34:17-36
-377        </service>
-378        <service
-378-->[com.google.android.datatransport:transport-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/7e0676fc2f83fa52ecddbc3f5cb14c49/transport-runtime-2.1.0/AndroidManifest.xml:26:9-30:19
-379            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-379-->[com.google.android.datatransport:transport-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/7e0676fc2f83fa52ecddbc3f5cb14c49/transport-runtime-2.1.0/AndroidManifest.xml:27:13-117
-380            android:exported="false"
-380-->[com.google.android.datatransport:transport-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/7e0676fc2f83fa52ecddbc3f5cb14c49/transport-runtime-2.1.0/AndroidManifest.xml:28:13-37
-381            android:permission="android.permission.BIND_JOB_SERVICE" >
-381-->[com.google.android.datatransport:transport-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/7e0676fc2f83fa52ecddbc3f5cb14c49/transport-runtime-2.1.0/AndroidManifest.xml:29:13-69
-382        </service>
-383
-384        <receiver
-384-->[com.google.android.datatransport:transport-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/7e0676fc2f83fa52ecddbc3f5cb14c49/transport-runtime-2.1.0/AndroidManifest.xml:32:9-34:40
-385            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-385-->[com.google.android.datatransport:transport-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/7e0676fc2f83fa52ecddbc3f5cb14c49/transport-runtime-2.1.0/AndroidManifest.xml:33:13-132
-386            android:exported="false" />
-386-->[com.google.android.datatransport:transport-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/7e0676fc2f83fa52ecddbc3f5cb14c49/transport-runtime-2.1.0/AndroidManifest.xml:34:13-37
-387
-388        <service
-388-->[androidx.room:room-runtime:2.2.3] /home/love/.gradle/caches/transforms-2/files-2.1/8098cd7f1df593c1b9aecb047559babf/room-runtime-2.2.3/AndroidManifest.xml:25:9-27:40
-389            android:name="androidx.room.MultiInstanceInvalidationService"
-389-->[androidx.room:room-runtime:2.2.3] /home/love/.gradle/caches/transforms-2/files-2.1/8098cd7f1df593c1b9aecb047559babf/room-runtime-2.2.3/AndroidManifest.xml:26:13-74
-390            android:exported="false" />
-390-->[androidx.room:room-runtime:2.2.3] /home/love/.gradle/caches/transforms-2/files-2.1/8098cd7f1df593c1b9aecb047559babf/room-runtime-2.2.3/AndroidManifest.xml:27:13-37
-391
-392        <provider
-392-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
-393            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-393-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
-394            android:authorities="com.app.go4lunch.lifecycle-process"
-394-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
-395            android:exported="false"
-395-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
-396            android:multiprocess="true" />
-396-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a345649262b5e4e1906a8bf2fc5212df/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
-397    </application>
-398
-399</manifest>
+371-->[com.google.android.datatransport:transport-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/7e0676fc2f83fa52ecddbc3f5cb14c49/transport-runtime-2.1.0/AndroidManifest.xml:26:9-30:19
+372            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+372-->[com.google.android.datatransport:transport-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/7e0676fc2f83fa52ecddbc3f5cb14c49/transport-runtime-2.1.0/AndroidManifest.xml:27:13-117
+373            android:exported="false"
+373-->[com.google.android.datatransport:transport-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/7e0676fc2f83fa52ecddbc3f5cb14c49/transport-runtime-2.1.0/AndroidManifest.xml:28:13-37
+374            android:permission="android.permission.BIND_JOB_SERVICE" >
+374-->[com.google.android.datatransport:transport-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/7e0676fc2f83fa52ecddbc3f5cb14c49/transport-runtime-2.1.0/AndroidManifest.xml:29:13-69
+375        </service>
+376
+377        <receiver
+377-->[com.google.android.datatransport:transport-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/7e0676fc2f83fa52ecddbc3f5cb14c49/transport-runtime-2.1.0/AndroidManifest.xml:32:9-34:40
+378            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+378-->[com.google.android.datatransport:transport-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/7e0676fc2f83fa52ecddbc3f5cb14c49/transport-runtime-2.1.0/AndroidManifest.xml:33:13-132
+379            android:exported="false" />
+379-->[com.google.android.datatransport:transport-runtime:2.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/7e0676fc2f83fa52ecddbc3f5cb14c49/transport-runtime-2.1.0/AndroidManifest.xml:34:13-37
+380
+381        <service
+381-->[androidx.room:room-runtime:2.2.3] /home/love/.gradle/caches/transforms-2/files-2.1/8098cd7f1df593c1b9aecb047559babf/room-runtime-2.2.3/AndroidManifest.xml:25:9-27:40
+382            android:name="androidx.room.MultiInstanceInvalidationService"
+382-->[androidx.room:room-runtime:2.2.3] /home/love/.gradle/caches/transforms-2/files-2.1/8098cd7f1df593c1b9aecb047559babf/room-runtime-2.2.3/AndroidManifest.xml:26:13-74
+383            android:exported="false" />
+383-->[androidx.room:room-runtime:2.2.3] /home/love/.gradle/caches/transforms-2/files-2.1/8098cd7f1df593c1b9aecb047559babf/room-runtime-2.2.3/AndroidManifest.xml:27:13-37
+384    </application>
+385
+386</manifest>

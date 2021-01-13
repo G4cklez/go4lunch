@@ -19,3 +19,21 @@ p
 @app/src/main/java/com/app/go4lunch/model/RestaurantResponse.java,2/3/236956bd11ec400bb09b8b7943a193070cdf9169
 n
 >app/src/main/java/com/app/go4lunch/viewModel/AppViewModel.java,4/9/49efb14e4099f1e09f2e87be9958a59778f84b50
+}
+Mapp/src/main/java/com/app/go4lunch/view/activities/fragments/MapFragment.java,5/e/5e5220bce871fe04114442d4e3133ce074dc4f1e
+ˆ
+Xapp/src/main/java/com/app/go4lunch/view/activities/fragments/RestaurantListFragment.java,0/1/01e8198b407b785f45112012cdad0ff8020fb019
+Š
+Zapp/src/main/java/com/app/go4lunch/view/activities/fragments/RestaurantDetailFragment.java,6/6/66d6093dd4d1a580e70b6521d748336959cbe3c9
+…
+Uapp/src/main/java/com/app/go4lunch/view/activities/fragments/FriendsListFragment.java,e/8/e89a1ad47d5701344d3dc9847ed0682907a17160
+p
+@app/src/main/java/com/app/go4lunch/helpers/LocationActivity.java,5/7/57c688476fe2783813e6d79f1307228aa67f9a85
+q
+Aapp/src/main/java/com/app/go4lunch/helpers/SharedPrefManager.java,0/f/0f4c11cca120ce34e8e59204e3baed5e6a1956ee
+o
+?app/src/main/java/com/app/go4lunch/helpers/PermissionsUtil.java,7/2/7286f35768444d8a2ec5aecd255a39b9bd9d551d
+t
+Dapp/src/main/java/com/app/go4lunch/view/activities/HomeActivity.java,b/c/bced376d90314ba23a3bdda199d55d9a646e81fa
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e

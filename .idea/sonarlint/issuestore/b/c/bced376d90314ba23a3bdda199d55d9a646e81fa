@@ -1,0 +1,27 @@
+
+b
+java:S1128
+"FRemove this unused import 'androidx.drawerlayout.widget.DrawerLayout'.(çÊş8ß„Àí.
+Z
+java:S1128"=Remove this unused import 'androidx.core.app.ActivityCompat'.(ş¤—²8¾ÁŸÀí.
+K
+java:S1604†"(Make this anonymous inner class a lambda(Ú¶£·úÿÿÿÿ8ß„Àí.
+`
+java:S1128">Remove this unused import 'androidx.appcompat.widget.Toolbar'.(ÔËûİùÿÿÿÿ8ûÌÀí.
+Ÿ
+java:S1186ı"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¨‰ïÃ8ß„Àí.
+[
+java:S1117„"8Rename "user" which hides the field declared at line 63.(”ØûÚøÿÿÿÿ8­¨œÀí.
+M
+java:S1066ë"/Merge this if statement with the enclosing one.(”¿¨˜8ß„Àí.
+u
+java:S1128("XRemove this unused import 'com.google.android.gms.location.FusedLocationProviderClient'.(øÜ³€8·‘œÀí.
+P
+java:S1135ß"2Complete the task associated to this TODO comment.(¯Ê¦8ß„Àí.
+M
+java:S1066í"/Merge this if statement with the enclosing one.(Ì ¨‘8ß„Àí.
+
+java:S1186b"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô—½48­¨œÀí.
+
+java:S1186e"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¸˜š_8­¨œÀí.
+?	java:S131Ã""Add a default case to this switch.(ŸÌ§ô8ß„Àí.
