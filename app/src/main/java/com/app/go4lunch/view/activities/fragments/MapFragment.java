@@ -55,7 +55,7 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
     private Disposable disposable;
     private AppViewModel appViewModel;
     private GoogleMap googleMap;
-    private int radius;
+    private int radius = 5000;
     private float zoom;
     private List<Restaurant> restaurantListAutocomplete = new ArrayList<>();
     private List<String> placeIdList = new ArrayList<>();
@@ -141,8 +141,9 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
                             }
                         }
                     }
-                    setMarker(isAutocomplete);
                 }
+                    setMarker(isAutocomplete);
+
 
             });
         }
@@ -152,7 +153,7 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
-        googleMap = googleMap;
+        this.googleMap = googleMap;
         MapStyleOptions mapStyleOptions = MapStyleOptions.loadRawResourceStyle
                 (Objects.requireNonNull(getContext()), R.raw.google_style);
         googleMap.setMapStyle(mapStyleOptions);
