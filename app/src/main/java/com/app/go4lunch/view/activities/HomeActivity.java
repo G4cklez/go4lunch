@@ -3,11 +3,8 @@ package com.app.go4lunch.view.activities;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.widget.Toolbar;
-import androidx.core.app.ActivityCompat;
 import androidx.core.view.GravityCompat;
 import androidx.databinding.DataBindingUtil;
-import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
 
@@ -23,7 +20,6 @@ import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.app.go4lunch.R;
 import com.app.go4lunch.databinding.ActivityHomeBinding;
@@ -32,13 +28,11 @@ import com.app.go4lunch.helpers.UtilsCalcul;
 import com.app.go4lunch.model.User;
 import com.app.go4lunch.view.activities.fragments.FriendsListFragment;
 import com.app.go4lunch.view.activities.fragments.MapFragment;
-import com.app.go4lunch.view.activities.fragments.RestaurantListFragment;
 import com.app.go4lunch.viewModel.AppViewModel;
 import com.app.go4lunch.viewModel.factory.ViewModelFactory;
 import com.app.go4lunch.viewModel.injection.Injection;
 import com.bumptech.glide.Glide;
 import com.firebase.ui.auth.AuthUI;
-import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.libraries.places.api.model.Place;
@@ -56,7 +50,7 @@ import java.util.List;
 public class HomeActivity extends LocationActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private MapFragment mapFragment;
-    private RestaurantListFragment RestaurantListFragment;
+    private com.app.go4lunch.view.activities.fragments.RestaurantListFragment RestaurantListFragment;
     private FriendsListFragment listWorkmatesFragment;
 
     private Location currentLocation;
@@ -84,7 +78,7 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
                 if (currentFragment == RestaurantListFragment)
                 {
                     String input =  binding.searchBar.getText().toString();
-                    RestaurantListFragment.autocompleteSearch(input);
+                    RestaurantListFragment.performAutoCompleteSearch(input);
                 }
                 return true;
             }
@@ -103,7 +97,7 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
             @Override
             public void afterTextChanged(Editable s)
             {
-                if (currentFragment == mapFragment)
+                if (currentFragment == mapFragment && s!= null)
                 {
                     String input = s.toString();
                     mapFragment.autocompleteSearch(input);
@@ -122,7 +116,7 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
     ///////////////////////////////////VIEW MODEL///////////////////////////////////
 
     private void configViewModel() {
-        ViewModelFactory viewModelFactoryGo4Lunch = Injection.viewModelFactoryGo4Lunch();
+        ViewModelFactory viewModelFactoryGo4Lunch = Injection.getViewModelFactory();
         appViewModel = ViewModelProviders.of(this, viewModelFactoryGo4Lunch).get(AppViewModel.class);
         getuser();
     }
@@ -216,9 +210,9 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
     }
 
     /**
-     * Display the RestaurantListFragment {@link RestaurantListFragment}
+     * Display the RestaurantListFragment {@link com.app.go4lunch.view.activities.fragments.RestaurantListFragment}
      */
-    private RestaurantListFragment displayRestaurantListFragment()
+    private com.app.go4lunch.view.activities.fragments.RestaurantListFragment displayRestaurantListFragment()
     {
         if (this.RestaurantListFragment == null)
         {

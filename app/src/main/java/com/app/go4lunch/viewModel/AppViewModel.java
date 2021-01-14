@@ -169,6 +169,9 @@ public class AppViewModel extends ViewModel
                 }
 
                 restaurantsListMutableLiveData.setValue(restaurantList);
+            }else {
+                restaurantsListMutableLiveData.setValue(null);
+
             }
 
         });

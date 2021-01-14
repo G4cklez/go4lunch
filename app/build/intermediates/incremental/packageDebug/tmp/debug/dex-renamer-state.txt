@@ -1,4 +1,4 @@
-#Tue Jan 05 19:03:52 IST 2021
+#Thu Jan 14 13:47:25 IST 2021
 path.3=classes3.dex
 path.2=classes2.dex
 path.1=classes.dex
@@ -7,7 +7,7 @@ renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.3=/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes3.dex
-base.2=/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes2.dex
-base.1=/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
-base.0=/home/love/AndroidStudioProjects/OCR_Go4Lunch_P7/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+base.3=/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes3.dex
+base.2=/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes2.dex
+base.1=/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
+base.0=/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex

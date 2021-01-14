@@ -1,10 +1,10 @@
 package com.app.go4lunch.viewModel.repositories;
 
 
-import com.app.go4lunch.api.RestaurantPlacesApi;
 import com.app.go4lunch.model.RestaurantDetailResponse;
 import com.app.go4lunch.model.Restaurant;
 import com.app.go4lunch.model.RestaurantResponse;
+import com.app.go4lunch.network.ApiClient;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,10 +23,10 @@ public class RestaurantPlacesRepository {
 
     
     public Observable<RestaurantResponse> streamFetchRestaurant(double lat, double lng, int radius, String key) {
-        RestaurantPlacesApi restaurantPlacesApi = RestaurantPlacesApi.retrofit.create(RestaurantPlacesApi.class);
+        ApiClient apiClient = ApiClient.retrofit.create(ApiClient.class);
         String location = lat + "," + lng;
 
-        return restaurantPlacesApi.getNearbyRestaurants(location, radius, type, openingHoursBoolean, key)
+        return apiClient.getNearbyRestaurants(location, radius, type, openingHoursBoolean, key)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .timeout(10, TimeUnit.SECONDS);
@@ -34,8 +34,8 @@ public class RestaurantPlacesRepository {
 
     
     public Observable<RestaurantDetailResponse> streamDetailRestaurant(String placeId, String key) {
-        RestaurantPlacesApi restaurantPlacesApi = RestaurantPlacesApi.retrofit.create(RestaurantPlacesApi.class);
-        return restaurantPlacesApi.getDetailRestaurants(placeId, key)
+        ApiClient apiClient = ApiClient.retrofit.create(ApiClient.class);
+        return apiClient.getRestaurantDetails(placeId, key)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .timeout(10,TimeUnit.SECONDS);
@@ -43,8 +43,8 @@ public class RestaurantPlacesRepository {
 
     
     public Observable<RestaurantResponse> streamAutocompleteRestaurants(String key, String input, String location, int radius) {
-        RestaurantPlacesApi restaurantPlacesApi = RestaurantPlacesApi.retrofit.create(RestaurantPlacesApi.class);
-        return restaurantPlacesApi.getAutocompleteRestaurants(key, input, location, radius)
+        ApiClient apiClient = ApiClient.retrofit.create(ApiClient.class);
+        return apiClient.getPlacesAutocompleteResult(key, input, location, radius)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .timeout(10, TimeUnit.SECONDS);

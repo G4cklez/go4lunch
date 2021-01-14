@@ -51,7 +51,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private void initViewModel()
     {
-        ViewModelFactory viewModelFactory = Injection.viewModelFactoryGo4Lunch();
+        ViewModelFactory viewModelFactory = Injection.getViewModelFactory();
         appViewModel = ViewModelProviders.of(this, viewModelFactory).get(AppViewModel.class);
         getUsersList();
     }

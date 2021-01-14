@@ -24,7 +24,7 @@ public class Injection
         return new RestaurantPlacesRepository();
     }
 
-    public static ViewModelFactory viewModelFactoryGo4Lunch ()
+    public static ViewModelFactory getViewModelFactory()
     {
         return new ViewModelFactory(createRestaurantFirebaseRepository(), createUserFirebaseRepository(), createRestaurantPlacesRepository());
     }

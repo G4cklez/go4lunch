@@ -2,7 +2,8 @@
     <string name="app_name">Go4Lunch</string>
 
     <!-- AUTH ACTIVITY LJvmwrQ2hJrDf9n-->
-    <string name="google_maps_key">AIzaSyDzwS7ZJ-YjmtgAp-QzZNofatSHH3tUQ-U</string>
+<!--    <string name="google_maps_key">AIzaSyDzwS7ZJ-YjmtgAp-QzZNofatSHH3tUQ-U</string>-->
+    <string name="google_maps_key">AIzaSyDO3DmUggUtlQxr2t_oaj-ZHaU_ZQ7E8XU</string>
     <string name="title_text">Find a nice restaurant and invite your co-workers for lunch!</string>
     <string name="sign_in_with_fb">Sign in with Facebook</string>
     <string name="sign_in_with_google">Sign in with Google</string>

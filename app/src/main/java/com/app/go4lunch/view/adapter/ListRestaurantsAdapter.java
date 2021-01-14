@@ -12,7 +12,7 @@ import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.app.go4lunch.R;
-import com.app.go4lunch.databinding.ItemListRestaurantsBinding;
+import com.app.go4lunch.databinding.ItemRestaurantsBinding;
 import com.app.go4lunch.helpers.UtilsListRestaurant;
 import com.app.go4lunch.model.Restaurant;
 import com.bumptech.glide.RequestManager;
@@ -26,15 +26,15 @@ import java.util.List;
 public class ListRestaurantsAdapter extends RecyclerView.Adapter<ListRestaurantsAdapter.ListRestaurantsViewHolder>
 {
     // FOR DATA
-    private OnClickListenerItemList onClickListenerItemList;
+    private ItemClickListener itemClickListener;
     private List<Restaurant> restaurantsFromPlaces;
     private RequestManager glide;
     private Activity activity;
 
-    public ListRestaurantsAdapter(RequestManager glide, OnClickListenerItemList onClickListenerItemList, Activity activity)
+    public ListRestaurantsAdapter(RequestManager glide, ItemClickListener itemClickListener, Activity activity)
     {
         this.glide = glide;
-        this.onClickListenerItemList = onClickListenerItemList;
+        this.itemClickListener = itemClickListener;
         this.activity = activity;
         this.restaurantsFromPlaces = new ArrayList<>();
     }
@@ -45,8 +45,8 @@ public class ListRestaurantsAdapter extends RecyclerView.Adapter<ListRestaurants
     {
         Context context = parent.getContext();
         LayoutInflater layoutInflater = LayoutInflater.from(context);
-        ItemListRestaurantsBinding binding = DataBindingUtil.inflate(layoutInflater,R.layout.item_list_restaurants, parent, false);
-        return new ListRestaurantsViewHolder(binding, this.onClickListenerItemList, this.activity);
+        ItemRestaurantsBinding binding = DataBindingUtil.inflate(layoutInflater,R.layout.item_restaurants, parent, false);
+        return new ListRestaurantsViewHolder(binding, this.itemClickListener, this.activity);
     }
 
     @Override
@@ -70,14 +70,14 @@ public class ListRestaurantsAdapter extends RecyclerView.Adapter<ListRestaurants
     static class ListRestaurantsViewHolder extends RecyclerView.ViewHolder
     {
 
-        private OnClickListenerItemList onClickListenerItemList;
+        private ItemClickListener itemClickListener;
         private Activity activity;
         private int numberWorkmates = 0;
-        ItemListRestaurantsBinding binding;
+        ItemRestaurantsBinding binding;
 
-        private ListRestaurantsViewHolder(@NonNull ItemListRestaurantsBinding binding, OnClickListenerItemList onClickListenerItemList, Activity activity) {
+        private ListRestaurantsViewHolder(@NonNull ItemRestaurantsBinding binding, ItemClickListener itemClickListener, Activity activity) {
             super(binding.getRoot());
-            this.onClickListenerItemList = onClickListenerItemList;
+            this.itemClickListener = itemClickListener;
             this.activity = activity;
             this.binding = binding;
         }
@@ -94,7 +94,7 @@ public class ListRestaurantsAdapter extends RecyclerView.Adapter<ListRestaurants
             UtilsListRestaurant.updateRating(binding.imgStar1, binding.imgStar2, binding.imgStar3, restaurant);
 
             binding.parentCard.setOnClickListener(v->{
-                onClickListenerItemList.onClickListener(getAdapterPosition());
+                itemClickListener.onItemSelected(getAdapterPosition());
             });
         }
 
@@ -160,6 +160,11 @@ public class ListRestaurantsAdapter extends RecyclerView.Adapter<ListRestaurants
                 binding.imgRestaurantRating.setVisibility(View.INVISIBLE);
             }
         }
+    }
+
+    public interface ItemClickListener
+    {
+        void onItemSelected(int position);
     }
 }
 
