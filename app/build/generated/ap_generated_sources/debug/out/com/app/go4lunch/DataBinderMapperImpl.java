@@ -8,8 +8,10 @@ import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
 import com.app.go4lunch.databinding.ActivityHomeBindingImpl;
 import com.app.go4lunch.databinding.ActivityLoginBindingImpl;
+import com.app.go4lunch.databinding.FragmentFriendsListBindingImpl;
 import com.app.go4lunch.databinding.FragmentMapBindingImpl;
 import com.app.go4lunch.databinding.FragmentRestaurantListBindingImpl;
+import com.app.go4lunch.databinding.ItemFriendBindingImpl;
 import com.app.go4lunch.databinding.ItemRestaurantsBindingImpl;
 import com.app.go4lunch.databinding.NavigationHeaderBindingImpl;
 import java.lang.IllegalArgumentException;
@@ -27,21 +29,27 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_ACTIVITYLOGIN = 2;
 
-  private static final int LAYOUT_FRAGMENTMAP = 3;
+  private static final int LAYOUT_FRAGMENTFRIENDSLIST = 3;
 
-  private static final int LAYOUT_FRAGMENTRESTAURANTLIST = 4;
+  private static final int LAYOUT_FRAGMENTMAP = 4;
 
-  private static final int LAYOUT_ITEMRESTAURANTS = 5;
+  private static final int LAYOUT_FRAGMENTRESTAURANTLIST = 5;
 
-  private static final int LAYOUT_NAVIGATIONHEADER = 6;
+  private static final int LAYOUT_ITEMFRIEND = 6;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(6);
+  private static final int LAYOUT_ITEMRESTAURANTS = 7;
+
+  private static final int LAYOUT_NAVIGATIONHEADER = 8;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(8);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.app.go4lunch.R.layout.activity_home, LAYOUT_ACTIVITYHOME);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.app.go4lunch.R.layout.activity_login, LAYOUT_ACTIVITYLOGIN);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.app.go4lunch.R.layout.fragment_friends_list, LAYOUT_FRAGMENTFRIENDSLIST);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.app.go4lunch.R.layout.fragment_map, LAYOUT_FRAGMENTMAP);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.app.go4lunch.R.layout.fragment_restaurant_list, LAYOUT_FRAGMENTRESTAURANTLIST);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.app.go4lunch.R.layout.item_friend, LAYOUT_ITEMFRIEND);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.app.go4lunch.R.layout.item_restaurants, LAYOUT_ITEMRESTAURANTS);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.app.go4lunch.R.layout.navigation_header, LAYOUT_NAVIGATIONHEADER);
   }
@@ -67,6 +75,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
           }
           throw new IllegalArgumentException("The tag for activity_login is invalid. Received: " + tag);
         }
+        case  LAYOUT_FRAGMENTFRIENDSLIST: {
+          if ("layout/fragment_friends_list_0".equals(tag)) {
+            return new FragmentFriendsListBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_friends_list is invalid. Received: " + tag);
+        }
         case  LAYOUT_FRAGMENTMAP: {
           if ("layout/fragment_map_0".equals(tag)) {
             return new FragmentMapBindingImpl(component, view);
@@ -78,6 +92,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new FragmentRestaurantListBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for fragment_restaurant_list is invalid. Received: " + tag);
+        }
+        case  LAYOUT_ITEMFRIEND: {
+          if ("layout/item_friend_0".equals(tag)) {
+            return new ItemFriendBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for item_friend is invalid. Received: " + tag);
         }
         case  LAYOUT_ITEMRESTAURANTS: {
           if ("layout/item_restaurants_0".equals(tag)) {
@@ -144,13 +164,15 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(6);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(8);
 
     static {
       sKeys.put("layout/activity_home_0", com.app.go4lunch.R.layout.activity_home);
       sKeys.put("layout/activity_login_0", com.app.go4lunch.R.layout.activity_login);
+      sKeys.put("layout/fragment_friends_list_0", com.app.go4lunch.R.layout.fragment_friends_list);
       sKeys.put("layout/fragment_map_0", com.app.go4lunch.R.layout.fragment_map);
       sKeys.put("layout/fragment_restaurant_list_0", com.app.go4lunch.R.layout.fragment_restaurant_list);
+      sKeys.put("layout/item_friend_0", com.app.go4lunch.R.layout.item_friend);
       sKeys.put("layout/item_restaurants_0", com.app.go4lunch.R.layout.item_restaurants);
       sKeys.put("layout/navigation_header_0", com.app.go4lunch.R.layout.navigation_header);
     }

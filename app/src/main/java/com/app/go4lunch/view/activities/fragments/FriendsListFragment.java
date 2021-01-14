@@ -6,7 +6,6 @@ import android.os.Bundle;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
-import androidx.recyclerview.widget.LinearLayoutManager;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -32,7 +31,7 @@ import java.util.List;
 public class FriendsListFragment extends Fragment {
 
     private AppViewModel appViewModel;
-    private List<User> usersList;
+    private List<User> mUsersList;
     private FriendsRecyclerAdapter adapter;
     private FragmentFriendsListBinding binding;
 
@@ -64,7 +63,6 @@ public class FriendsListFragment extends Fragment {
         initViewModel();
     }
 
-    ////////////////////////////////////////// VIEW MODEL ///////////////////////////////////////////
 
     private void initViewModel()
     {
@@ -75,27 +73,25 @@ public class FriendsListFragment extends Fragment {
 
     private void getUserList()
     {
-        this.appViewModel.getUserListMutableLiveData().observe(this, userList ->
+        appViewModel.getUserListMutableLiveData().observe(this, userList ->
         {
-            this.usersList = userList;
-            adapter.updateList(usersList);
+            if(userList != null) {
+                mUsersList = userList;
+                adapter.updateList(mUsersList);
+            }
             binding.progressBar.setVisibility(View.INVISIBLE);
         });
     }
 
-    ////////////////////////////////////////// CONFIGURE ///////////////////////////////////////////
 
     private void initRecyclerView()
     {
-        adapter = new FriendsRecyclerAdapter(Glide.with(this), new FriendsRecyclerAdapter.ItemClickListener() {
-            @Override
-            public void onItemSelected(int position) {
-                if (usersList.get(position).isChooseRestaurant())
-                {
-                    Intent intent = new Intent(getContext(), RestaurantDetailActivity.class);
-                    intent.putExtra("placeId", usersList.get(position).getRestaurantChoose().getPlaceId());
-                    startActivity(intent);
-                }
+        adapter = new FriendsRecyclerAdapter(Glide.with(this), position -> {
+            if (mUsersList.get(position).isChooseRestaurant())
+            {
+                Intent intent = new Intent(getContext(), RestaurantDetailActivity.class);
+                intent.putExtra("placeId", mUsersList.get(position).getRestaurantChoose().getPlaceId());
+                startActivity(intent);
             }
         });
         binding.rvFriends.setAdapter(adapter);

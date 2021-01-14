@@ -2,6 +2,7 @@ package com.app.go4lunch.viewModel;
 
 import android.location.Location;
 
+import androidx.annotation.NonNull;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
@@ -10,6 +11,8 @@ import com.app.go4lunch.model.User;
 import com.app.go4lunch.repositories.RestaurantRepository;
 import com.app.go4lunch.repositories.RestaurantPlacesRepository;
 import com.app.go4lunch.repositories.UserRepository;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.firestore.DocumentSnapshot;
 
 import java.util.ArrayList;
@@ -100,7 +103,17 @@ public class AppViewModel extends ViewModel
 
     public void createUser (String uid, String email, String username, String urlPicture)
     {
-        this.userRepository.createUser(uid, email, username, urlPicture);
+        this.userRepository.createUser(uid, email, username, urlPicture).addOnSuccessListener(new OnSuccessListener<Void>() {
+            @Override
+            public void onSuccess(Void aVoid) {
+
+            }
+        }).addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception e) {
+                String ex = e.getLocalizedMessage();
+            }
+        });
     }
 
     public void updateUserIsChooseRestaurant (String uid, Boolean isChooseRestaurant)

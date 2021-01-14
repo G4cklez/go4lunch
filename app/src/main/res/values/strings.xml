@@ -28,6 +28,11 @@
     <string name="close_now">Close now</string>
     <string name="is_eating">is eating</string>
     <string name="pending">Pending</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="address">Address</string>
+    <string name="call">Call</string>
+    <string name="like">Like</string>
+    <string name="website">Website</string>
 
 
 </resources>

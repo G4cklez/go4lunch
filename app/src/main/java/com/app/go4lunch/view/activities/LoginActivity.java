@@ -133,7 +133,7 @@ public class LoginActivity extends AppCompatActivity {
 
                 appViewModel.createUser(uid, email, name, urlPicture);
             }
-            lunchMainActivity();
+           goToHome();
         }
         else
         {
@@ -141,7 +141,7 @@ public class LoginActivity extends AppCompatActivity {
         }
     }
 
-    private void lunchMainActivity()
+    private void goToHome()
     {
         Intent intent = new Intent(this, HomeActivity.class);
         startActivity(intent);
@@ -165,10 +165,4 @@ public class LoginActivity extends AppCompatActivity {
             }
         }
     }
-
-    /**
-     * Suppress super because we don't want that the User can press Back
-     */
-    @Override
-    public void onBackPressed() {}
 }

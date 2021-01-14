@@ -2354,6 +2354,7 @@ id imgRestaurantRating
 id imgStar1
 id imgStar2
 id imgStar3
+id imgUser
 id info
 id inline
 id invisible
@@ -2488,6 +2489,7 @@ id right_icon
 id right_side
 id root
 id rounded
+id rvFriends
 id satellite
 id save_non_transition_alpha
 id save_overlay_view
@@ -2550,6 +2552,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id terrain
+id test
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id text
@@ -2588,6 +2591,7 @@ id tvRestaurantAddress
 id tvRestaurantDistance
 id tvRestaurantHours
 id tvRestaurantName
+id tvUserName
 id unchecked
 id uniform
 id unknown
@@ -2695,7 +2699,6 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_friends_list
 layout fragment_map
-layout fragment_restaurant_detail
 layout fragment_restaurant_list
 layout fui_activity_invisible
 layout fui_activity_register_email
@@ -2723,6 +2726,7 @@ layout fui_register_email_layout
 layout fui_welcome_back_email_link_prompt_layout
 layout fui_welcome_back_idp_prompt_layout
 layout fui_welcome_back_password_prompt_layout
+layout item_friend
 layout item_restaurants
 layout messenger_button_send_blue_large
 layout messenger_button_send_blue_round
@@ -3009,6 +3013,7 @@ string grant
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string is_eating
 string location_access_denied
 string location_permission
 string messenger_send_button_text
@@ -3054,6 +3059,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string pending
 string permission_required
 string places_autocomplete_clear_button
 string places_autocomplete_label

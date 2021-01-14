@@ -23,14 +23,13 @@ public class FriendsRecyclerAdapter extends RecyclerView.Adapter<FriendsRecycler
 
     private RequestManager glide;
     private Context context;
-    private List<User> usersList;
+    private List<User> usersList = new ArrayList<>();
     private ItemClickListener listener;
 
     public FriendsRecyclerAdapter(RequestManager glide, ItemClickListener listener)
     {
         this.glide = glide;
         this.listener = listener;
-        this.usersList = new ArrayList<>();
     }
 
     @NonNull
@@ -52,7 +51,7 @@ public class FriendsRecyclerAdapter extends RecyclerView.Adapter<FriendsRecycler
     @Override
     public int getItemCount()
     {
-        return this.usersList.size();
+        return usersList.size();
     }
 
     public void updateList(List<User> userList)
