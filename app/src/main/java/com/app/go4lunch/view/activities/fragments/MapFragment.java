@@ -19,7 +19,7 @@ import com.app.go4lunch.model.Restaurant;
 import com.app.go4lunch.model.RestaurantResponse;
 import com.app.go4lunch.viewModel.AppViewModel;
 import com.app.go4lunch.viewModel.factory.ViewModelFactory;
-import com.app.go4lunch.viewModel.injection.Injection;
+import com.app.go4lunch.di.DI;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -99,7 +99,7 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
     ////////////////////////////////////////// VIEW MODEL ///////////////////////////////////////////
 
     private void initViewModel() {
-        ViewModelFactory viewModelFactory = Injection.getViewModelFactory();
+        ViewModelFactory viewModelFactory = DI.getViewModelFactory();
         appViewModel = ViewModelProviders.of(this, viewModelFactory).get(AppViewModel.class);
         getRestaurantListFromPlaces();
     }

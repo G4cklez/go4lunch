@@ -7,9 +7,9 @@ import androidx.lifecycle.ViewModel;
 
 import com.app.go4lunch.model.Restaurant;
 import com.app.go4lunch.model.User;
-import com.app.go4lunch.viewModel.repositories.RestaurantRepository;
-import com.app.go4lunch.viewModel.repositories.RestaurantPlacesRepository;
-import com.app.go4lunch.viewModel.repositories.UserRepository;
+import com.app.go4lunch.repositories.RestaurantRepository;
+import com.app.go4lunch.repositories.RestaurantPlacesRepository;
+import com.app.go4lunch.repositories.UserRepository;
 import com.google.firebase.firestore.DocumentSnapshot;
 
 import java.util.ArrayList;

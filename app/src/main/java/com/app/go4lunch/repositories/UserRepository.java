@@ -1,4 +1,4 @@
-package com.app.go4lunch.viewModel.repositories;
+package com.app.go4lunch.repositories;
 
 import com.app.go4lunch.model.Restaurant;
 import com.app.go4lunch.model.User;

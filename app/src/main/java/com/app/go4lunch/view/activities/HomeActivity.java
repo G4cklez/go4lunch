@@ -30,7 +30,7 @@ import com.app.go4lunch.view.activities.fragments.FriendsListFragment;
 import com.app.go4lunch.view.activities.fragments.MapFragment;
 import com.app.go4lunch.viewModel.AppViewModel;
 import com.app.go4lunch.viewModel.factory.ViewModelFactory;
-import com.app.go4lunch.viewModel.injection.Injection;
+import com.app.go4lunch.di.DI;
 import com.bumptech.glide.Glide;
 import com.firebase.ui.auth.AuthUI;
 import com.google.android.gms.location.LocationListener;
@@ -116,7 +116,7 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
     ///////////////////////////////////VIEW MODEL///////////////////////////////////
 
     private void configViewModel() {
-        ViewModelFactory viewModelFactoryGo4Lunch = Injection.getViewModelFactory();
+        ViewModelFactory viewModelFactoryGo4Lunch = DI.getViewModelFactory();
         appViewModel = ViewModelProviders.of(this, viewModelFactoryGo4Lunch).get(AppViewModel.class);
         getuser();
     }
@@ -163,9 +163,9 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
                     binding.searchBar.setText("");
                     return true;
                 case R.id.action_workmates :
-//                    displayFragment(displayListWorkmatesFragment());
-//                    binding.toolBar.getMenu().findItem(R.id.toolbar_menu_search).setVisible(false);
-//                    binding.searchBar.setVisibility(View.INVISIBLE);
+                    displayFragment(displayListWorkmatesFragment());
+                    binding.toolBar.getMenu().findItem(R.id.toolbar_menu_search).setVisible(false);
+                    binding.searchBar.setVisibility(View.INVISIBLE);
                     return true;
                 default:
                     return false;
@@ -221,17 +221,15 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
         return this.RestaurantListFragment;
     }
 
-//    /**
-//     * Display the ListWorkmatesFragment {@link ListWorkmatesFragment}
-//     */
-//    private ListWorkmatesFragment displayListWorkmatesFragment()
-//    {
-//        if (this.listWorkmatesFragment == null)
-//        {
-//            this.listWorkmatesFragment = ListWorkmatesFragment.newInstance();
-//        }
-//        return listWorkmatesFragment;
-//    }
+
+    private FriendsListFragment displayListWorkmatesFragment()
+    {
+        if (this.listWorkmatesFragment == null)
+        {
+            this.listWorkmatesFragment = FriendsListFragment.newInstance();
+        }
+        return listWorkmatesFragment;
+    }
 
 
     /**
@@ -339,7 +337,6 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
     {
         if (item.getItemId() == R.id.toolbar_menu_search)
         {
-            //----------------- V3 WITH WIDGET TODO
             int radius = mapFragment.getRadius()/100;
             configureAutocompleteSearchToolbar(radius);
         }

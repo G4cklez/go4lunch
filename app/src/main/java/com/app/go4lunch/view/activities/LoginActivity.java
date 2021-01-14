@@ -15,7 +15,7 @@ import com.app.go4lunch.databinding.ActivityLoginBinding;
 import com.app.go4lunch.model.User;
 import com.app.go4lunch.viewModel.AppViewModel;
 import com.app.go4lunch.viewModel.factory.ViewModelFactory;
-import com.app.go4lunch.viewModel.injection.Injection;
+import com.app.go4lunch.di.DI;
 import com.firebase.ui.auth.AuthUI;
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -51,7 +51,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private void initViewModel()
     {
-        ViewModelFactory viewModelFactory = Injection.getViewModelFactory();
+        ViewModelFactory viewModelFactory = DI.getViewModelFactory();
         appViewModel = ViewModelProviders.of(this, viewModelFactory).get(AppViewModel.class);
         getUsersList();
     }

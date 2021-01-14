@@ -23,19 +23,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class ListRestaurantsAdapter extends RecyclerView.Adapter<ListRestaurantsAdapter.ListRestaurantsViewHolder>
+public class RestaurantRecyclerAdapter extends RecyclerView.Adapter<RestaurantRecyclerAdapter.ListRestaurantsViewHolder>
 {
     // FOR DATA
     private ItemClickListener itemClickListener;
     private List<Restaurant> restaurantsFromPlaces;
     private RequestManager glide;
-    private Activity activity;
+    private Context context;
 
-    public ListRestaurantsAdapter(RequestManager glide, ItemClickListener itemClickListener, Activity activity)
+    public RestaurantRecyclerAdapter(RequestManager glide, ItemClickListener itemClickListener)
     {
         this.glide = glide;
         this.itemClickListener = itemClickListener;
-        this.activity = activity;
         this.restaurantsFromPlaces = new ArrayList<>();
     }
 
@@ -43,16 +42,16 @@ public class ListRestaurantsAdapter extends RecyclerView.Adapter<ListRestaurants
     @Override
     public ListRestaurantsViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType)
     {
-        Context context = parent.getContext();
+        context = parent.getContext();
         LayoutInflater layoutInflater = LayoutInflater.from(context);
         ItemRestaurantsBinding binding = DataBindingUtil.inflate(layoutInflater,R.layout.item_restaurants, parent, false);
-        return new ListRestaurantsViewHolder(binding, this.itemClickListener, this.activity);
+        return new ListRestaurantsViewHolder(binding, itemClickListener, context);
     }
 
     @Override
     public void onBindViewHolder(@NonNull ListRestaurantsViewHolder holder, int position)
     {
-        holder.updateUI(this.restaurantsFromPlaces.get(position), glide);
+        holder.bindData(restaurantsFromPlaces.get(position), glide);
     }
 
 
@@ -71,26 +70,27 @@ public class ListRestaurantsAdapter extends RecyclerView.Adapter<ListRestaurants
     {
 
         private ItemClickListener itemClickListener;
-        private Activity activity;
+        private Context context;
         private int numberWorkmates = 0;
         ItemRestaurantsBinding binding;
 
-        private ListRestaurantsViewHolder(@NonNull ItemRestaurantsBinding binding, ItemClickListener itemClickListener, Activity activity) {
+        private ListRestaurantsViewHolder(@NonNull ItemRestaurantsBinding binding, ItemClickListener itemClickListener, Context context) {
             super(binding.getRoot());
             this.itemClickListener = itemClickListener;
-            this.activity = activity;
+            this.context = context;
             this.binding = binding;
         }
 
-        private void updateUI(Restaurant restaurant, RequestManager glide)
+        private void bindData(Restaurant restaurant, RequestManager glide)
         {
             binding.tvRestaurantName.setText(restaurant.getName());
             binding.tvRestaurantAddress.setText(restaurant.getAddress());
             glide.load(restaurant.getIllustration()).apply(RequestOptions.centerCropTransform()).into(binding.imgRestaurant);
-            this.displayWorkmates();
-            this.updateHours(restaurant);
-            this.updateNumberWorkmates(restaurant);
-            this.updateDistance(restaurant);
+            displayWorkmates();
+            updateHours(restaurant);
+            updateNumberWorkmates(restaurant);
+
+            updateDistance(restaurant);
             UtilsListRestaurant.updateRating(binding.imgStar1, binding.imgStar2, binding.imgStar3, restaurant);
 
             binding.parentCard.setOnClickListener(v->{
@@ -104,34 +104,30 @@ public class ListRestaurantsAdapter extends RecyclerView.Adapter<ListRestaurants
             binding.tvRestaurantDistance.setText(distanceString);
         }
 
-        /**
-         * Update hours with restaurant's boolean getOpenNow()
-         */
+
         private void updateHours(Restaurant restaurant)
         {
            if (restaurant.getOpenNow() != null && restaurant.getOpenNow())
            {
-               binding.tvRestaurantHours.setText(activity.getString(R.string.open_now));
+               binding.tvRestaurantHours.setText(context.getString(R.string.open_now));
                if (Build.VERSION.SDK_INT < 23) {
-                   binding.tvRestaurantHours.setTextAppearance(activity.getApplicationContext(), R.style.item_list_restaurant_hours_open_txt);
+                   binding.tvRestaurantHours.setTextAppearance(context.getApplicationContext(), R.style.item_list_restaurant_hours_open_txt);
                } else {
                    binding.tvRestaurantHours.setTextAppearance(R.style.item_list_restaurant_hours_open_txt);
                }
            }
            else
            {
-               binding.tvRestaurantHours.setText(activity.getString(R.string.close_now));
+               binding.tvRestaurantHours.setText(context.getString(R.string.close_now));
                if (Build.VERSION.SDK_INT < 23) {
-                   binding.tvRestaurantHours.setTextAppearance(activity.getApplicationContext(), R.style.item_list_restaurant_hours_close_txt);
+                   binding.tvRestaurantHours.setTextAppearance(context.getApplicationContext(), R.style.item_list_restaurant_hours_close_txt);
                } else {
                    binding.tvRestaurantHours.setTextAppearance(R.style.item_list_restaurant_hours_close_txt);
                }
            }
         }
 
-        /**
-         * Update the workmate's number with documentSnapshot from Firebase
-         */
+
         private void updateNumberWorkmates (Restaurant restaurant)
         {
             numberWorkmates = 0;
@@ -144,9 +140,6 @@ public class ListRestaurantsAdapter extends RecyclerView.Adapter<ListRestaurants
             displayWorkmates();
         }
 
-        /**
-         * Update the visibility of numberWorkmatesTxt and peopleWorkmatesImage if numberWorkmates > 0
-         */
         private void displayWorkmates()
         {
             if (numberWorkmates > 0)
