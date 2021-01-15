@@ -1,2 +1,12 @@
 
+D
+java:S1481r"'Remove this unused "ex" local variable.(¢‚Ç8ÄÚÖ‡ğ.
+J
+java:S1604o"(Make this anonymous inner class a lambda(œÁÈÌşÿÿÿÿ8‡¸Õ‡ğ.
+
+java:S1186l"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ê¬‘ß8ÖæÔ‡ğ.
+E
+java:S1604j"(Make this anonymous inner class a lambda(š¶ÉŒ8ÖæÔ‡ğ.
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ó·â¼
+S
+java:S1854r"6Remove this useless assignment to local variable "ex".(¢‚Ç8ÄÚÖ‡ğ.

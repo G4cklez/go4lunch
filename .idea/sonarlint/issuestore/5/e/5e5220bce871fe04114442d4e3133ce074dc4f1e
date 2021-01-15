@@ -1,32 +1,22 @@
 
-U
-java:S1135¥"2Complete the task associated to this TODO comment.( îğŞüÿÿÿÿ8âÂøìí.
-P
-java:S1135…"2Complete the task associated to this TODO comment.(çâ×¨8âÂøìí.
-R
-java:S1066…"/Merge this if statement with the enclosing one.(„ûÁºÿÿÿÿÿ8âÂøìí.
-J
-java:S1481 ",Remove this unused "placeId" local variable.(óó“Ö8„ùíí.
-U
-java:S1135é"2Complete the task associated to this TODO comment.(Ş†×ùÿÿÿÿ8âÂøìí.
-
-java:S1186x"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×İŠÎ8âÂøìí.
-Y
-java:S1854 ";Remove this useless assignment to local variable "placeId".(óó“Ö8„ùíí.
-P
-java:S1135"2Complete the task associated to this TODO comment.(çâ×¨8âÂøìí.
 Q
-java:S1068;"/Remove this unused "placeIdList" private field.(ĞŠ¹Şıÿÿÿÿ8âÂøìí.
-P
-java:S1135¢"2Complete the task associated to this TODO comment.(¹¶¼Í8âÂøìí.
+java:S1068="/Remove this unused "placeIdList" private field.(ĞŠ¹Şıÿÿÿÿ8Ê«»âï.
+
+java:S1186{"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×İŠÎ8Ê«»âï.
+\
+java:S1155®">Use isEmpty() to check whether the collection is empty or not.(Ãèûı8ÎÚÆâï.
+J
+java:S1481¨",Remove this unused "placeId" local variable.(óó“Ö8Ê«»âï.
+\
+java:S1155‰">Use isEmpty() to check whether the collection is empty or not.(®¡Ü°8Ê«»âï.
+^	java:S125©"<This block of commented-out lines of code should be removed.(ì®Ñºüÿÿÿÿ8Ê«»âï.
+R
+java:S1066Š"/Merge this if statement with the enclosing one.(„ûÁºÿÿÿÿÿ8Ê«»âï.
+\
+java:S1155¹">Use isEmpty() to check whether the collection is empty or not.(Ÿ—öÄ8Ê«»âï.
 £
-java:S1186t"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¸ÜÒÄøÿÿÿÿ8âÂøìí.
-P
-java:S1135®"2Complete the task associated to this TODO comment.(¹¶¼Í8âÂøìí.
-^	java:S125¡"<This block of commented-out lines of code should be removed.(ì®Ñºüÿÿÿÿ8„ùíí.
-\
-java:S1155±">Use isEmpty() to check whether the collection is empty or not.(Ÿ—öÄ8âÂøìí.
-Y	java:S125¯"<This block of commented-out lines of code should be removed.(Á’î“8âÂøìí.
-^	java:S125£"<This block of commented-out lines of code should be removed.(ìÒáüÿÿÿÿ8âÂøìí.
-\
-java:S1155±">Use isEmpty() to check whether the collection is empty or not.(Ãèûı8âÂøìí.
+java:S1186w"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¸ÜÒÄøÿÿÿÿ8Ê«»âï.
+p
+java:S3776€"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(×ûÙ8¹Á·ÿï.
+Y
+java:S1854¨";Remove this useless assignment to local variable "placeId".(óó“Ö8Ê«»âï.

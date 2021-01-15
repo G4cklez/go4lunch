@@ -2,21 +2,23 @@
 y
 java:S3252"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(ÕÑæ«øÿÿÿÿ8éáœ¿í.
 V	java:S1258"<This block of commented-out lines of code should be removed.(½ˆãíûÿÿÿÿ
-}	java:S116%"cRename this field "MY_LOCATION_REQUEST_CODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ˆ•÷ùÿÿÿÿ
-@
-java:S1068'"+Remove this unused "context" private field.(êÝç
+C
+java:S1604]"(Make this anonymous inner class a lambda(õ¨ûÌùÿÿÿÿ
 <	java:S131a""Add a default case to this switch.(Ñƒ¨áúÿÿÿÿ
 ]	java:S110#"<This class has 9 parents which is greater than 5 authorized.(º¢™¿ÿÿÿÿÿ8ë÷›¿í.
 f
 java:S1301a"KReplace this "switch" statement by "if" statements to increase readability.(Ñƒ¨áúÿÿÿÿ
-C
-java:S1604V"(Make this anonymous inner class a lambda(“åÓ‰úÿÿÿÿ
+{	java:S116&"aRename this field "REQUEST_CHECK_SETTINGS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö‘—Æùÿÿÿÿ
 W
 java:S1068%"<Remove this unused "MY_LOCATION_REQUEST_CODE" private field.( ˆ•÷ùÿÿÿÿ
-k
-java:S1450'"VRemove the "context" field and declare it as a local variable in the relevant methods.(êÝç
-{	java:S116&"aRename this field "REQUEST_CHECK_SETTINGS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö‘—Æùÿÿÿÿ
+C
+java:S1604V"(Make this anonymous inner class a lambda(“åÓ‰úÿÿÿÿ
 y
 java:S3252"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(ÕÑæ«øÿÿÿÿ8éáœ¿í.
-C
-java:S1604]"(Make this anonymous inner class a lambda(õ¨ûÌùÿÿÿÿ
+k
+java:S1450'"VRemove the "context" field and declare it as a local variable in the relevant methods.(êÝç
+@
+java:S1068'"+Remove this unused "context" private field.(êÝç
+}	java:S116%"cRename this field "MY_LOCATION_REQUEST_CODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ˆ•÷ùÿÿÿÿ
+E
+java:S1604|"(Make this anonymous inner class a lambda(šÖ×ž8€Ó’‹ð.

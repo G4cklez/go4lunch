@@ -33,6 +33,9 @@
     <string name="call">Call</string>
     <string name="like">Like</string>
     <string name="website">Website</string>
+    <string name="unable_to_find_compatible_application">Unable to find compatible application</string>
+    <string name="no_website_available">No Website available for this restaurant</string>
+    <string name="phone_not_available">Phone number not available</string>
 
 
 </resources>
