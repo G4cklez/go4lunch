@@ -176,4 +176,9 @@
         <item name="android:textSize">@dimen/details_fragment_size_txt_orange</item>
     </style>
 
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/duskYellow</item>
+    </style>
+
+
 </resources>

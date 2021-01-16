@@ -91,8 +91,7 @@ public class RestaurantRecyclerAdapter extends RecyclerView.Adapter<RestaurantRe
             updateNumberWorkmates(restaurant);
 
             updateDistance(restaurant);
-            UtilsListRestaurant.updateRating(binding.imgStar1, binding.imgStar2, binding.imgStar3, restaurant);
-
+            binding.ratingBar.setRating((float) restaurant.getRating());
             binding.parentCard.setOnClickListener(v->{
                 itemClickListener.onItemSelected(getAdapterPosition());
             });

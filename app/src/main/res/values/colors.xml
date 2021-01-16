@@ -16,4 +16,6 @@
     <color name="colorGoogle">#DF4931</color>
 
     <color name="colorOrangeNav">#FE8B50</color>
+    <color name="duskYellow">#DC870A</color>
+    <color name="ratingColor">#FFC107</color>
 </resources>

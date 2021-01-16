@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.RatingBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -23,16 +24,10 @@ public abstract class ItemRestaurantsBinding extends ViewDataBinding {
   public final ImageView imgRestaurantRating;
 
   @NonNull
-  public final ImageView imgStar1;
-
-  @NonNull
-  public final ImageView imgStar2;
-
-  @NonNull
-  public final ImageView imgStar3;
-
-  @NonNull
   public final CardView parentCard;
+
+  @NonNull
+  public final RatingBar ratingBar;
 
   @NonNull
   public final TextView tvNumberMates;
@@ -50,17 +45,14 @@ public abstract class ItemRestaurantsBinding extends ViewDataBinding {
   public final TextView tvRestaurantName;
 
   protected ItemRestaurantsBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      ImageView imgRestaurant, ImageView imgRestaurantRating, ImageView imgStar1,
-      ImageView imgStar2, ImageView imgStar3, CardView parentCard, TextView tvNumberMates,
-      TextView tvRestaurantAddress, TextView tvRestaurantDistance, TextView tvRestaurantHours,
-      TextView tvRestaurantName) {
+      ImageView imgRestaurant, ImageView imgRestaurantRating, CardView parentCard,
+      RatingBar ratingBar, TextView tvNumberMates, TextView tvRestaurantAddress,
+      TextView tvRestaurantDistance, TextView tvRestaurantHours, TextView tvRestaurantName) {
     super(_bindingComponent, _root, _localFieldCount);
     this.imgRestaurant = imgRestaurant;
     this.imgRestaurantRating = imgRestaurantRating;
-    this.imgStar1 = imgStar1;
-    this.imgStar2 = imgStar2;
-    this.imgStar3 = imgStar3;
     this.parentCard = parentCard;
+    this.ratingBar = ratingBar;
     this.tvNumberMates = tvNumberMates;
     this.tvRestaurantAddress = tvRestaurantAddress;
     this.tvRestaurantDistance = tvRestaurantDistance;

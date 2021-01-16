@@ -20,10 +20,8 @@ public class ItemRestaurantsBindingImpl extends ItemRestaurantsBinding  {
         sViewsWithIds.put(R.id.tvRestaurantDistance, 4);
         sViewsWithIds.put(R.id.tvNumberMates, 5);
         sViewsWithIds.put(R.id.imgRestaurantRating, 6);
-        sViewsWithIds.put(R.id.imgStar1, 7);
-        sViewsWithIds.put(R.id.imgStar2, 8);
-        sViewsWithIds.put(R.id.imgStar3, 9);
-        sViewsWithIds.put(R.id.imgRestaurant, 10);
+        sViewsWithIds.put(R.id.imgRestaurant, 7);
+        sViewsWithIds.put(R.id.ratingBar, 8);
     }
     // views
     // variables
@@ -32,16 +30,14 @@ public class ItemRestaurantsBindingImpl extends ItemRestaurantsBinding  {
     // Inverse Binding Event Handlers
 
     public ItemRestaurantsBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 11, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 9, sIncludes, sViewsWithIds));
     }
     private ItemRestaurantsBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.ImageView) bindings[10]
-            , (android.widget.ImageView) bindings[6]
             , (android.widget.ImageView) bindings[7]
-            , (android.widget.ImageView) bindings[8]
-            , (android.widget.ImageView) bindings[9]
+            , (android.widget.ImageView) bindings[6]
             , (androidx.cardview.widget.CardView) bindings[0]
+            , (android.widget.RatingBar) bindings[8]
             , (android.widget.TextView) bindings[5]
             , (android.widget.TextView) bindings[2]
             , (android.widget.TextView) bindings[4]

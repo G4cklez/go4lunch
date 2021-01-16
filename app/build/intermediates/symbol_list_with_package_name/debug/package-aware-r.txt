@@ -973,6 +973,7 @@ color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
 color dim_foreground_material_light
+color duskYellow
 color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
@@ -1435,6 +1436,7 @@ color quantum_yellowA100
 color quantum_yellowA200
 color quantum_yellowA400
 color quantum_yellowA700
+color ratingColor
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -2490,6 +2492,7 @@ id progress_bar
 id progress_circular
 id progress_horizontal
 id radio
+id ratingBar
 id resend_barrier
 id resend_code
 id right
@@ -2922,6 +2925,7 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string facebook_application_id
 string facebook_login_protocol_scheme
+string fb_login_protocol_scheme
 string firebase_database_url
 string firebase_web_host
 string fui_accessibility_logo
@@ -3032,6 +3036,7 @@ string is_eating
 string like
 string location_access_denied
 string location_permission
+string lunch_time
 string messenger_send_button_text
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
@@ -3068,6 +3073,7 @@ string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string name
+string no
 string no_website_available
 string open_drawer
 string open_now
@@ -3091,6 +3097,8 @@ string project_id
 string restaurant
 string search_menu_title
 string search_restaurant
+string setting_dialog_msg
+string settings
 string sign_in_with_fb
 string sign_in_with_google
 string status_bar_notification_info_overflow
@@ -3098,6 +3106,9 @@ string success
 string title_text
 string unable_to_find_compatible_application
 string website
+string with
+string yes
+string you_have_lunch_scheduled
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -3415,6 +3426,7 @@ style Platform_V21_AppCompat_Light
 style Platform_V25_AppCompat
 style Platform_V25_AppCompat_Light
 style Platform_Widget_AppCompat_Spinner
+style RatingBar
 style RtlOverlay_DialogWindowTitle_AppCompat
 style RtlOverlay_Widget_AppCompat_ActionBar_TitleItem
 style RtlOverlay_Widget_AppCompat_DialogTitle_Icon

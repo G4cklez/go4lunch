@@ -1,7 +1,7 @@
 package com.app.go4lunch.di;
 
 
-import com.app.go4lunch.viewModel.factory.ViewModelFactory;
+import com.app.go4lunch.viewModel.ViewModelFactory;
 import com.app.go4lunch.repositories.RestaurantRepository;
 import com.app.go4lunch.repositories.RestaurantPlacesRepository;
 import com.app.go4lunch.repositories.UserRepository;

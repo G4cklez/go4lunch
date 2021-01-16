@@ -47,3 +47,11 @@ s
 Capp/src/main/java/com/app/go4lunch/repositories/UserRepository.java,b/d/bd9b5cbe98609bfead650e0a5a54ff77f486ffa3
 k
 ;app/src/main/java/com/app/go4lunch/helpers/UtilsCalcul.java,c/d/cd2b4b1b2a645468d211ee64b7b8ac834bcc9e25
+Œ
+\app/src/main/java/com/app/go4lunch/notificationWorkManager/WorkerNotificationController.java,5/6/560ad24f7cbf7925ec22b6184ddabbdd695d86be
+k
+;app/src/main/java/com/app/go4lunch/constants/Constants.java,6/a/6ae0faa8c1830dd0b6c5127d025f53a00bc06b95
+r
+Bapp/src/main/java/com/app/go4lunch/viewModel/ViewModelFactory.java,a/b/abb4af3092bc7967f82ae43a7ecf75e963119ac7
+‚
+Rapp/src/main/java/com/app/go4lunch/notificationWorkManager/NotificationWorker.java,7/8/785c2d0a7ff4a957b4c263ca5fb63c182433f1d5

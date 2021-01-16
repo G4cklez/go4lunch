@@ -29,10 +29,12 @@ import com.app.go4lunch.helpers.LocationActivity;
 import com.app.go4lunch.helpers.SharedPrefManager;
 import com.app.go4lunch.helpers.UtilsCalcul;
 import com.app.go4lunch.model.User;
+import com.app.go4lunch.notificationWorkManager.WorkerNotificationController;
 import com.app.go4lunch.view.activities.fragments.FriendsListFragment;
 import com.app.go4lunch.view.activities.fragments.MapFragment;
+import com.app.go4lunch.view.activities.fragments.RestaurantListFragment;
 import com.app.go4lunch.viewModel.AppViewModel;
-import com.app.go4lunch.viewModel.factory.ViewModelFactory;
+import com.app.go4lunch.viewModel.ViewModelFactory;
 import com.app.go4lunch.di.DI;
 import com.bumptech.glide.Glide;
 import com.firebase.ui.auth.AuthUI;
@@ -53,8 +55,8 @@ import java.util.List;
 public class HomeActivity extends LocationActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private MapFragment mapFragment;
-    private com.app.go4lunch.view.activities.fragments.RestaurantListFragment RestaurantListFragment;
-    private FriendsListFragment listWorkmatesFragment;
+    private RestaurantListFragment restaurantListFragment;
+    private FriendsListFragment friendsListFragment;
 
     private Location currentLocation;
     private AppViewModel appViewModel;
@@ -78,9 +80,9 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
         binding.searchBar.setVisibility(View.VISIBLE);
         binding.searchBar.setOnEditorActionListener((v, actionId, event) -> {
             if (actionId == EditorInfo.IME_ACTION_DONE) {
-                if (currentFragment == RestaurantListFragment) {
+                if (currentFragment == restaurantListFragment) {
                     String input = binding.searchBar.getText().toString();
-                    RestaurantListFragment.performAutoCompleteSearch(input);
+                    restaurantListFragment.performAutoCompleteSearch(input);
                 }
                 return true;
             } else {
@@ -204,18 +206,18 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
      * Display the RestaurantListFragment {@link com.app.go4lunch.view.activities.fragments.RestaurantListFragment}
      */
     private com.app.go4lunch.view.activities.fragments.RestaurantListFragment displayRestaurantListFragment() {
-        if (this.RestaurantListFragment == null) {
-            this.RestaurantListFragment = RestaurantListFragment.newInstance(currentLocation);
+        if (this.restaurantListFragment == null) {
+            this.restaurantListFragment = restaurantListFragment.newInstance(currentLocation);
         }
-        return this.RestaurantListFragment;
+        return this.restaurantListFragment;
     }
 
 
     private FriendsListFragment displayListWorkmatesFragment() {
-        if (this.listWorkmatesFragment == null) {
-            this.listWorkmatesFragment = FriendsListFragment.newInstance();
+        if (this.friendsListFragment == null) {
+            this.friendsListFragment = FriendsListFragment.newInstance();
         }
-        return listWorkmatesFragment;
+        return friendsListFragment;
     }
 
 
@@ -255,7 +257,7 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
     private void navigateToDetails() {
         if (user.isChooseRestaurant()) {
             Intent intent = new Intent(this, RestaurantDetailActivity.class);
-            intent.putExtra("placeId", user.getRestaurantChoose().getPlaceId());
+            intent.putExtra(Constants.PLACE_ID, user.getRestaurantChoose().getPlaceId());
             startActivity(intent);
         }
     }
@@ -273,12 +275,18 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
 
     private void showSettingsDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Settings");
-        builder.setMessage("Do you want to enable the notification?");
-        builder.setPositiveButton("Yes",
-                (dialogInterface, i) -> SharedPrefManager.getInstance(this).saveBoolean(Constants.NOTIFICATION_ENABLED, true));
-        builder.setNegativeButton("No",
-                (dialog, which) -> SharedPrefManager.getInstance(this).saveBoolean(Constants.NOTIFICATION_ENABLED, false));
+        builder.setTitle(getString(R.string.settings));
+        builder.setMessage(getString(R.string.setting_dialog_msg));
+        builder.setPositiveButton(getString(R.string.yes),
+                (dialogInterface, i) -> {
+                    SharedPrefManager.getInstance(this).saveBoolean(Constants.NOTIFICATION_ENABLED, true);
+                    WorkerNotificationController.startWorkRequest(getApplicationContext());
+                });
+        builder.setNegativeButton(getString(R.string.no),
+                (dialog, which) -> {
+                    SharedPrefManager.getInstance(this).saveBoolean(Constants.NOTIFICATION_ENABLED, false);
+                    WorkerNotificationController.stopWorkRequest(getApplicationContext());
+                });
         AlertDialog alertDialog = builder.create();
         alertDialog.show();
     }
@@ -288,7 +296,7 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
     public void onBackPressed() {
         if (binding.navigationDrawer.isDrawerOpen(GravityCompat.START)) {
             binding.navigationDrawer.closeDrawer(GravityCompat.START);
-        }else {
+        } else {
             onBackPressed();
         }
     }

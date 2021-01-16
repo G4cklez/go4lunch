@@ -1,22 +1,21 @@
 
-
-java:S1186`"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¸˜š_8¡ÑŞï.
-r
-java:S2259Û"TA "NullPointerException" could be thrown; "RestaurantListFragment" is nullable here.(ş£°¶8¡ÑŞï.
-Y	java:S1102"=This class has 10 parents which is greater than 5 authorized.(¢ç 8•ßáï.
-Ÿ
-java:S1186ñ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¨‰ïÃ8ß„Àí.
-
-java:S1186]"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô—½48¡ÑŞï.
-Z
-java:S1117"8Rename "user" which hides the field declared at line 58.(”ØûÚøÿÿÿÿ8¡ÑŞï.
-S
-java:S2209Û"5Change this instance-reference to a static reference.(ş£°¶8•ßáï.
+R
+java:S1066Õ"/Merge this if statement with the enclosing one.(±„‘‰ıÿÿÿÿ8œğ”Ğğ.
+w
+java:S2259Ò"TA "NullPointerException" could be thrown; "restaurantListFragment" is nullable here.(Ş¬»©ıÿÿÿÿ8Òñ£Òğ.
 M
-java:S1066ß"/Merge this if statement with the enclosing one.(”¿¨˜8ß„Àí.
-}	java:S1165"aRename this field "RestaurantListFragment" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Ö€·8¡ÑŞï.
-?	java:S131¸""Add a default case to this switch.(ŸÌ§ô8ß„Àí.
+java:S1066Ö"/Merge this if statement with the enclosing one.(ß¸é8œğ”Ğğ.
 K
-java:S1604ÿ"(Make this anonymous inner class a lambda(Ú¶£·úÿÿÿÿ8ß„Àí.
-M
-java:S1066á"/Merge this if statement with the enclosing one.(Ì ¨‘8ß„Àí.
+java:S1604ô"(Make this anonymous inner class a lambda(Ú¶£·úÿÿÿÿ8Õó¡Òğ.
+D	java:S131³""Add a default case to this switch.(Ò“ÿšùÿÿÿÿ8œğ”Ğğ.
+Ÿ
+java:S1186å"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¨‰ïÃ8¾••Ğğ.
+£
+java:S1186c"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ê¥¾àûÿÿÿÿ8¡ÑŞï.
+
+java:S1186_"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±8¡ÑŞï.
+[
+java:S1117€"8Rename "user" which hides the field declared at line 63.(”ØûÚøÿÿÿÿ8¡ÑŞï.
+Y	java:S1107"=This class has 10 parents which is greater than 5 authorized.(¢ç 8ìÅ³×ğ.
+X
+java:S2209Ò"5Change this instance-reference to a static reference.(Ş¬»©ıÿÿÿÿ8ìÅ³×ğ.

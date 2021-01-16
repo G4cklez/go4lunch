@@ -16,6 +16,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.app.go4lunch.R;
+import com.app.go4lunch.constants.Constants;
 import com.app.go4lunch.databinding.FragmentRestaurantListBinding;
 import com.app.go4lunch.helpers.UtilsListRestaurant;
 import com.app.go4lunch.model.Restaurant;
@@ -23,7 +24,7 @@ import com.app.go4lunch.model.RestaurantResponse;
 import com.app.go4lunch.view.activities.RestaurantDetailActivity;
 import com.app.go4lunch.view.adapter.RestaurantRecyclerAdapter;
 import com.app.go4lunch.viewModel.AppViewModel;
-import com.app.go4lunch.viewModel.factory.ViewModelFactory;
+import com.app.go4lunch.viewModel.ViewModelFactory;
 import com.app.go4lunch.di.DI;
 import com.bumptech.glide.Glide;
 import com.google.android.gms.maps.model.LatLng;
@@ -175,7 +176,7 @@ public class RestaurantListFragment extends Fragment {
     private void initRecyclerView() {
         adapter = new RestaurantRecyclerAdapter(Glide.with(this), position -> {
             Intent intent = new Intent(getContext(), RestaurantDetailActivity.class);
-            intent.putExtra("placeId", mRestaurantList.get(position).getPlaceId());
+            intent.putExtra(Constants.PLACE_ID, mRestaurantList.get(position).getPlaceId());
             startActivity(intent);
         });
         binding.fragmentListRestaurantsRecyclerView.setAdapter(adapter);

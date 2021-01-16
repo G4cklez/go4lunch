@@ -28,24 +28,24 @@
         "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/res/menu/bottom_navigation_menu.xml"
     },
     {
-        "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_foreground.png.flat",
-        "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_foreground.png"
-    },
-    {
         "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_search_white_24dp.png.flat",
         "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_search_white_24dp.png"
     },
     {
-        "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/drawable_bottom_navigation_colors.xml.flat",
-        "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/res/drawable/bottom_navigation_colors.xml"
+        "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_call_black_24dp.png.flat",
+        "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_call_black_24dp.png"
     },
     {
         "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_choose_restaurant.png.flat",
         "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/generated/res/pngs/debug/drawable-mdpi/ic_choose_restaurant.png"
     },
     {
-        "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_call_black_24dp.png.flat",
-        "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_call_black_24dp.png"
+        "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/drawable_bottom_navigation_colors.xml.flat",
+        "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/res/drawable/bottom_navigation_colors.xml"
     },
     {
         "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/drawable_image_restaurant_bis.png.flat",
@@ -84,12 +84,12 @@
         "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/generated/res/pngs/debug/drawable-hdpi/ic_view_list_black_24dp.png"
     },
     {
-        "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_google.xml.flat",
-        "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_google.xml"
-    },
-    {
         "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_fab_alphabetical_24dp.png.flat",
         "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_fab_alphabetical_24dp.png"
+    },
+    {
+        "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_google.xml.flat",
+        "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_google.xml"
     },
     {
         "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_star_2.png.flat",
@@ -104,12 +104,12 @@
         "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_fab_alphabetical_24dp.png"
     },
     {
-        "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_person_white_24dp.png.flat",
-        "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/generated/res/pngs/debug/drawable-mdpi/ic_person_white_24dp.png"
-    },
-    {
         "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_star_orange_24dp.png.flat",
         "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/generated/res/pngs/debug/drawable-mdpi/ic_star_orange_24dp.png"
+    },
+    {
+        "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_person_white_24dp.png.flat",
+        "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/generated/res/pngs/debug/drawable-mdpi/ic_person_white_24dp.png"
     },
     {
         "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_call_black_24dp.png.flat",
@@ -160,12 +160,12 @@
         "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/generated/res/pngs/debug/drawable-mdpi/ic_map_black_24dp.png"
     },
     {
-        "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_lunch_1.png.flat",
-        "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/generated/res/pngs/debug/drawable-mdpi/ic_lunch_1.png"
-    },
-    {
         "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_view_list_black_24dp.png.flat",
         "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/generated/res/pngs/debug/drawable-mdpi/ic_view_list_black_24dp.png"
+    },
+    {
+        "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_lunch_1.png.flat",
+        "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/generated/res/pngs/debug/drawable-mdpi/ic_lunch_1.png"
     },
     {
         "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -204,12 +204,12 @@
         "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_fork_and_knife.png"
     },
     {
-        "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_fab_star_24dp.png.flat",
-        "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/generated/res/pngs/debug/drawable-hdpi/ic_fab_star_24dp.png"
-    },
-    {
         "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/layout_fragment_map.xml.flat",
         "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/res/layout/fragment_map.xml"
+    },
+    {
+        "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_fab_star_24dp.png.flat",
+        "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/generated/res/pngs/debug/drawable-hdpi/ic_fab_star_24dp.png"
     },
     {
         "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_launcher_foreground.xml.flat",

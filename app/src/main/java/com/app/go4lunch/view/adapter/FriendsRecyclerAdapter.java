@@ -25,11 +25,13 @@ public class FriendsRecyclerAdapter extends RecyclerView.Adapter<FriendsRecycler
     private Context context;
     private List<User> usersList = new ArrayList<>();
     private ItemClickListener listener;
+    private boolean isDetails;
 
-    public FriendsRecyclerAdapter(RequestManager glide, ItemClickListener listener)
+    public FriendsRecyclerAdapter(RequestManager glide, ItemClickListener listener, boolean isDetails)
     {
         this.glide = glide;
         this.listener = listener;
+        this.isDetails = isDetails;
     }
 
     @NonNull
@@ -60,7 +62,7 @@ public class FriendsRecyclerAdapter extends RecyclerView.Adapter<FriendsRecycler
         this.notifyDataSetChanged();
     }
 
-    static class ViewHolder extends RecyclerView.ViewHolder
+     class ViewHolder extends RecyclerView.ViewHolder
     {
         private ItemClickListener listener;
         private ItemFriendBinding binding;
@@ -94,7 +96,7 @@ public class FriendsRecyclerAdapter extends RecyclerView.Adapter<FriendsRecycler
                     binding.tvUserName.setTextAppearance(R.style.item_list_workmates_choose_txt);
                 }
             }
-            else
+            else if(!isDetails)
             {
                 textString = " " + context.getString(R.string.pending);
                 finalText = firstName + textString;

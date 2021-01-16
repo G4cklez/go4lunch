@@ -14,12 +14,13 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.app.go4lunch.R;
+import com.app.go4lunch.constants.Constants;
 import com.app.go4lunch.databinding.FragmentMapBinding;
 import com.app.go4lunch.model.Restaurant;
 import com.app.go4lunch.model.RestaurantResponse;
 import com.app.go4lunch.view.activities.RestaurantDetailActivity;
 import com.app.go4lunch.viewModel.AppViewModel;
-import com.app.go4lunch.viewModel.factory.ViewModelFactory;
+import com.app.go4lunch.viewModel.ViewModelFactory;
 import com.app.go4lunch.di.DI;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -168,7 +169,7 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
     private void lunchDetailsActivity(Marker marker) {
         String placeId = (String) marker.getTag();
         Intent intent = new Intent(getContext(), RestaurantDetailActivity.class);
-        intent.putExtra("placeId", placeId);
+        intent.putExtra(Constants.PLACE_ID, placeId);
         startActivity(intent);
     }
 

@@ -1,4 +1,4 @@
-package com.app.go4lunch.viewModel.factory;
+package com.app.go4lunch.viewModel;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.ViewModel;

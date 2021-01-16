@@ -12,13 +12,14 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.app.go4lunch.R;
+import com.app.go4lunch.constants.Constants;
 import com.app.go4lunch.databinding.FragmentFriendsListBinding;
 import com.app.go4lunch.di.DI;
 import com.app.go4lunch.model.User;
 import com.app.go4lunch.view.activities.RestaurantDetailActivity;
 import com.app.go4lunch.view.adapter.FriendsRecyclerAdapter;
 import com.app.go4lunch.viewModel.AppViewModel;
-import com.app.go4lunch.viewModel.factory.ViewModelFactory;
+import com.app.go4lunch.viewModel.ViewModelFactory;
 import com.bumptech.glide.Glide;
 
 import java.util.List;
@@ -90,10 +91,10 @@ public class FriendsListFragment extends Fragment {
             if (mUsersList.get(position).isChooseRestaurant())
             {
                 Intent intent = new Intent(getContext(), RestaurantDetailActivity.class);
-                intent.putExtra("placeId", mUsersList.get(position).getRestaurantChoose().getPlaceId());
+                intent.putExtra(Constants.PLACE_ID, mUsersList.get(position).getRestaurantChoose().getPlaceId());
                 startActivity(intent);
             }
-        });
+        }, false);
         binding.rvFriends.setAdapter(adapter);
     }
 }

@@ -4,6 +4,10 @@
     <!-- AUTH ACTIVITY LJvmwrQ2hJrDf9n-->
 <!--    <string name="google_maps_key">AIzaSyDzwS7ZJ-YjmtgAp-QzZNofatSHH3tUQ-U</string>-->
     <string name="google_maps_key">AIzaSyDO3DmUggUtlQxr2t_oaj-ZHaU_ZQ7E8XU</string>
+    <string name="facebook_application_id"
+        translatable="false">280637793322639</string>
+
+    <string name="fb_login_protocol_scheme">fb280637793322639</string>
     <string name="title_text">Find a nice restaurant and invite your co-workers for lunch!</string>
     <string name="sign_in_with_fb">Sign in with Facebook</string>
     <string name="sign_in_with_google">Sign in with Google</string>
@@ -36,6 +40,13 @@
     <string name="unable_to_find_compatible_application">Unable to find compatible application</string>
     <string name="no_website_available">No Website available for this restaurant</string>
     <string name="phone_not_available">Phone number not available</string>
+    <string name="settings">Settings</string>
+    <string name="setting_dialog_msg">Do you want to enable the notification?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="with">with</string>
+    <string name="lunch_time">Lunch Time</string>
+    <string name="you_have_lunch_scheduled">You\'ve a lunch scheduled</string>
 
 
 </resources>

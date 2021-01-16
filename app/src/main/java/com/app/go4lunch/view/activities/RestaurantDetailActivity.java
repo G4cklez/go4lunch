@@ -21,7 +21,7 @@ import com.app.go4lunch.model.Restaurant;
 import com.app.go4lunch.model.User;
 import com.app.go4lunch.view.adapter.FriendsRecyclerAdapter;
 import com.app.go4lunch.viewModel.AppViewModel;
-import com.app.go4lunch.viewModel.factory.ViewModelFactory;
+import com.app.go4lunch.viewModel.ViewModelFactory;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 import com.google.firebase.auth.FirebaseAuth;
@@ -33,10 +33,13 @@ import java.util.Objects;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.observers.DisposableObserver;
 
+import static com.app.go4lunch.constants.Constants.NO_RESTAURANT;
+import static com.app.go4lunch.constants.Constants.PLACE_ID;
+
 public class RestaurantDetailActivity extends AppCompatActivity {
 
     private String placeId;
-    private Restaurant restaurantFinal;
+    private Restaurant selectedRestaurant;
     private Disposable disposable;
     private User currentUser;
     private String uidUser;
@@ -45,15 +48,15 @@ public class RestaurantDetailActivity extends AppCompatActivity {
     private List<Restaurant> restaurantsListFromFirebase;
     private AppViewModel appViewModel;
 
-    private final static int REQUEST_CODE_CALL = 13;
-    private static final String NO_RESTAURANT = "NO_RESTAURANT";
+    private final static int PERMISSION_REQUEST_CODE = 111;
+
 
     ActivityRestaurantDetailBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this,R.layout.activity_restaurant_detail);
-        placeId = getIntent().getStringExtra("placeId");
+        placeId = getIntent().getStringExtra(PLACE_ID);
 
         initToolbar();
         initRecyclerView();
@@ -97,10 +100,10 @@ public class RestaurantDetailActivity extends AppCompatActivity {
     {
         ViewModelFactory viewModelFactory = DI.getViewModelFactory();
         appViewModel = ViewModelProviders.of(this, viewModelFactory).get(AppViewModel.class);
-        getRestaurantFromPlaces();
+        getRestaurantFromPlacesApi();
     }
 
-    private void getRestaurantFromPlaces()
+    private void getRestaurantFromPlacesApi()
     {
         String key = getString(R.string.google_maps_key);
         appViewModel.getRestaurantDetailPlacesMutableLiveData(placeId, key)
@@ -116,8 +119,8 @@ public class RestaurantDetailActivity extends AppCompatActivity {
                             }
                             else
                             {
-                                restaurantFinal = restaurant;
-                                getRestaurantListFromFirebase();
+                                selectedRestaurant = restaurant;
+                                getRestaurantList();
                                 getRestaurantFinalFromFirebase();
                             }
                         }
@@ -131,23 +134,23 @@ public class RestaurantDetailActivity extends AppCompatActivity {
 
     private void getRestaurantFinalFromFirebase()
     {
-        appViewModel.getRestaurantFirebaseMutableLiveData(restaurantFinal)
+        appViewModel.getRestaurantFirebaseMutableLiveData(selectedRestaurant)
                 .observe(this, restaurant -> {
 
                     workmatesList = restaurant.getUserList();
-                    restaurantFinal.setUserList(workmatesList);
+                    selectedRestaurant.setUserList(workmatesList);
                     adapter.updateList(workmatesList);
                 });
     }
 
-    private void getRestaurantListFromFirebase()
+    private void getRestaurantList()
     {
         appViewModel.getRestaurantsListMutableLiveData().observe(this, restaurantList -> {
             restaurantsListFromFirebase = restaurantList;
-            if (!restaurantsListFromFirebase.contains(restaurantFinal))
+            if (!restaurantsListFromFirebase.contains(selectedRestaurant))
             {
                 workmatesList = new ArrayList<>();
-                appViewModel.createRestaurant(restaurantFinal.getPlaceId(),workmatesList, restaurantFinal.getName(), restaurantFinal.getAddress());
+                appViewModel.createRestaurant(selectedRestaurant.getPlaceId(),workmatesList, selectedRestaurant.getName(), selectedRestaurant.getAddress());
             }
             getCurrentUser();
         });
@@ -158,23 +161,22 @@ public class RestaurantDetailActivity extends AppCompatActivity {
         uidUser = FirebaseAuth.getInstance().getUid();
         appViewModel.getUserCurrentMutableLiveData(uidUser).observe(this, user -> {
             currentUser = user;
-            updateRestaurant(restaurantFinal);
+            updateRestaurant(selectedRestaurant);
         });
     }
 
-    ////////////////////////////////////////// ONCLICK ///////////////////////////////////////////
 
     void onCallClick()
     {
-        if (!restaurantFinal.getPhoneNumber().equals(""))
+        if (!selectedRestaurant.getPhoneNumber().equals(""))
         {
-            String phone = restaurantFinal.getPhoneNumber();
+            String phone = selectedRestaurant.getPhoneNumber();
             Uri uri = Uri.parse("tel:"+phone);
             Intent intent = new Intent(Intent.ACTION_CALL, uri);
 
             if (ActivityCompat.checkSelfPermission(Objects.requireNonNull(this), Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED)
             {
-                ActivityCompat.requestPermissions(Objects.requireNonNull(this), new String[]{Manifest.permission.CALL_PHONE}, REQUEST_CODE_CALL);
+                ActivityCompat.requestPermissions(Objects.requireNonNull(this), new String[]{Manifest.permission.CALL_PHONE}, PERMISSION_REQUEST_CODE);
             }
             else
             {
@@ -198,13 +200,13 @@ public class RestaurantDetailActivity extends AppCompatActivity {
         {
             restaurantList = currentUser.getRestaurantListFavorites();
         }
-        if (!currentUser.getRestaurantListFavorites().contains(restaurantFinal))
+        if (!currentUser.getRestaurantListFavorites().contains(selectedRestaurant))
         {
-            restaurantList.add(restaurantFinal);
+            restaurantList.add(selectedRestaurant);
         }
         else
         {
-            restaurantList.remove(restaurantFinal);
+            restaurantList.remove(selectedRestaurant);
         }
         appViewModel.updateUserRestaurantListFavorites(uidUser, restaurantList);
         updateLike();
@@ -212,9 +214,9 @@ public class RestaurantDetailActivity extends AppCompatActivity {
 
     void onWebsiteClick()
     {
-        if (!restaurantFinal.getWebsite().equals(""))
+        if (!selectedRestaurant.getWebsite().equals(""))
         {
-            String url = restaurantFinal.getWebsite();
+            String url = selectedRestaurant.getWebsite();
             if(!url.startsWith("https://") && !url.startsWith("http://"))
             {
                 url = "http://" + url;
@@ -240,13 +242,13 @@ public class RestaurantDetailActivity extends AppCompatActivity {
     void onSelectClick()
     {
         User UserPushOnFirebase = new User(currentUser.getEmail(),currentUser.getName(), currentUser.getIllustration());
-        if(!currentUser.isChooseRestaurant() || !currentUser.getRestaurantChoose().equals(restaurantFinal))
+        if(!currentUser.isChooseRestaurant() || !currentUser.getRestaurantChoose().equals(selectedRestaurant))
         {
             if (currentUser.isChooseRestaurant())
             {
                 updateOtherRestaurantInFirebase(currentUser.getRestaurantChoose());
             }
-            currentUser.setRestaurantChoose(restaurantFinal);
+            currentUser.setRestaurantChoose(selectedRestaurant);
             binding.btnSelect.setImageResource(R.drawable.ic_choose_restaurant);
             workmatesList.add(UserPushOnFirebase);
         }
@@ -256,7 +258,7 @@ public class RestaurantDetailActivity extends AppCompatActivity {
             binding.btnSelect.setImageResource(R.drawable.ic_choose_not_restaurant);
             workmatesList.remove(UserPushOnFirebase);
         }
-        appViewModel.updateRestaurantUserList(restaurantFinal.getPlaceId(), workmatesList);
+        appViewModel.updateRestaurantUserList(selectedRestaurant.getPlaceId(), workmatesList);
         appViewModel.updateUserRestaurant(uidUser, currentUser.getRestaurantChoose());
         appViewModel.updateUserIsChooseRestaurant(uidUser, currentUser.isChooseRestaurant());
         adapter.notifyDataSetChanged();
@@ -289,7 +291,7 @@ public class RestaurantDetailActivity extends AppCompatActivity {
 
         if (currentUser.getRestaurantListFavorites() != null)
         {
-            if (currentUser.getRestaurantListFavorites().contains(restaurantFinal))
+            if (currentUser.getRestaurantListFavorites().contains(selectedRestaurant))
             {
                 favorite = true;
             }
@@ -328,7 +330,7 @@ public class RestaurantDetailActivity extends AppCompatActivity {
      */
     private void configButton()
     {
-        if (!currentUser.isChooseRestaurant() || !currentUser.getRestaurantChoose().equals(restaurantFinal))
+        if (!currentUser.isChooseRestaurant() || !currentUser.getRestaurantChoose().equals(selectedRestaurant))
         {
             binding.btnSelect.setImageResource(R.drawable.ic_choose_not_restaurant);
         }
@@ -342,7 +344,7 @@ public class RestaurantDetailActivity extends AppCompatActivity {
     {
         adapter = new FriendsRecyclerAdapter(Glide.with(this), position -> {
 
-        });
+        }, true);
         binding.rvFriendsRestaurant.setAdapter(adapter);
     }
 

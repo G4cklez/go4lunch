@@ -1,22 +1,11 @@
 
-Q
-java:S1068="/Remove this unused "placeIdList" private field.(ĞŠ¹Şıÿÿÿÿ8Ê«»âï.
-
-java:S1186{"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×İŠÎ8Ê«»âï.
-\
-java:S1155®">Use isEmpty() to check whether the collection is empty or not.(Ãèûı8ÎÚÆâï.
-J
-java:S1481¨",Remove this unused "placeId" local variable.(óó“Ö8Ê«»âï.
-\
-java:S1155‰">Use isEmpty() to check whether the collection is empty or not.(®¡Ü°8Ê«»âï.
-^	java:S125©"<This block of commented-out lines of code should be removed.(ì®Ñºüÿÿÿÿ8Ê«»âï.
-R
-java:S1066Š"/Merge this if statement with the enclosing one.(„ûÁºÿÿÿÿÿ8Ê«»âï.
-\
-java:S1155¹">Use isEmpty() to check whether the collection is empty or not.(Ÿ—öÄ8Ê«»âï.
 £
-java:S1186w"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¸ÜÒÄøÿÿÿÿ8Ê«»âï.
+java:S1186y"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¸ÜÒÄøÿÿÿÿ8²ˆˆºğ.
+
+java:S1186}"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×İŠÎ8²ˆˆºğ.
+R
+java:S1066Œ"/Merge this if statement with the enclosing one.(„ûÁºÿÿÿÿÿ8Ê«»âï.
 p
-java:S3776€"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(×ûÙ8¹Á·ÿï.
-Y
-java:S1854¨";Remove this useless assignment to local variable "placeId".(óó“Ö8Ê«»âï.
+java:S3776‚"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(×ûÙ8²ˆˆºğ.
+Q
+java:S1068?"/Remove this unused "placeIdList" private field.(ĞŠ¹Şıÿÿÿÿ8²ˆˆºğ.
