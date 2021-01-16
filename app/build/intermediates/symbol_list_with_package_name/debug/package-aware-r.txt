@@ -1983,6 +1983,7 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button_facebook
 drawable button_google
+drawable choose_restaurant_selector
 drawable com_facebook_auth_dialog_background
 drawable com_facebook_auth_dialog_cancel_background
 drawable com_facebook_auth_dialog_header_background
@@ -2194,6 +2195,7 @@ id action_bar_title
 id action_container
 id action_context_bar
 id action_divider
+id action_friends
 id action_image
 id action_listview
 id action_mapview
@@ -2203,7 +2205,6 @@ id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
 id action_text
-id action_workmates
 id actions
 id activity_chooser_view_content
 id add

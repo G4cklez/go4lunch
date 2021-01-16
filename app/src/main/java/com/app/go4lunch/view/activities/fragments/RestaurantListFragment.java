@@ -18,7 +18,7 @@ import android.view.ViewGroup;
 import com.app.go4lunch.R;
 import com.app.go4lunch.constants.Constants;
 import com.app.go4lunch.databinding.FragmentRestaurantListBinding;
-import com.app.go4lunch.helpers.UtilsListRestaurant;
+import com.app.go4lunch.helpers.RestaurantUtils;
 import com.app.go4lunch.model.Restaurant;
 import com.app.go4lunch.model.RestaurantResponse;
 import com.app.go4lunch.view.activities.RestaurantDetailActivity;
@@ -118,7 +118,7 @@ public class RestaurantListFragment extends Fragment {
                             @Override
                             public void onNext(List<Restaurant> restaurantList) {
                                 mRestaurantList = restaurantList;
-                                UtilsListRestaurant.updateDistanceToCurrentLocation(currentLocation, mRestaurantList);
+                                RestaurantUtils.updateDistanceToCurrentLocation(currentLocation, mRestaurantList);
                                 getRestaurantListFromFirebase();
                             }
                             @Override
@@ -153,15 +153,15 @@ public class RestaurantListFragment extends Fragment {
 
     void setOnClickListeners() {
         binding.fragmentListRestaurantsNearMeFab.setOnClickListener(v->{
-            UtilsListRestaurant.sortProximity(mRestaurantList);
+            RestaurantUtils.sortByDistance(mRestaurantList);
             adapter.notifyDataSetChanged();
         });
         binding.fragmentListRestaurantsRatingFab.setOnClickListener(v->{
-            UtilsListRestaurant.sortRatingReverse(mRestaurantList);
+            RestaurantUtils.sortByRating(mRestaurantList);
             adapter.notifyDataSetChanged();
         });
         binding.fragmentListRestaurantsNameFab.setOnClickListener(v->{
-            UtilsListRestaurant.sortName(mRestaurantList);
+            RestaurantUtils.sortByName(mRestaurantList);
             adapter.notifyDataSetChanged();
         });
         binding.fragmentListRestaurantsRefreshFab.setOnClickListener(v->{
@@ -224,7 +224,7 @@ public class RestaurantListFragment extends Fragment {
             Restaurant restaurantAutocomplete = new Restaurant(name, address, illustration, placeId, rating, false,location);
             mRestaurantList = new ArrayList<>();
             mRestaurantList.add(restaurantAutocomplete);
-            UtilsListRestaurant.updateDistanceToCurrentLocation(currentLocation, mRestaurantList);
+            RestaurantUtils.updateDistanceToCurrentLocation(currentLocation, mRestaurantList);
             getRestaurantListFromFirebase();
             binding.fragmentListRestaurantsMenuFab.setVisibility(View.INVISIBLE);
             binding.fragmentListRestaurantsRefreshFab.setVisibility(View.VISIBLE);
@@ -288,7 +288,7 @@ public class RestaurantListFragment extends Fragment {
                                         restaurantListAutocomplete.add(restaurant);
                                         mRestaurantList = restaurantListAutocomplete;
                                         getRestaurantListFromFirebase();
-                                        UtilsListRestaurant.updateDistanceToCurrentLocation(currentLocation, mRestaurantList);
+                                        RestaurantUtils.updateDistanceToCurrentLocation(currentLocation, mRestaurantList);
                                     }
                                 }
                             }

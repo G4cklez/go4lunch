@@ -16,7 +16,6 @@ import android.widget.Toast;
 import com.app.go4lunch.R;
 import com.app.go4lunch.databinding.ActivityRestaurantDetailBinding;
 import com.app.go4lunch.di.DI;
-import com.app.go4lunch.helpers.UtilsListRestaurant;
 import com.app.go4lunch.model.Restaurant;
 import com.app.go4lunch.model.User;
 import com.app.go4lunch.view.adapter.FriendsRecyclerAdapter;
@@ -44,7 +43,7 @@ public class RestaurantDetailActivity extends AppCompatActivity {
     private User currentUser;
     private String uidUser;
     private FriendsRecyclerAdapter adapter;
-    private List<User> workmatesList;
+    private List<User> friendList;
     private List<Restaurant> restaurantsListFromFirebase;
     private AppViewModel appViewModel;
 
@@ -93,6 +92,9 @@ public class RestaurantDetailActivity extends AppCompatActivity {
         setSupportActionBar(binding.toolBar);
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         binding.toolBar.setNavigationIcon(R.drawable.ic_return);
+        binding.toolBar.setNavigationOnClickListener(v->{
+            finish();
+        });
     }
 
 
@@ -137,9 +139,9 @@ public class RestaurantDetailActivity extends AppCompatActivity {
         appViewModel.getRestaurantFirebaseMutableLiveData(selectedRestaurant)
                 .observe(this, restaurant -> {
 
-                    workmatesList = restaurant.getUserList();
-                    selectedRestaurant.setUserList(workmatesList);
-                    adapter.updateList(workmatesList);
+                    friendList = restaurant.getUserList();
+                    selectedRestaurant.setUserList(friendList);
+                    adapter.updateList(friendList);
                 });
     }
 
@@ -149,8 +151,8 @@ public class RestaurantDetailActivity extends AppCompatActivity {
             restaurantsListFromFirebase = restaurantList;
             if (!restaurantsListFromFirebase.contains(selectedRestaurant))
             {
-                workmatesList = new ArrayList<>();
-                appViewModel.createRestaurant(selectedRestaurant.getPlaceId(),workmatesList, selectedRestaurant.getName(), selectedRestaurant.getAddress());
+                friendList = new ArrayList<>();
+                appViewModel.createRestaurant(selectedRestaurant.getPlaceId(), friendList, selectedRestaurant.getName(), selectedRestaurant.getAddress());
             }
             getCurrentUser();
         });
@@ -249,16 +251,15 @@ public class RestaurantDetailActivity extends AppCompatActivity {
                 updateOtherRestaurantInFirebase(currentUser.getRestaurantChoose());
             }
             currentUser.setRestaurantChoose(selectedRestaurant);
-            binding.btnSelect.setImageResource(R.drawable.ic_choose_restaurant);
-            workmatesList.add(UserPushOnFirebase);
+            friendList.add(UserPushOnFirebase);
         }
         else
         {
             currentUser.unSetRestaurantChoose();
-            binding.btnSelect.setImageResource(R.drawable.ic_choose_not_restaurant);
-            workmatesList.remove(UserPushOnFirebase);
+            friendList.remove(UserPushOnFirebase);
         }
-        appViewModel.updateRestaurantUserList(selectedRestaurant.getPlaceId(), workmatesList);
+        configButton();
+        appViewModel.updateRestaurantUserList(selectedRestaurant.getPlaceId(), friendList);
         appViewModel.updateUserRestaurant(uidUser, currentUser.getRestaurantChoose());
         appViewModel.updateUserIsChooseRestaurant(uidUser, currentUser.isChooseRestaurant());
         adapter.notifyDataSetChanged();
@@ -318,10 +319,10 @@ public class RestaurantDetailActivity extends AppCompatActivity {
             User UserPushOnFirebase = new User(currentUser.getEmail(),currentUser.getName(),
                     currentUser.getIllustration());
             int index = restaurantsListFromFirebase.indexOf(restaurant);
-            List<User> tempListWorkmates = restaurantsListFromFirebase.get(index).getUserList();
-            tempListWorkmates.remove(UserPushOnFirebase);
+            List<User> tempList = restaurantsListFromFirebase.get(index).getUserList();
+            tempList.remove(UserPushOnFirebase);
             appViewModel.updateRestaurantUserList(restaurant.getPlaceId(),
-                    tempListWorkmates);
+                    tempList);
         }
     }
 
@@ -330,14 +331,8 @@ public class RestaurantDetailActivity extends AppCompatActivity {
      */
     private void configButton()
     {
-        if (!currentUser.isChooseRestaurant() || !currentUser.getRestaurantChoose().equals(selectedRestaurant))
-        {
-            binding.btnSelect.setImageResource(R.drawable.ic_choose_not_restaurant);
-        }
-        else
-        {
-            binding.btnSelect.setImageResource(R.drawable.ic_choose_restaurant);
-        }
+        boolean isSelected = !currentUser.isChooseRestaurant() || !currentUser.getRestaurantChoose().equals(selectedRestaurant);
+        binding.btnSelect.setSelected(isSelected);
     }
 
     private void initRecyclerView()

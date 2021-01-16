@@ -12,7 +12,7 @@
         android:icon="@drawable/ic_view_list_black_24dp"
         android:title="List View"/>
     <item
-        android:id="@+id/action_workmates"
+        android:id="@+id/action_friends"
         android:enabled="true"
         android:icon="@drawable/ic_people_black_24dp"
         android:title="Friends" />

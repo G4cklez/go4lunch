@@ -190,7 +190,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/details_fragment_margin_fab"
-        android:src="@drawable/ic_choose_not_restaurant"
+        android:src="@drawable/choose_restaurant_selector"
         app:backgroundTint="@color/colorAccentWhite"
         app:layout_constraintBottom_toBottomOf="@id/guideline_1"
         app:layout_constraintEnd_toEndOf="parent"

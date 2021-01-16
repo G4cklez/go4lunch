@@ -34,7 +34,7 @@ public class RestaurantRepository
         return getCollectionRestaurant().orderBy("name");
     }
 
-    public Query getListRestaurantsWithWorkmates()
+    public Query getListRestaurantsWithFriends()
     {
         return getCollectionRestaurant().whereGreaterThanOrEqualTo("userList", 1);
     }

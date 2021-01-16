@@ -99,11 +99,10 @@ public class NotificationWorker extends Worker
             for (int i = 0; i < size; i ++)
             {
                 User userToCompare = friendsList.get(i);
-                //Remove current user from the list of workmates in Notification
                 if (!userToCompare.getIllustration().equals(currentUser.getIllustration()) || !userToCompare.getName().equals(currentUser.getName()))
                 {
-                    String nameWorkmate = userToCompare.getName();
-                    friendsListString.append(" ").append(nameWorkmate).append(",");
+                    String friendName = userToCompare.getName();
+                    friendsListString.append(" ").append(friendName).append(",");
                 }
             }
             //Remove the last ","
@@ -115,7 +114,7 @@ public class NotificationWorker extends Worker
     }
 
 
-    private void showNotification(List<String> listWorkmatesString)
+    private void showNotification(List<String> friendListString)
     {
         // 1 - Create an Intent that will be shown when user will click on the Notification
         Intent intent = new Intent(context, RestaurantDetailActivity.class);
@@ -135,19 +134,18 @@ public class NotificationWorker extends Worker
                 .setContentIntent(pendingIntent)
                 .setAutoCancel(true);
 
-        // 4 - Display the workmatesList or not
-        if (listWorkmatesString.size() == 2)
+        if (friendListString.size() == 2)
         {
             builder.setStyle(new NotificationCompat.InboxStyle()
-                    .addLine(listWorkmatesString.get(0))
-                    .addLine(listWorkmatesString.get(1)));
+                    .addLine(friendListString.get(0))
+                    .addLine(friendListString.get(1)));
         }
-        else if (listWorkmatesString.size() == 3)
+        else if (friendListString.size() == 3)
         {
             builder.setStyle(new NotificationCompat.InboxStyle()
-                    .addLine(listWorkmatesString.get(0))
-                    .addLine(listWorkmatesString.get(1))
-                    .addLine(listWorkmatesString.get(2)));
+                    .addLine(friendListString.get(0))
+                    .addLine(friendListString.get(1))
+                    .addLine(friendListString.get(2)));
 
         }
 

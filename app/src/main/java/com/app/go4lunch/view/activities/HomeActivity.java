@@ -27,7 +27,7 @@ import com.app.go4lunch.constants.Constants;
 import com.app.go4lunch.databinding.ActivityHomeBinding;
 import com.app.go4lunch.helpers.LocationActivity;
 import com.app.go4lunch.helpers.SharedPrefManager;
-import com.app.go4lunch.helpers.UtilsCalcul;
+import com.app.go4lunch.helpers.CalculationUtils;
 import com.app.go4lunch.model.User;
 import com.app.go4lunch.notificationWorkManager.WorkerNotificationController;
 import com.app.go4lunch.view.activities.fragments.FriendsListFragment;
@@ -160,8 +160,8 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
                     binding.searchBar.setVisibility(View.VISIBLE);
                     binding.searchBar.setText("");
                     return true;
-                case R.id.action_workmates:
-                    displayFragment(displayListWorkmatesFragment());
+                case R.id.action_friends:
+                    displayFragment(displayFriendListFragment());
                     binding.toolBar.getMenu().findItem(R.id.toolbar_menu_search).setVisible(false);
                     binding.searchBar.setVisibility(View.INVISIBLE);
                     return true;
@@ -213,7 +213,7 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
     }
 
 
-    private FriendsListFragment displayListWorkmatesFragment() {
+    private FriendsListFragment displayFriendListFragment() {
         if (this.friendsListFragment == null) {
             this.friendsListFragment = FriendsListFragment.newInstance();
         }
@@ -229,7 +229,7 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
                 Place.Field.LAT_LNG, Place.Field.RATING, Place.Field.ADDRESS,
                 Place.Field.OPENING_HOURS, Place.Field.PHOTO_METADATAS);
         LatLng currentLatLng = new LatLng(currentLocation.getLatitude(), currentLocation.getLongitude());
-        List<LatLng> latLngForRectangularBounds = UtilsCalcul.
+        List<LatLng> latLngForRectangularBounds = CalculationUtils.
                 calculateRectangularBoundsAccordingToCurrentLocation(radius, currentLatLng);
         RectangularBounds rectangularBounds = RectangularBounds.newInstance
                 (latLngForRectangularBounds.get(0), latLngForRectangularBounds.get(1));

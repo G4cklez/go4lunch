@@ -1,6 +1,5 @@
 package com.app.go4lunch.view.adapter;
 
-import android.app.Activity;
 import android.content.Context;
 import android.os.Build;
 import android.view.LayoutInflater;
@@ -13,7 +12,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.app.go4lunch.R;
 import com.app.go4lunch.databinding.ItemRestaurantsBinding;
-import com.app.go4lunch.helpers.UtilsListRestaurant;
 import com.app.go4lunch.model.Restaurant;
 import com.bumptech.glide.RequestManager;
 import com.bumptech.glide.request.RequestOptions;
@@ -71,7 +69,7 @@ public class RestaurantRecyclerAdapter extends RecyclerView.Adapter<RestaurantRe
 
         private ItemClickListener itemClickListener;
         private Context context;
-        private int numberWorkmates = 0;
+        private int numberFriends = 0;
         ItemRestaurantsBinding binding;
 
         private ListRestaurantsViewHolder(@NonNull ItemRestaurantsBinding binding, ItemClickListener itemClickListener, Context context) {
@@ -86,9 +84,9 @@ public class RestaurantRecyclerAdapter extends RecyclerView.Adapter<RestaurantRe
             binding.tvRestaurantName.setText(restaurant.getName());
             binding.tvRestaurantAddress.setText(restaurant.getAddress());
             glide.load(restaurant.getIllustration()).apply(RequestOptions.centerCropTransform().placeholder(R.drawable.placeholder_restaurant)).into(binding.imgRestaurant);
-            displayWorkmates();
+            displayFriends();
             updateHours(restaurant);
-            updateNumberWorkmates(restaurant);
+            updateNumberFriends(restaurant);
 
             updateDistance(restaurant);
             binding.ratingBar.setRating((float) restaurant.getRating());
@@ -127,21 +125,20 @@ public class RestaurantRecyclerAdapter extends RecyclerView.Adapter<RestaurantRe
         }
 
 
-        private void updateNumberWorkmates (Restaurant restaurant)
+        private void updateNumberFriends(Restaurant restaurant)
         {
-            numberWorkmates = 0;
+            numberFriends = 0;
             if (restaurant.getUserList() != null && restaurant.getUserList().size() > 0)
             {
-                numberWorkmates = restaurant.getUserList().size();
-                String numberWorkmatesString = "(" + numberWorkmates + ")";
-                binding.tvNumberMates.setText(numberWorkmatesString);
+                numberFriends = restaurant.getUserList().size();
+                binding.tvNumberMates.setText("(" + numberFriends + ")");
             }
-            displayWorkmates();
+            displayFriends();
         }
 
-        private void displayWorkmates()
+        private void displayFriends()
         {
-            if (numberWorkmates > 0)
+            if (numberFriends > 0)
             {
                 binding.tvNumberMates.setVisibility(View.VISIBLE);
                 binding.imgRestaurantRating.setVisibility(View.VISIBLE);

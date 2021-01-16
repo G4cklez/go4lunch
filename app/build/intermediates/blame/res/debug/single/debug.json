@@ -212,6 +212,10 @@
         "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/res/layout/fragment_map.xml"
     },
     {
+        "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/drawable_choose_restaurant_selector.xml.flat",
+        "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/res/drawable/choose_restaurant_selector.xml"
+    },
+    {
         "merged": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_launcher_foreground.xml.flat",
         "source": "/home/love/AndroidStudioProjects/Go4LunchProject/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_foreground.xml"
     },
