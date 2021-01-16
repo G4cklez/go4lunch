@@ -1318,9 +1318,11 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="address">Address</string>
     <string name="app_name">Go4Lunch</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="call">Call</string>
     <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
     <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
@@ -1497,6 +1499,7 @@
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
     <string name="is_eating">is eating</string>
+    <string name="like">Like</string>
     <string name="location_access_denied">Location access denied.</string>
     <string name="location_permission">Location permission required.</string>
     <string name="messenger_send_button_text">Send</string>
@@ -1535,6 +1538,7 @@
     <string description="a11y string to indicate this button changes the input mode to a text field [CHAR_LIMIT=NONE]" name="mtrl_picker_toggle_to_text_input_mode">Switch to text input mode</string>
     <string description="a11y string to indicate this button switches the user to choosing a year [CHAR_LIMIT=NONE]" name="mtrl_picker_toggle_to_year_selection">Tap to switch to selecting a year</string>
     <string name="name">Name</string>
+    <string name="no_website_available">No Website available for this restaurant</string>
     <string name="open_drawer">open drawer</string>
     <string name="open_now">Open Now</string>
     <string name="password_toggle_content_description">Show password</string>
@@ -1544,6 +1548,7 @@
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="pending">Pending</string>
     <string name="permission_required">Permission required.</string>
+    <string name="phone_not_available">Phone number not available</string>
     <string name="places_autocomplete_clear_button">Clear search</string>
     <string name="places_autocomplete_label">Pick a place</string>
     <string name="places_autocomplete_no_results_for_query">No results for <ns1:g example="pizza" id="query">%1$s</ns1:g></string>
@@ -1553,6 +1558,7 @@
     <string name="places_search_error">Can\'t load search results.</string>
     <string name="places_try_again">Try again</string>
     <string name="project_id" translatable="false">go4lunch-70bf0</string>
+    <string name="restaurant">Restaurant</string>
     <string name="search_menu_title">Search</string>
     <string name="search_restaurant">Search Restaurant</string>
     <string name="sign_in_with_fb">Sign in with Facebook</string>
@@ -1560,6 +1566,8 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="success">Connection success</string>
     <string name="title_text">Find a nice restaurant and invite your co-workers for lunch!</string>
+    <string name="unable_to_find_compatible_application">Unable to find compatible application</string>
+    <string name="website">Website</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

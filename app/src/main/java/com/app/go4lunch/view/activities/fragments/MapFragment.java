@@ -17,6 +17,7 @@ import com.app.go4lunch.R;
 import com.app.go4lunch.databinding.FragmentMapBinding;
 import com.app.go4lunch.model.Restaurant;
 import com.app.go4lunch.model.RestaurantResponse;
+import com.app.go4lunch.view.activities.RestaurantDetailActivity;
 import com.app.go4lunch.viewModel.AppViewModel;
 import com.app.go4lunch.viewModel.factory.ViewModelFactory;
 import com.app.go4lunch.di.DI;
@@ -166,9 +167,9 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
      */
     private void lunchDetailsActivity(Marker marker) {
         String placeId = (String) marker.getTag();
-//        Intent intent = new Intent(getContext(), DetailsActivity.class);
-//        intent.putExtra("placeId", placeId);
-//        startActivity(intent);
+        Intent intent = new Intent(getContext(), RestaurantDetailActivity.class);
+        intent.putExtra("placeId", placeId);
+        startActivity(intent);
     }
 
     /**

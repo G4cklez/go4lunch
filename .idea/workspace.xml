@@ -14,21 +14,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7263c28d-14f8-4231-ad89-1340b24e7ba7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/01e8198b407b785f45112012cdad0ff8020fb019" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/01e8198b407b785f45112012cdad0ff8020fb019" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c88f16ce0f1eb07115211b124ecb58772394474" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/49efb14e4099f1e09f2e87be9958a59778f84b50" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/49efb14e4099f1e09f2e87be9958a59778f84b50" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/57c688476fe2783813e6d79f1307228aa67f9a85" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/57c688476fe2783813e6d79f1307228aa67f9a85" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e5220bce871fe04114442d4e3133ce074dc4f1e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e5220bce871fe04114442d4e3133ce074dc4f1e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66d6093dd4d1a580e70b6521d748336959cbe3c9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/77574124f901adf288bd087ec0ada66366776f33" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97496fd15aaa48683c99deca06f03d995e60c92c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b27b2f944fa0a0e57af4a1901b49f76f0deafd37" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b27b2f944fa0a0e57af4a1901b49f76f0deafd37" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bced376d90314ba23a3bdda199d55d9a646e81fa" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bced376d90314ba23a3bdda199d55d9a646e81fa" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e89a1ad47d5701344d3dc9847ed0682907a17160" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e89a1ad47d5701344d3dc9847ed0682907a17160" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/app/go4lunch/constants/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/go4lunch/view/activities/RestaurantDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/go4lunch/view/activities/RestaurantDetailActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/app/go4lunch/DataBinderMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/app/go4lunch/DataBinderMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/go4lunch/view/activities/HomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/go4lunch/view/activities/HomeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/go4lunch/view/activities/fragments/MapFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/go4lunch/view/activities/fragments/MapFragment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +36,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="layoutResourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -209,10 +201,10 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="477" y="147" key="#xdebugger.evaluate/72.27.1294.741@72.27.1294.741" timestamp="1610611252632" />
-    <state x="535" y="189" width="357" height="444" key="AndroidCreateXmlResourceDialog" timestamp="1610731328761">
+    <state x="535" y="189" width="357" height="444" key="AndroidCreateXmlResourceDialog" timestamp="1610731403995">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="535" y="189" width="357" height="444" key="AndroidCreateXmlResourceDialog/72.27.1294.741@72.27.1294.741" timestamp="1610731328761" />
+    <state x="535" y="189" width="357" height="444" key="AndroidCreateXmlResourceDialog/72.27.1294.741@72.27.1294.741" timestamp="1610731403995" />
     <state x="472" y="145" width="493" height="512" key="AndroidProcessChooserDialog" timestamp="1610629920852">
       <screen x="72" y="27" width="1294" height="741" />
     </state>

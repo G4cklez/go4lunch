@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+        
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activities.RestaurantDetailActivity" android:tag="layout/activity_restaurant_detail_0">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="@color/colorAccentWhite" />
+
+    <ImageView
+        android:id="@+id/imgRestaurant"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:src="@drawable/image_restaurant_bis"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolBar" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/details_fragment_guideline_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_1">
+
+        <TextView
+            android:id="@+id/tvRestaurantName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/details_fragment_margin_txt"
+            android:layout_marginTop="@dimen/details_fragment_margin_txt"
+            android:text="@string/restaurant"
+            android:textColor="@color/colorAccentWhite"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvRestaurantAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:textColor="@color/colorAccentWhite"
+            android:textSize="@dimen/details_fragment_size_address"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/tvRestaurantName"
+            app:layout_constraintTop_toBottomOf="@id/tvRestaurantName" />
+
+        <ImageView
+            android:id="@+id/imgStar1"
+            android:layout_width="@dimen/item_list_restaurant_width_image"
+            android:layout_height="@dimen/item_list_restaurant_width_image"
+            android:layout_marginStart="@dimen/details_fragment_margin_image_star_1"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_star_2"
+            app:layout_constraintBottom_toBottomOf="@id/tvRestaurantName"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintStart_toEndOf="@id/tvRestaurantName"
+            app:layout_constraintTop_toTopOf="@id/tvRestaurantName" />
+
+        <ImageView
+            android:id="@+id/imgStar2"
+            android:layout_width="@dimen/item_list_restaurant_width_image"
+            android:layout_height="@dimen/item_list_restaurant_width_image"
+            android:layout_marginStart="@dimen/details_fragment_margin_image_star_2_3"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_star_2"
+            app:layout_constraintBottom_toBottomOf="@id/tvRestaurantName"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintStart_toEndOf="@id/imgStar1"
+            app:layout_constraintTop_toTopOf="@id/imgStar1" />
+
+        <ImageView
+            android:id="@+id/imgStar3"
+            android:layout_width="@dimen/item_list_restaurant_width_image"
+            android:layout_height="@dimen/item_list_restaurant_width_image"
+            android:layout_marginStart="@dimen/details_fragment_margin_image_star_2_3"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_star_2"
+            app:layout_constraintBottom_toBottomOf="@id/tvRestaurantName"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintStart_toEndOf="@id/imgStar2"
+            app:layout_constraintTop_toTopOf="@id/imgStar1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageButton
+        android:id="@+id/btnCall"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/details_fragment_height_image_call_like"
+        android:layout_marginStart="@dimen/details_fragment_margin_image_orange"
+        android:background="@color/fui_transparent"
+        android:src="@drawable/ic_call_black_24dp"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_2_bis"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="@id/details_fragment_guideline_2" />
+
+    <ImageButton
+        android:id="@+id/btnLike"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/details_fragment_height_image_call_like"
+        android:background="@color/fui_transparent"
+        android:src="@drawable/ic_star_orange_24dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/btnCall" />
+
+    <ImageButton
+        android:id="@+id/btnWebsite"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/details_fragment_height_image_call_like"
+        android:layout_marginEnd="@dimen/details_fragment_margin_image_orange"
+        android:background="@color/fui_transparent"
+        android:src="@drawable/ic_world"
+        app:layout_constraintBottom_toBottomOf="@id/btnCall"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/btnCall" />
+
+    <TextView
+        android:id="@+id/tvCallTxt"
+        style="@style/details_txt_orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/call"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_3"
+        app:layout_constraintEnd_toEndOf="@id/btnCall"
+        app:layout_constraintStart_toStartOf="@id/btnCall"
+        app:layout_constraintTop_toTopOf="@id/guideline_2_bis" />
+
+    <TextView
+        android:id="@+id/tvLikeTxt"
+        style="@style/details_txt_orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/like"
+        app:layout_constraintEnd_toEndOf="@id/btnLike"
+        app:layout_constraintStart_toStartOf="@id/btnLike"
+        app:layout_constraintTop_toTopOf="@id/tvCallTxt" />
+
+    <TextView
+        android:id="@+id/tvWebsiteTxt"
+        style="@style/details_txt_orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/website"
+        app:layout_constraintEnd_toEndOf="@id/btnWebsite"
+        app:layout_constraintStart_toStartOf="@id/btnWebsite"
+        app:layout_constraintTop_toTopOf="@id/tvCallTxt" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvFriendsRestaurant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guideline_3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/details_fragment_guideline_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_2_bis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.525" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.60" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/details_fragment_margin_fab"
+        android:src="@drawable/ic_choose_not_restaurant"
+        app:backgroundTint="@color/colorAccentWhite"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_1" />
+
+
+
+    <TextView
+        android:id="@+id/tvNoRestaurant"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccentWhite"
+        android:gravity="center"
+        android:padding="@dimen/details_fragment_padding_txt_no_restaurant"
+        android:text="No a restaurant"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/details_fragment_size_txt_no_restaurant"
+        android:textStyle="bold" />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_gravity="center" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+         
