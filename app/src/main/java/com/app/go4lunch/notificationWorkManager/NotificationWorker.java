@@ -83,41 +83,38 @@ public class NotificationWorker extends Worker
     public static List<String> createMessage (Restaurant currentRestaurant, User currentUser, String with)
     {
         List<String> stringForNotification = new ArrayList<>();
-        StringBuilder workmatesListString = new StringBuilder();
+        StringBuilder friendsListString = new StringBuilder();
 
         String name = currentRestaurant.getName();
         String address = currentRestaurant.getAddress();
         stringForNotification.add(name);
         stringForNotification.add(address);
 
-        List<User> listWorkmates = currentRestaurant.getUserList();
+        List<User> friendsList = currentRestaurant.getUserList();
 
-        if (listWorkmates.size() > 1)
+        if (friendsList.size() > 1)
         {
-            workmatesListString.append(with);
-            int size = listWorkmates.size();
+            friendsListString.append(with);
+            int size = friendsList.size();
             for (int i = 0; i < size; i ++)
             {
-                User userToCompare = listWorkmates.get(i);
+                User userToCompare = friendsList.get(i);
                 //Remove current user from the list of workmates in Notification
                 if (!userToCompare.getIllustration().equals(currentUser.getIllustration()) || !userToCompare.getName().equals(currentUser.getName()))
                 {
                     String nameWorkmate = userToCompare.getName();
-                    workmatesListString.append(" ").append(nameWorkmate).append(",");
+                    friendsListString.append(" ").append(nameWorkmate).append(",");
                 }
             }
             //Remove the last ","
-            workmatesListString.deleteCharAt(workmatesListString.length()-1);
+            friendsListString.deleteCharAt(friendsListString.length()-1);
 
-            stringForNotification.add(workmatesListString.toString());
+            stringForNotification.add(friendsListString.toString());
         }
         return stringForNotification;
     }
 
-    /**
-     * Build the notification
-     * @param listWorkmatesString List<String> with the RestaurantChoose's names of Workmates
-     */
+
     private void showNotification(List<String> listWorkmatesString)
     {
         // 1 - Create an Intent that will be shown when user will click on the Notification

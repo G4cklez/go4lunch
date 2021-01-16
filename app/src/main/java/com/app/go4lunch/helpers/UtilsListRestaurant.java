@@ -14,42 +14,6 @@ public abstract class UtilsListRestaurant
 {
 
     /**
-     * Update star's visibility with Restaurant's rating
-     */
-    public static void updateRating(ImageView star1, ImageView star2, ImageView star3, Restaurant restaurant)
-    {
-        double rating = restaurant.getRating();
-
-        if (rating > 3.75)
-        {
-            star1.setVisibility(View.VISIBLE);
-            star2.setVisibility(View.VISIBLE);
-            star3.setVisibility(View.VISIBLE);
-
-        }
-        else if (rating > 2.5)
-        {
-            star1.setVisibility(View.VISIBLE);
-            star2.setVisibility(View.VISIBLE);
-            star3.setVisibility(View.INVISIBLE);
-
-        }
-        else if (rating > 1.25)
-        {
-            star1.setVisibility(View.VISIBLE);
-            star2.setVisibility(View.INVISIBLE);
-            star3.setVisibility(View.INVISIBLE);
-        }
-        else
-        {
-            star1.setVisibility(View.INVISIBLE);
-            star2.setVisibility(View.INVISIBLE);
-            star3.setVisibility(View.INVISIBLE);
-        }
-
-    }
-
-    /**
      * Sort the restaurants according to their distance from the CurrentUser
      */
     public static void sortProximity(List<Restaurant> restaurantList)

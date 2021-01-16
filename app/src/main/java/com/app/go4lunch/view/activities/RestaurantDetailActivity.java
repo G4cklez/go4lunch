@@ -277,7 +277,7 @@ public class RestaurantDetailActivity extends AppCompatActivity {
         binding.tvRestaurantAddress.setText(restaurant.getAddress());
         configButton();
         updateLike();
-        UtilsListRestaurant.updateRating(binding.imgStar1, binding.imgStar2, binding.imgStar3, restaurant);
+        binding.ratingBar.setRating((float)restaurant.getRating());
         binding.progressBar.setVisibility(View.INVISIBLE);
         binding.btnSelect.setVisibility(View.VISIBLE);
     }

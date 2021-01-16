@@ -30,7 +30,7 @@
     <string name="current_location">Current Location</string>
     <string name="open_now">Open Now</string>
     <string name="close_now">Close now</string>
-    <string name="is_eating">is eating</string>
+    <string name="is_eating">is eating at</string>
     <string name="pending">Pending</string>
     <string name="restaurant">Restaurant</string>
     <string name="address">Address</string>

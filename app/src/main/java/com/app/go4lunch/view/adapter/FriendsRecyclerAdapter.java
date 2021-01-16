@@ -84,9 +84,8 @@ public class FriendsRecyclerAdapter extends RecyclerView.Adapter<FriendsRecycler
             if (user.isChooseRestaurant()) {
 
                 textString = context.getString(R.string.is_eating);
-                String textStringEnd =")";
 
-                finalText = firstName + " " + textString + user.getRestaurantChoose().getName() + textStringEnd;
+                finalText = firstName + " " + textString +" "+ user.getRestaurantChoose().getName();
 
                 binding.tvUserName.setText(finalText);
 
@@ -107,6 +106,8 @@ public class FriendsRecyclerAdapter extends RecyclerView.Adapter<FriendsRecycler
                 } else {
                     binding.tvUserName.setTextAppearance(R.style.item_list_workmates_no_choose_txt);
                 }
+            }else {
+                binding.tvUserName.setText(firstName);
             }
 
             binding.parentCard.setOnClickListener(v->{

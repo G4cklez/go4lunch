@@ -7,6 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
     app:cardElevation="5dp">
 
 
@@ -88,7 +89,7 @@
             style="@style/item_list_restaurant_illustration_image"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@id/tvRestaurantName"
-            app:layout_constraintBottom_toBottomOf="@id/tvRestaurantHours"
+            app:layout_constraintBottom_toTopOf="@id/tvRestaurantHours"
             android:contentDescription="@null"/>
         <RatingBar
             android:id="@+id/ratingBar"

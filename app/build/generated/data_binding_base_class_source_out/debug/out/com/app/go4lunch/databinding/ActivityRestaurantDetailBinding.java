@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
+import android.widget.RatingBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -49,16 +50,10 @@ public abstract class ActivityRestaurantDetailBinding extends ViewDataBinding {
   public final ImageView imgRestaurant;
 
   @NonNull
-  public final ImageView imgStar1;
-
-  @NonNull
-  public final ImageView imgStar2;
-
-  @NonNull
-  public final ImageView imgStar3;
-
-  @NonNull
   public final ProgressBar progressBar;
+
+  @NonNull
+  public final RatingBar ratingBar;
 
   @NonNull
   public final RecyclerView rvFriendsRestaurant;
@@ -88,10 +83,9 @@ public abstract class ActivityRestaurantDetailBinding extends ViewDataBinding {
       int _localFieldCount, ImageButton btnCall, ImageButton btnLike,
       FloatingActionButton btnSelect, ImageButton btnWebsite, Guideline detailsFragmentGuideline2,
       Guideline guideline1, Guideline guideline2Bis, Guideline guideline3, ImageView imgRestaurant,
-      ImageView imgStar1, ImageView imgStar2, ImageView imgStar3, ProgressBar progressBar,
-      RecyclerView rvFriendsRestaurant, Toolbar toolBar, TextView tvCallTxt, TextView tvLikeTxt,
-      TextView tvNoRestaurant, TextView tvRestaurantAddress, TextView tvRestaurantName,
-      TextView tvWebsiteTxt) {
+      ProgressBar progressBar, RatingBar ratingBar, RecyclerView rvFriendsRestaurant,
+      Toolbar toolBar, TextView tvCallTxt, TextView tvLikeTxt, TextView tvNoRestaurant,
+      TextView tvRestaurantAddress, TextView tvRestaurantName, TextView tvWebsiteTxt) {
     super(_bindingComponent, _root, _localFieldCount);
     this.btnCall = btnCall;
     this.btnLike = btnLike;
@@ -102,10 +96,8 @@ public abstract class ActivityRestaurantDetailBinding extends ViewDataBinding {
     this.guideline2Bis = guideline2Bis;
     this.guideline3 = guideline3;
     this.imgRestaurant = imgRestaurant;
-    this.imgStar1 = imgStar1;
-    this.imgStar2 = imgStar2;
-    this.imgStar3 = imgStar3;
     this.progressBar = progressBar;
+    this.ratingBar = ratingBar;
     this.rvFriendsRestaurant = rvFriendsRestaurant;
     this.toolBar = toolBar;
     this.tvCallTxt = tvCallTxt;

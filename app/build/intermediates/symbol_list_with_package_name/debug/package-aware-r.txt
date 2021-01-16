@@ -2129,6 +2129,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable placeholder_restaurant
 drawable places_autocomplete_toolbar_shadow
 drawable places_powered_by_google_dark
 drawable places_powered_by_google_light
@@ -2361,9 +2362,6 @@ id ifRoom
 id image
 id imgRestaurant
 id imgRestaurantRating
-id imgStar1
-id imgStar2
-id imgStar3
 id imgUser
 id info
 id inline

@@ -85,7 +85,7 @@ public class RestaurantRecyclerAdapter extends RecyclerView.Adapter<RestaurantRe
         {
             binding.tvRestaurantName.setText(restaurant.getName());
             binding.tvRestaurantAddress.setText(restaurant.getAddress());
-            glide.load(restaurant.getIllustration()).apply(RequestOptions.centerCropTransform()).into(binding.imgRestaurant);
+            glide.load(restaurant.getIllustration()).apply(RequestOptions.centerCropTransform().placeholder(R.drawable.placeholder_restaurant)).into(binding.imgRestaurant);
             displayWorkmates();
             updateHours(restaurant);
             updateNumberWorkmates(restaurant);
