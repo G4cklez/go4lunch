@@ -1,0 +1,9 @@
+
+W
+java:S1128"5Remove this unused import 'android.widget.ImageView'.(ú¯ëàüÿÿÿÿ8ÊãåÚğ.
+[
+java:S1610"?Convert the abstract class "RestaurantUtils" into an interface.(Û°øY8¦ä¤İğ.
+V
+java:S1118":Add a private constructor to hide the implicit public one.(Û°øY8¦ä¤İğ.
+P
+java:S1128".Remove this unused import 'android.view.View'.(Ø½­äşÿÿÿÿ8ÊãåÚğ.

@@ -2361,6 +2361,7 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id img
 id imgRestaurant
 id imgRestaurantRating
 id imgUser
@@ -2597,6 +2598,10 @@ id transition_scene_layoutid_cache
 id transition_transform
 id trouble_signing_in
 id trouble_signing_in_possible_fixes
+id tv1
+id tv2
+id tv3
+id tv4
 id tvCallTxt
 id tvLikeTxt
 id tvNoRestaurant
@@ -2689,6 +2694,7 @@ layout abc_tooltip
 layout activity_home
 layout activity_login
 layout activity_restaurant_detail
+layout activity_splash
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout com_facebook_activity_layout
@@ -2833,6 +2839,7 @@ plurals fui_error_weak_password
 plurals mtrl_badge_content_description
 raw google_style
 raw places_keep
+raw s
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

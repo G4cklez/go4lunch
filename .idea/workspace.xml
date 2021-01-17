@@ -13,7 +13,24 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7263c28d-14f8-4231-ad89-1340b24e7ba7" name="Default Changelist" comment="" />
+    <list default="true" id="7263c28d-14f8-4231-ad89-1340b24e7ba7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/01e8198b407b785f45112012cdad0ff8020fb019" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/01e8198b407b785f45112012cdad0ff8020fb019" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/43083e6feb5f1fba9c32e53d6d8f33fbf192f762" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/43083e6feb5f1fba9c32e53d6d8f33fbf192f762" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5c6b012c105822ac1b34a415ad82c466172eca8a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5c6b012c105822ac1b34a415ad82c466172eca8a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6acb288b0e867b8c4907e7229dbe369efb8fb0ed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7fed208924a4676a4b5af915b6a601a6b5ff872" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7fed208924a4676a4b5af915b6a601a6b5ff872" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bced376d90314ba23a3bdda199d55d9a646e81fa" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bced376d90314ba23a3bdda199d55d9a646e81fa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cd2b4b1b2a645468d211ee64b7b8ac834bcc9e25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e89a1ad47d5701344d3dc9847ed0682907a17160" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e89a1ad47d5701344d3dc9847ed0682907a17160" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +83,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mc12fSFco9TTaBvSwLk81NQThk" />
@@ -87,6 +109,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/app/go4lunch/notificationWorkManager" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.170059228">
+      <recent name="com.app.go4lunch.view.activities" />
+    </key>
     <key name="android.template.-1527253542">
       <recent name="com.app.go4lunch.view.activities" />
     </key>
@@ -252,6 +277,10 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="477" y="147" key="#xdebugger.evaluate/72.27.1294.741@72.27.1294.741" timestamp="1610611252632" />
+    <state x="302" y="155" width="824" height="491" key="AndroidCreateResourceDirectoryDialog" timestamp="1610867536316">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="302" y="155" width="824" height="491" key="AndroidCreateResourceDirectoryDialog/72.27.1294.741@72.27.1294.741" timestamp="1610867536316" />
     <state x="535" y="189" width="357" height="451" key="AndroidCreateXmlResourceDialog" timestamp="1610798317266">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -272,22 +301,22 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1609778821818" />
-    <state width="1294" height="180" key="GridCell.Tab.0.bottom" timestamp="1610792028076">
+    <state width="1294" height="180" key="GridCell.Tab.0.bottom" timestamp="1610868606056">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="180" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1610792028076" />
-    <state width="1294" height="180" key="GridCell.Tab.0.center" timestamp="1610792028074">
+    <state width="1294" height="180" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1610868606056" />
+    <state width="1294" height="180" key="GridCell.Tab.0.center" timestamp="1610868606054">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="180" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1610792028074" />
-    <state width="1294" height="180" key="GridCell.Tab.0.left" timestamp="1610792028073">
+    <state width="1294" height="180" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1610868606054" />
+    <state width="1294" height="180" key="GridCell.Tab.0.left" timestamp="1610868606046">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="180" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1610792028073" />
-    <state width="1294" height="180" key="GridCell.Tab.0.right" timestamp="1610792028075">
+    <state width="1294" height="180" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1610868606046" />
+    <state width="1294" height="180" key="GridCell.Tab.0.right" timestamp="1610868606055">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1294" height="180" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1610792028075" />
+    <state width="1294" height="180" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1610868606055" />
     <state x="314" y="119" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1609860211497">
       <screen x="72" y="27" width="1294" height="741" />
     </state>

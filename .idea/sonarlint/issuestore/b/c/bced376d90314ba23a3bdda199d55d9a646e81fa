@@ -1,21 +1,21 @@
 
+D	java:S131³""Add a default case to this switch.(Ò“ÿšùÿÿÿÿ8œğ”Ğğ.
+
+java:S1186_"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±8¡ÑŞï.
 R
 java:S1066Õ"/Merge this if statement with the enclosing one.(±„‘‰ıÿÿÿÿ8œğ”Ğğ.
 w
 java:S2259Ò"TA "NullPointerException" could be thrown; "restaurantListFragment" is nullable here.(Ş¬»©ıÿÿÿÿ8Òñ£Òğ.
-M
-java:S1066Ö"/Merge this if statement with the enclosing one.(ß¸é8œğ”Ğğ.
-K
-java:S1604ô"(Make this anonymous inner class a lambda(Ú¶£·úÿÿÿÿ8Õó¡Òğ.
-D	java:S131³""Add a default case to this switch.(Ò“ÿšùÿÿÿÿ8œğ”Ğğ.
-Ÿ
-java:S1186å"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¨‰ïÃ8¾••Ğğ.
-£
-java:S1186c"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ê¥¾àûÿÿÿÿ8¡ÑŞï.
-
-java:S1186_"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±8¡ÑŞï.
-[
-java:S1117€"8Rename "user" which hides the field declared at line 63.(”ØûÚøÿÿÿÿ8¡ÑŞï.
-Y	java:S1107"=This class has 10 parents which is greater than 5 authorized.(¢ç 8ìÅ³×ğ.
 X
 java:S2209Ò"5Change this instance-reference to a static reference.(Ş¬»©ıÿÿÿÿ8ìÅ³×ğ.
+£
+java:S1186c"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ê¥¾àûÿÿÿÿ8¡ÑŞï.
+Ÿ
+java:S1186å"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¨‰ïÃ8¾••Ğğ.
+M
+java:S1066Ö"/Merge this if statement with the enclosing one.(ß¸é8œğ”Ğğ.
+[
+java:S1117€"8Rename "user" which hides the field declared at line 63.(”ØûÚøÿÿÿÿ8¡ÑŞï.
+K
+java:S1604ô"(Make this anonymous inner class a lambda(Ú¶£·úÿÿÿÿ8ÈÅ¶Üğ.
+Y	java:S1107"=This class has 10 parents which is greater than 5 authorized.(¢ç 8ÈÅ¶Üğ.

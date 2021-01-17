@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-45:12
+ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-50:12
 MERGED from [androidx.databinding:databinding-adapters:3.6.3] /home/love/.gradle/caches/transforms-2/files-2.1/98fd7cff2669c31d835b0e504cbeb2bb/databinding-adapters-3.6.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:3.6.3] /home/love/.gradle/caches/transforms-2/files-2.1/b76d6f1e4a4692122fb9286506d44152/databinding-runtime-3.6.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.multidex:multidex:2.0.1] /home/love/.gradle/caches/transforms-2/files-2.1/6c2196b2450316d98cbbd55598ebb424/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
@@ -108,20 +108,20 @@ MERGED from [com.google.android.datatransport:transport-api:2.1.0] /home/love/.g
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/love/.gradle/caches/transforms-2/files-2.1/5c83ecf99d8db3e23aa6446b73bf07e7/firebase-database-collection-16.0.1/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /home/love/.gradle/caches/transforms-2/files-2.1/a90e0a29c0b70dd223a215a63ed0a385/protolite-well-known-types-16.0.1/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.installreferrer:installreferrer:1.0] /home/love/.gradle/caches/transforms-2/files-2.1/a0b04b3ed317c38ff1984c44895ea27c/jetified-installreferrer-1.0/AndroidManifest.xml:2:1-13:12
-INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-50:12
 	package
 		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:3:5-31
 		INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml
 		INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml
-		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-45:12
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-50:12
 		INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml
-		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-45:12
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:1-50:12
 		INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:2:11-69
@@ -164,7 +164,7 @@ ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/Android
 	android:name
 		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:7:22-66
 application
-ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:9:5-43:19
+ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:9:5-48:19
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:15:5-107:19
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:15:5-107:19
 MERGED from [com.google.android.material:material:1.1.0] /home/love/.gradle/caches/transforms-2/files-2.1/d07a001f982a67685fa557a85ae3aa49/material-1.1.0/AndroidManifest.xml:22:5-20
@@ -279,70 +279,74 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] /home/love/.gradle
 		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:16:9-40
 	android:name
 		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:10:9-61
+activity#com.app.go4lunch.view.activities.Splash
+ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:17:19-57
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:21:27-74
 activity#com.app.go4lunch.view.activities.RestaurantDetailActivity
-ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:17:9-87
+ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:24:9-78
 	android:name
-		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:17:19-75
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:24:19-75
 activity#com.app.go4lunch.view.activities.HomeActivity
-ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:18:9-66
+ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:25:9-66
 	android:name
-		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:18:19-63
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:25:19-63
 meta-data#com.google.android.geo.API_KEY
-ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:20:9-22:55
+ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:27:9-29:55
 	android:value
-		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:22:13-52
-	android:name
-		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:21:13-58
-meta-data#com.google.android.gms.version
-ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:23:9-25:69
-MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:16:9-18:69
-MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:16:9-18:69
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/7d58468a3d19eccbea4c306e0ff02913/play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/7d58468a3d19eccbea4c306e0ff02913/play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-	android:value
-		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:25:13-66
-	android:name
-		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:24:13-58
-activity#com.app.go4lunch.view.activities.LoginActivity
-ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:27:9-35:20
-	android:screenOrientation
-		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:29:13-49
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:29:13-52
 	android:name
 		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:28:13-58
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:30:13-34:29
-action#android.intent.action.MAIN
-ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:31:17-69
+meta-data#com.google.android.gms.version
+ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:30:9-32:69
+MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:16:9-18:69
+MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:16:9-18:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/7d58468a3d19eccbea4c306e0ff02913/play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/love/.gradle/caches/transforms-2/files-2.1/7d58468a3d19eccbea4c306e0ff02913/play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:32:13-66
 	android:name
-		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:31:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:33:17-77
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:31:13-58
+activity#com.app.go4lunch.view.activities.LoginActivity
+ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:34:9-38:20
+	android:screenOrientation
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:36:13-49
 	android:name
-		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:33:27-74
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:35:13-58
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:36:9-37:62
+ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:40:9-42:63
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:19:9-21:63
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:19:9-21:63
 	android:value
-		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:37:13-60
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:42:13-60
 	android:name
-		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:36:20-65
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:41:13-58
 activity#com.facebook.FacebookActivity
-ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:39:9-42:48
+ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:44:9-47:48
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:83:9-87:48
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:83:9-87:48
 MERGED from [com.facebook.android:facebook-common:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/a30cfda32ac98ff1d095026e46107f87/jetified-facebook-common-5.15.3/AndroidManifest.xml:30:9-33:66
 MERGED from [com.facebook.android:facebook-common:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/a30cfda32ac98ff1d095026e46107f87/jetified-facebook-common-5.15.3/AndroidManifest.xml:30:9-33:66
 	android:label
-		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:42:13-45
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:47:13-45
 	tools:ignore
 		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] /home/love/.gradle/caches/transforms-2/files-2.1/85bc5f988a0bfb355798cbb2b5b737af/firebase-ui-auth-6.2.0/AndroidManifest.xml:87:13-45
 	android:configChanges
-		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:40:13-113
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:46:13-96
 	android:theme
 		ADDED from [com.facebook.android:facebook-common:5.15.3] /home/love/.gradle/caches/transforms-2/files-2.1/a30cfda32ac98ff1d095026e46107f87/jetified-facebook-common-5.15.3/AndroidManifest.xml:33:13-63
 	android:name
-		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:39:19-63
+		ADDED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml:45:13-57
 uses-sdk
 INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/love/AndroidStudioProjects/Go4LunchProject/app/src/main/AndroidManifest.xml

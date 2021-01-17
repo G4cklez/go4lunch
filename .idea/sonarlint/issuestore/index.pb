@@ -29,8 +29,6 @@ t
 Dapp/src/main/java/com/app/go4lunch/view/activities/HomeActivity.java,b/c/bced376d90314ba23a3bdda199d55d9a646e81fa
 P
  app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
-s
-Capp/src/main/java/com/app/go4lunch/helpers/UtilsListRestaurant.java,6/a/6acb288b0e867b8c4907e7229dbe369efb8fb0ed
 ]
 -app/src/main/java/com/app/go4lunch/di/DI.java,7/9/79a6c8bebab41d95e9eaf778004305a0dae3a9d2
 i
@@ -45,8 +43,6 @@ Napp/src/main/java/com/app/go4lunch/view/adapter/RestaurantRecyclerAdapter.java
 Kapp/src/main/java/com/app/go4lunch/view/adapter/FriendsRecyclerAdapter.java,b/7/b7fed208924a4676a4b5af915b6a601a6b5ff872
 s
 Capp/src/main/java/com/app/go4lunch/repositories/UserRepository.java,b/d/bd9b5cbe98609bfead650e0a5a54ff77f486ffa3
-k
-;app/src/main/java/com/app/go4lunch/helpers/UtilsCalcul.java,c/d/cd2b4b1b2a645468d211ee64b7b8ac834bcc9e25
 Œ
 \app/src/main/java/com/app/go4lunch/notificationWorkManager/WorkerNotificationController.java,5/6/560ad24f7cbf7925ec22b6184ddabbdd695d86be
 k
@@ -55,3 +51,15 @@ r
 Bapp/src/main/java/com/app/go4lunch/viewModel/ViewModelFactory.java,a/b/abb4af3092bc7967f82ae43a7ecf75e963119ac7
 ‚
 Rapp/src/main/java/com/app/go4lunch/notificationWorkManager/NotificationWorker.java,7/8/785c2d0a7ff4a957b4c263ca5fb63c182433f1d5
+y
+Iapp/src/main/java/com/app/go4lunch/repositories/RestaurantRepository.java,3/a/3ac03a5e027ec74f5f606e1e281ed11bc7aad14f
+
+Oapp/src/androidTest/java/com/app/go4lunch/view/activities/AuthActivityTest.java,0/b/0b58b58396c8c37540fe53a6b3dd82e209577721
+
+Oapp/src/androidTest/java/com/app/go4lunch/view/activities/MainActivityTest.java,d/7/d739751aab2a59e4e58d3757c276682fb9cd6953
+v
+Fapp/src/androidTest/java/com/app/go4lunch/ExampleInstrumentedTest.java,c/5/c5c5decdecb035e45096fb4ca8c1e3914e040ac9
+o
+?app/src/main/java/com/app/go4lunch/helpers/RestaurantUtils.java,5/c/5c26ffa56b82922a5f18f80790d24434554d126c
+p
+@app/src/main/java/com/app/go4lunch/helpers/CalculationUtils.java,e/5/e568313c8a1ec73b6e8844be96b20789f5419232
