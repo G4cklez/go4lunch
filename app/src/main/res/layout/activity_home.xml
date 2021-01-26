@@ -27,13 +27,12 @@
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
-            <androidx.appcompat.widget.AppCompatEditText
+            <EditText
                 android:id="@+id/searchBar"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginHorizontal="48dp"
                 android:hint="@string/search_restaurant"
-                android:labelFor="@id/toolBar"
                 android:inputType="text" />
 
         </androidx.appcompat.widget.Toolbar>

@@ -35,7 +35,7 @@ public class ActivityHomeBindingImpl extends ActivityHomeBinding  {
             , (androidx.drawerlayout.widget.DrawerLayout) bindings[0]
             , (android.widget.FrameLayout) bindings[3]
             , (com.google.android.material.navigation.NavigationView) bindings[5]
-            , (androidx.appcompat.widget.AppCompatEditText) bindings[2]
+            , (android.widget.EditText) bindings[2]
             , (androidx.appcompat.widget.Toolbar) bindings[1]
             );
         this.navigationDrawer.setTag(null);

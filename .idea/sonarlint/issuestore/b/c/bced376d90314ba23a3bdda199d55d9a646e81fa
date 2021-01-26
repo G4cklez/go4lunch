@@ -1,21 +1,25 @@
 
-R
-java:S1066Õ"/Merge this if statement with the enclosing one.(±„‘‰ıÿÿÿÿ8œğ”Ğğ.
-w
-java:S2259Ò"TA "NullPointerException" could be thrown; "restaurantListFragment" is nullable here.(Ş¬»©ıÿÿÿÿ8Òñ£Òğ.
+Y	java:S1109"=This class has 10 parents which is greater than 5 authorized.(¢ç 8òÇ±Îó.
 M
-java:S1066Ö"/Merge this if statement with the enclosing one.(ß¸é8œğ”Ğğ.
+java:S1066à"/Merge this if statement with the enclosing one.(ß¸é8ù¦²Îó.
+R
+java:S1066ß"/Merge this if statement with the enclosing one.(±„‘‰ıÿÿÿÿ8š·ÌÏó.
 K
-java:S1604ô"(Make this anonymous inner class a lambda(Ú¶£·úÿÿÿÿ8Õó¡Òğ.
-D	java:S131³""Add a default case to this switch.(Ò“ÿšùÿÿÿÿ8œğ”Ğğ.
+java:S1604ş"(Make this anonymous inner class a lambda(Ú¶£·úÿÿÿÿ8š·ÌÏó.
+w
+java:S2259Ü"TA "NullPointerException" could be thrown; "restaurantListFragment" is nullable here.(Ş¬»©ıÿÿÿÿ8š·ÌÏó.
+T
+java:S2589s"7Remove this expression which always evaluates to "true"(¨›£´8š·ÌÏó.
+Y
+java:S2589q"7Remove this expression which always evaluates to "true"(Š‚²Òıÿÿÿÿ8š·ÌÏó.
 Ÿ
-java:S1186å"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¨‰ïÃ8¾••Ğğ.
-£
-java:S1186c"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ê¥¾àûÿÿÿÿ8¡ÑŞï.
+java:S1186ï"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¨‰ïÃ8š·ÌÏó.
 
-java:S1186_"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±8¡ÑŞï.
+java:S1186f"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±8š·ÌÏó.
+£
+java:S1186j"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ê¥¾àûÿÿÿÿ8š·ÌÏó.
 [
-java:S1117€"8Rename "user" which hides the field declared at line 63.(”ØûÚøÿÿÿÿ8¡ÑŞï.
-Y	java:S1107"=This class has 10 parents which is greater than 5 authorized.(¢ç 8ìÅ³×ğ.
+java:S1117Š"8Rename "user" which hides the field declared at line 65.(”ØûÚøÿÿÿÿ8š·ÌÏó.
 X
-java:S2209Ò"5Change this instance-reference to a static reference.(Ş¬»©ıÿÿÿÿ8ìÅ³×ğ.
+java:S2209Ü"5Change this instance-reference to a static reference.(Ş¬»©ıÿÿÿÿ8š·ÌÏó.
+D	java:S131½""Add a default case to this switch.(Ò“ÿšùÿÿÿÿ8š·ÌÏó.

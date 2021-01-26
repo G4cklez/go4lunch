@@ -4,10 +4,10 @@ package com.app.go4lunch.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.widget.AppCompatEditText;
 import androidx.appcompat.widget.Toolbar;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
@@ -32,7 +32,7 @@ public abstract class ActivityHomeBinding extends ViewDataBinding {
   public final NavigationView navigationDrawerNavView;
 
   @NonNull
-  public final AppCompatEditText searchBar;
+  public final EditText searchBar;
 
   @NonNull
   public final Toolbar toolBar;
@@ -40,7 +40,7 @@ public abstract class ActivityHomeBinding extends ViewDataBinding {
   protected ActivityHomeBinding(Object _bindingComponent, View _root, int _localFieldCount,
       BottomNavigationView bottomNavigation, DrawerLayout navigationDrawer,
       FrameLayout navigationDrawerFrameLayout, NavigationView navigationDrawerNavView,
-      AppCompatEditText searchBar, Toolbar toolBar) {
+      EditText searchBar, Toolbar toolBar) {
     super(_bindingComponent, _root, _localFieldCount);
     this.bottomNavigation = bottomNavigation;
     this.navigationDrawer = navigationDrawer;

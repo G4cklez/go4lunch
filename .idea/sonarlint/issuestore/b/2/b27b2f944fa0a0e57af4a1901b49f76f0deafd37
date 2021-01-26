@@ -1,15 +1,15 @@
 
-R
-java:S1874<"6Remove this use of "GET_SIGNATURES"; it is deprecated.(Ό½Ή>8τΩ£Υπ.
 ]	java:S110""<This class has 9 parents which is greater than 5 authorized.(·΅ουψÿÿÿÿ8Β³¥Υπ.
+s	java:S116$"WRename this field "REQUEST_CODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬αέϊ8Β³¥Υπ.
 >
 java:S1170$"!Make this final field static too.(¬αέϊ8Β³¥Υπ.
-D	java:S108G")Either remove or fill this block of code.(ÿÒ„p8Β³¥Υπ.
+D	java:S108E")Either remove or fill this block of code.(ουΩE8Β³¥Υπ.
+R
+java:S1874<"6Remove this use of "GET_SIGNATURES"; it is deprecated.(Ό½Ή>8τΩ£Υπ.
 H
 java:S5411“"*Use the primitive boolean expression here.(Λ΅€Ϋ8Β³¥Υπ.
-s	java:S116$"WRename this field "REQUEST_CODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬αέϊ8Β³¥Υπ.
-`
-java:S2147G"DCombine this catch with the one at line 69, which has the same body.(ÿÒ„p8Β³¥Υπ.
-D	java:S108E")Either remove or fill this block of code.(ουΩE8Β³¥Υπ.
+D	java:S108G")Either remove or fill this block of code.(ÿÒ„p8Β³¥Υπ.
 T
 java:S1874="2Remove this use of "signatures"; it is deprecated.(½λς‹ωÿÿÿÿ8Β³¥Υπ.
+`
+java:S2147G"DCombine this catch with the one at line 69, which has the same body.(ÿÒ„p8Β³¥Υπ.

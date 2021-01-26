@@ -1,13 +1,11 @@
 
-N
-java:S1128"1Remove this unused import 'android.app.Activity'.(‡ÊÍÆ8şå‚ƒğ.
-r
-java:S1450 "VRemove the "context" field and declare it as a local variable in the relevant methods.(êİç8“ÿ‚ğ.
 [
-java:S1874r"9Remove this use of "setTextAppearance"; it is deprecated.(Ù³‰ªúÿÿÿÿ8œíë‚ğ.
-V
-java:S1874{"9Remove this use of "setTextAppearance"; it is deprecated.(Áñõ8œíë‚ğ.
+java:S1874o"9Remove this use of "setTextAppearance"; it is deprecated.(Ù³‰ªúÿÿÿÿ8œíë‚ğ.
 \
-java:S1155†">Use isEmpty() to check whether the collection is empty or not.(üÒ©ˆ8·È£İï.
+java:S1155ƒ">Use isEmpty() to check whether the collection is empty or not.(üÒ©ˆ8·È£İï.
+V
+java:S1874x"9Remove this use of "setTextAppearance"; it is deprecated.(Áñõ8œíë‚ğ.
 N
-java:S1602`",Remove useless curly braces around statement(ß©»Ùıÿÿÿÿ8ìåİï.
+java:S1602]",Remove useless curly braces around statement(ß©»Ùıÿÿÿÿ8ìåİï.
+r
+java:S1450"VRemove the "context" field and declare it as a local variable in the relevant methods.(êİç8“ÿ‚ğ.

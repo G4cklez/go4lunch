@@ -19,8 +19,8 @@ import static com.app.go4lunch.constants.Constants.WORK_REQUEST_TAG;
 public abstract class WorkerNotificationController
 {
 
-    private static final int NOTIFICATION_HOUR = 1;
-    private static final int NOTIFICATION_MINUTE = 18;
+    private static final int NOTIFICATION_HOUR = 16;
+    private static final int NOTIFICATION_MINUTE = 8;
     private static final int NOTIFICATION_FREQUENCY_DAY = 1;
 
 

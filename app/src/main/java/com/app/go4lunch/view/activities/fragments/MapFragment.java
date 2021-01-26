@@ -144,7 +144,7 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
                         }
                     }
                 }
-                    setMarker(isAutocomplete);
+                    setMarker(isAutocomplete, restaurantListFromPlaces);
 
 
             });
@@ -176,11 +176,11 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
     /**
      * Set the markers on GoogleMap
      */
-    private void setMarker(boolean isAutocomplete)
+    private void setMarker(boolean isAutocomplete, List<Restaurant> rList)
     {
-        int size = restaurantListFromPlaces.size();
+        int size = rList.size();
         for (int i = 0; i < size; i++) {
-            Restaurant restaurantTemp = restaurantListFromPlaces.get(i);
+            Restaurant restaurantTemp = rList.get(i);
             LatLng tempLatLng = new LatLng(restaurantTemp.getLocation().getLat(), restaurantTemp.getLocation().getLng());
             MarkerOptions tempMarker = new MarkerOptions().position(tempLatLng).title(restaurantTemp.getName());
 
@@ -208,7 +208,7 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
         }
         else
         {
-            LatLng tempLatLng = new LatLng(restaurantListFromPlaces.get(0).getLocation().getLat(), restaurantListFromPlaces.get(0).getLocation().getLng());
+            LatLng tempLatLng = new LatLng(rList.get(0).getLocation().getLat(), rList.get(0).getLocation().getLng());
             googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(tempLatLng, 20));
         }
 
@@ -270,6 +270,26 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
         return RectangularBounds.newInstance(latLng1, latLng2);
     }
 
+    public void searchOnMap(String input) {
+        if (getContext() != null) {
+            if (input != null && input.length() > 0) {
+                googleMap.clear();
+                List<Restaurant> temp = new ArrayList();
+                for (Restaurant d : restaurantListFromPlaces) {
+                    //or use .equal(text) with you want equal match
+                    //use .toLowerCase() for better matches
+                    if (d.getName().toLowerCase().contains(input)) {
+                        temp.add(d);
+                    }
+                }
+                //update recyclerview
+                setMarker(false, temp);
+            } else {
+                setMarker(false, restaurantListFromPlaces);
+            }
+        }
+    }
+
     public void autocompleteSearch(String input) {
         if (!Places.isInitialized()) {
             Places.initialize(getContext(), getString(R.string.google_maps_key), Locale.US);
@@ -305,7 +325,7 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
             {
                 googleMap.clear();
                 restaurantListFromPlaces = restaurantListAutocomplete;
-                setMarker(false);
+                setMarker(false, restaurantListFromPlaces);
             }
 
         });

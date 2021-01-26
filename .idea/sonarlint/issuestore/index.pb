@@ -29,8 +29,6 @@ t
 Dapp/src/main/java/com/app/go4lunch/view/activities/HomeActivity.java,b/c/bced376d90314ba23a3bdda199d55d9a646e81fa
 P
  app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
-s
-Capp/src/main/java/com/app/go4lunch/helpers/UtilsListRestaurant.java,6/a/6acb288b0e867b8c4907e7229dbe369efb8fb0ed
 ]
 -app/src/main/java/com/app/go4lunch/di/DI.java,7/9/79a6c8bebab41d95e9eaf778004305a0dae3a9d2
 i
@@ -45,8 +43,6 @@ Napp/src/main/java/com/app/go4lunch/view/adapter/RestaurantRecyclerAdapter.java
 Kapp/src/main/java/com/app/go4lunch/view/adapter/FriendsRecyclerAdapter.java,b/7/b7fed208924a4676a4b5af915b6a601a6b5ff872
 s
 Capp/src/main/java/com/app/go4lunch/repositories/UserRepository.java,b/d/bd9b5cbe98609bfead650e0a5a54ff77f486ffa3
-k
-;app/src/main/java/com/app/go4lunch/helpers/UtilsCalcul.java,c/d/cd2b4b1b2a645468d211ee64b7b8ac834bcc9e25
 Œ
 \app/src/main/java/com/app/go4lunch/notificationWorkManager/WorkerNotificationController.java,5/6/560ad24f7cbf7925ec22b6184ddabbdd695d86be
 k

@@ -40,6 +40,7 @@ import com.bumptech.glide.Glide;
 import com.firebase.ui.auth.AuthUI;
 import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.libraries.places.api.Places;
 import com.google.android.libraries.places.api.model.Place;
 import com.google.android.libraries.places.api.model.RectangularBounds;
 import com.google.android.libraries.places.api.model.TypeFilter;
@@ -51,6 +52,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Locale;
 
 public class HomeActivity extends LocationActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -77,12 +79,17 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
         initDrawerLayout();
         initNavView();
 
+        if (!Places.isInitialized()) {
+            Places.initialize(this, getString(R.string.google_maps_key), Locale.US);
+        }
         binding.searchBar.setVisibility(View.VISIBLE);
         binding.searchBar.setOnEditorActionListener((v, actionId, event) -> {
             if (actionId == EditorInfo.IME_ACTION_DONE) {
+                String input = binding.searchBar.getText().toString();
                 if (currentFragment == restaurantListFragment) {
-                    String input = binding.searchBar.getText().toString();
-                    restaurantListFragment.performAutoCompleteSearch(input);
+                    restaurantListFragment.searchOnList(input);
+                }else  if (currentFragment == mapFragment) {
+                    mapFragment.searchOnMap(input);
                 }
                 return true;
             } else {
@@ -97,13 +104,16 @@ public class HomeActivity extends LocationActivity implements NavigationView.OnN
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
+
             }
 
             @Override
             public void afterTextChanged(Editable s) {
+                String input = s.toString();
                 if (currentFragment == mapFragment && s != null) {
-                    String input = s.toString();
-                    mapFragment.autocompleteSearch(input);
+                    mapFragment.searchOnMap(input);
+                }else if(currentFragment == restaurantListFragment && s!=null){
+                   restaurantListFragment.searchOnList(input);
                 }
             }
         });
